@@ -1,0 +1,6 @@
+venv/
+model/
+resources/
+
+#ignore macOS system files
+.DS_Store

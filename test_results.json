@@ -1,0 +1,235 @@
+
+[{
+  "intent": "intents_discovery",
+  "discovery_results": [
+    {
+      "step_id": "step_1",
+      "sub_question": "What are the ad impressions rendered and shown for last one month for all publishers for India?",
+      "measures": [
+        {
+          "name": "Ad Impressions Rendered",
+          "calculation": "Total",
+          "original_phrase": "ad impressions rendered"
+        },
+        {
+          "name": "Ad Impressions Shown",
+          "calculation": "Total",
+          "original_phrase": "ad impressions shown"
+        }
+      ],
+      "dimensions": [
+        {
+          "name": "Publisher",
+          "filter_value": null,
+          "original_phrase": "all publishers"
+        },
+        {
+          "name": "Country",
+          "filter_value": "India",
+          "original_phrase": "India"
+        }
+      ],
+      "timegrain": null,
+      "timeframe": {
+        "phrase": "last one month"
+      },
+      "pattern": null,
+      "segments": [],
+      "breakdowns": [],
+      "unmatched_intents": []
+    }
+  ]
+},
+
+{
+  "intent": "intents_discovery",
+  "discovery_results": [
+    {
+      "step_id": "step_1",
+      "sub_question": "For the perf data, i need the sum of valid ad requests, total ad requests, CAS FORWARDS, CAS fills, CAS wins and total burn for the last QTD for the PMP revenue channel.",
+      "measures": [
+        {
+          "name": "Valid Ad Requests",
+          "calculation": "Sum",
+          "original_phrase": "sum of valid ad requests"
+        },
+        {
+          "name": "Total Ad Requests",
+          "calculation": "Total",
+          "original_phrase": "total ad requests"
+        },
+        {
+          "name": "CAS FORWARDS",
+          "calculation": "Total",
+          "original_phrase": "CAS FORWARDS"
+        },
+        {
+          "name": "CAS fills",
+          "calculation": "Total",
+          "original_phrase": "CAS fills"
+        },
+        {
+          "name": "CAS wins",
+          "calculation": "Total",
+          "original_phrase": "CAS wins"
+        },
+        {
+          "name": "Total Burn",
+          "calculation": "Total",
+          "original_phrase": "total burn"
+        }
+      ],
+      "dimensions": [
+        {
+          "name": "Revenue Channel",
+          "filter_value": "PMP",
+          "original_phrase": "PMP revenue channel"
+        }
+      ],
+      "timegrain": null,
+      "timeframe": {
+        "phrase": "last QTD"
+      },
+      "pattern": null,
+      "segments": [],
+      "breakdowns": [],
+      "unmatched_intents": [
+        {
+          "phrase": "perf data",
+          "type": "business_entity",
+          "reason": "General term referring to performance data that needs clarification or mapping to specific dataset or domain"
+        }
+      ]
+    }
+  ]
+},
+
+{
+  "intent": "intents_discovery",
+  "discovery_results": [
+    {
+      "step_id": "step_1",
+      "sub_question": "Which are the top 5 publishers in India with the highest number of ad impressions rendered in the last month?",
+      "measures": [
+        {
+          "name": "Ad Impressions",
+          "calculation": "Total",
+          "original_phrase": "number of ad impressions"
+        }
+      ],
+      "dimensions": [
+        {
+          "name": "Publisher",
+          "filter_value": null,
+          "original_phrase": "publishers"
+        },
+        {
+          "name": "Country",
+          "filter_value": "India",
+          "original_phrase": "India"
+        }
+      ],
+      "timegrain": null,
+      "timeframe": {
+        "phrase": "last month"
+      },
+      "pattern": [
+        {
+          "name": "Top N",
+          "phrase": "top 5"
+        }
+      ],
+      "segments": [],
+      "breakdowns": [],
+      "unmatched_intents": [
+        {
+          "phrase": "rendered",
+          "type": "business_action",
+          "reason": "The term 'rendered' describes the action of ad impressions being served, which is a business action not directly mapped to a measure or dimension"
+        }
+      ]
+    }
+  ]
+},
+
+{
+  "intent": "intents_discovery",
+  "discovery_results": [
+    {
+      "step_id": "step_1",
+      "sub_question": "What is the percentage contribution of total ad requests for Zynga and Easybrain when limit ad tracking is true over the last 30 days?",
+      "measures": [
+        {
+          "name": "Ad Requests",
+          "calculation": "Percentage Contribution",
+          "original_phrase": "percentage contribution of total ad requests"
+        }
+      ],
+      "dimensions": [
+        {
+          "name": "Advertiser",
+          "filter_value": "Zynga, Easybrain",
+          "original_phrase": "Zynga and Easybrain"
+        },
+        {
+          "name": "Limit Ad Tracking",
+          "filter_value": "true",
+          "original_phrase": "limit ad tracking is true"
+        }
+      ],
+      "timegrain": null,
+      "timeframe": {
+        "phrase": "over the last 30 days"
+      },
+      "pattern": null,
+      "segments": [],
+      "breakdowns": [],
+      "unmatched_intents": []
+    }
+  ]
+},
+
+{
+  "intent": "intents_discovery",
+  "discovery_results": [
+    {
+      "step_id": "step_1",
+      "sub_question": "Provide a day-level trend of total burn and clicks for the bidder \"FeeltapmediaRTBD\" over the last 15 days.",
+      "measures": [
+        {
+          "name": "Burn",
+          "calculation": "Total",
+          "original_phrase": "total burn"
+        },
+        {
+          "name": "Clicks",
+          "calculation": "Total",
+          "original_phrase": "clicks"
+        }
+      ],
+      "dimensions": [
+        {
+          "name": "Bidder",
+          "filter_value": "FeeltapmediaRTBD",
+          "original_phrase": "bidder \"FeeltapmediaRTBD\""
+        }
+      ],
+      "timegrain": {
+        "phrase": "day-level"
+      },
+      "timeframe": {
+        "phrase": "last 15 days"
+      },
+      "pattern": [
+        {
+          "name": "Trend",
+          "phrase": "trend"
+        }
+      ],
+      "segments": [],
+      "breakdowns": [],
+      "unmatched_intents": []
+    }
+  ]
+}
+]

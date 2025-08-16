@@ -1,0 +1,247 @@
+[
+  {
+    "input": "How many heads of the publishers are older than 56?",
+    "output": {
+      "intent": "intents_discovery",
+      "discovery_results": [
+        {
+          "step_id": "step_1",
+          "sub_question": "Count the heads of the publishers who are older than 56",
+          "measures": [
+            {
+              "name": "Heads",
+              "calculation": "Count",
+              "original_phrase": "how many heads"
+            }
+          ],
+          "dimensions": [
+            {
+              "name": "Publisher",
+              "filter_value": null,
+              "original_phrase": "publishers"
+            }
+          ],
+          "timegrain": null,
+          "timeframe": null,
+          "pattern": null,
+          "segments": [],
+          "breakdowns": [],
+          "unmatched_intents": [
+            {
+              "phrase": "older than 56",
+              "type": "descriptor",
+              "reason": "Age descriptor that needs clarification on how it applies to the data"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "input": "List the name, created state and age of the heads of publishers ordered by age.",
+    "output": {
+      "intent": "intents_discovery",
+      "discovery_results": [
+        {
+          "step_id": "step_1",
+          "sub_question": "List the name, created state and age of the heads of publishers ordered by age",
+          "measures": [
+            {
+              "name": "Age",
+              "calculation": "None",
+              "original_phrase": "age"
+            }
+          ],
+          "dimensions": [
+            {
+              "name": "Publisher Head",
+              "filter_value": null,
+              "original_phrase": "heads of publishers"
+            },
+            {
+              "name": "Created State",
+              "filter_value": null,
+              "original_phrase": "created state"
+            }
+          ],
+          "timegrain": null,
+          "timeframe": null,
+          "pattern": [
+            {
+              "name": "Ordered by Age",
+              "phrase": "ordered by age"
+            }
+          ],
+          "segments": [],
+          "breakdowns": [
+            {
+              "name": "Name"
+            }
+          ],
+          "unmatched_intents": []
+        }
+      ]
+    }
+  },
+  {
+    "input": "What are the maximum and minimum revenue of the publishers?",
+    "output": {
+      "intent": "intents_discovery",
+      "discovery_results": [
+        {
+          "step_id": "step_1",
+          "sub_question": "Extract maximum revenue of the publishers",
+          "measures": [
+            {
+              "name": "Revenue",
+              "calculation": "Maximum",
+              "original_phrase": "maximum revenue"
+            }
+          ],
+          "dimensions": [
+            {
+              "name": "Publisher",
+              "filter_value": null,
+              "original_phrase": "publishers"
+            }
+          ],
+          "timegrain": null,
+          "timeframe": null,
+          "pattern": null,
+          "segments": [],
+          "breakdowns": [],
+          "unmatched_intents": []
+        },
+        {
+          "step_id": "step_2",
+          "sub_question": "Extract minimum revenue of the publishers",
+          "measures": [
+            {
+              "name": "Revenue",
+              "calculation": "Minimum",
+              "original_phrase": "minimum revenue"
+            }
+          ],
+          "dimensions": [
+            {
+              "name": "Publisher",
+              "filter_value": null,
+              "original_phrase": "publishers"
+            }
+          ],
+          "timegrain": null,
+          "timeframe": null,
+          "pattern": null,
+          "segments": [],
+          "breakdowns": [],
+          "unmatched_intents": []
+        }
+      ]
+    }
+  },
+  {
+    "input": "Compare revenue between Q1 and Q2 for top performing publishers",
+    "output": {
+      "intent": "intents_discovery",
+      "discovery_results": [
+        {
+          "step_id": "step_1",
+          "sub_question": "Extract revenue for Q1",
+          "measures": [
+            {
+              "name": "Revenue",
+              "calculation": "Total",
+              "original_phrase": "revenue"
+            }
+          ],
+          "dimensions": [
+            {
+              "name": "Quarter",
+              "filter_value": "Q1",
+              "original_phrase": "Q1"
+            }
+          ],
+          "timegrain": null,
+          "timeframe": null,
+          "pattern": null,
+          "segments": [],
+          "breakdowns": [
+            {
+              "name": "Publisher"
+            }
+          ],
+          "unmatched_intents": []
+        },
+        {
+          "step_id": "step_2",
+          "sub_question": "Extract revenue for Q2",
+          "measures": [
+            {
+              "name": "Revenue",
+              "calculation": "Total",
+              "original_phrase": "revenue"
+            }
+          ],
+          "dimensions": [
+            {
+              "name": "Quarter",
+              "filter_value": "Q2",
+              "original_phrase": "Q2"
+            }
+          ],
+          "timegrain": null,
+          "timeframe": null,
+          "pattern": null,
+          "segments": [],
+          "breakdowns": [
+            {
+              "name": "Publisher"
+            }
+          ],
+          "unmatched_intents": []
+        },
+        {
+          "step_id": "step_3",
+          "sub_question": "Compare revenue between Q1 and Q2 for top performing publishers",
+          "measures": [
+            {
+              "name": "Revenue",
+              "calculation": "Comparison",
+              "original_phrase": "revenue"
+            }
+          ],
+          "dimensions": [
+            {
+              "name": "Publisher",
+              "filter_value": "top performing",
+              "original_phrase": "top performing publishers"
+            }
+          ],
+          "timegrain": null,
+          "timeframe": null,
+          "pattern": {
+            "name": "Quarterly Comparison",
+            "phrase": "Compare revenue between Q1 and Q2"
+          },
+          "segments": [],
+          "breakdowns": [],
+          "unmatched_intents": []
+        }
+      ]
+    }
+  },
+  {
+    "input": "Show me performance for ABC",
+    "output": {
+      "intent": "request_human_input",
+      "reasoning": "The term 'ABC' is ambiguous and could refer to multiple concepts",
+      "choices": [
+        "Publisher: ABC Games",
+        "Region: ABC Territory",
+        "Product: ABC Suite",
+        "Don't know"
+      ],
+      "question": "What does 'ABC' refer to in your question?"
+    }
+  }
+]

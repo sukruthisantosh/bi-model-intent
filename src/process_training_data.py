@@ -12,6 +12,8 @@ import json
 import openai
 from typing import Dict, List, Any
 import time
+import signal
+import sys
 from tqdm import tqdm
 
 # Load your OpenAI API key from environment variable
@@ -27,6 +29,17 @@ class TrainingDataProcessor:
         self.context = ""
         self.cached_prompt = None
         self.processed_data = []
+        self.interrupted = False
+
+        
+        # Set up signal handler for graceful interruption
+        signal.signal(signal.SIGINT, self.signal_handler)
+        
+    def signal_handler(self, signum, frame):
+        """Handle Ctrl+C gracefully"""
+        print(f"\n\n⚠️  Keyboard interrupt detected (Ctrl+C)")
+        print("Saving current progress...")
+        self.interrupted = True
         
     def load_prompt_template(self, prompt_path: str):
         """Load and cache the prompt template"""
@@ -131,10 +144,22 @@ class TrainingDataProcessor:
         
         # Process in batches
         for i in tqdm(range(0, len(data_to_process), batch_size), desc="Processing batches"):
+            # Check for interruption
+            if self.interrupted:
+                print(f"\n🛑 Processing interrupted by user")
+                self.save_progress_on_interrupt(output_file, start_index, end_index)
+                return
+                
             batch = data_to_process[i:i + batch_size]
             batch_results = []
             
             for j, example in enumerate(batch):
+                # Check for interruption before each example
+                if self.interrupted:
+                    print(f"\n🛑 Processing interrupted by user")
+                    self.save_progress_on_interrupt(output_file, start_index, end_index)
+                    return
+                    
                 question = example["input"]
                 print(f"\nProcessing example {start_index + i + j + 1}: {question[:80]}...")
                 
@@ -156,8 +181,11 @@ class TrainingDataProcessor:
             if (i + batch_size) % 50 == 0:
                 self.save_intermediate_results(output_file, start_index, end_index)
                 
-        # Save final results
-        self.save_final_results(output_file, start_index, end_index)
+        # Save final results (only if not interrupted)
+        if not self.interrupted:
+            self.save_final_results(output_file, start_index, end_index)
+        else:
+            print(f"\n🛑 Processing was interrupted, final results not saved")
         
     def save_intermediate_results(self, output_file: str, start_index: int, end_index: int):
         """Save intermediate results"""
@@ -166,11 +194,75 @@ class TrainingDataProcessor:
             json.dump(self.processed_data, f, indent=2)
         print(f"Intermediate results saved to {temp_file}")
         
+    def save_progress_on_interrupt(self, output_file: str, start_index: int, end_index: int):
+        """Save progress when interrupted"""
+        if self.processed_data:
+            # Save current progress
+            progress_file = f"{output_file}.interrupted_{len(self.processed_data)}_examples"
+            with open(progress_file, "w") as f:
+                json.dump(self.processed_data, f, indent=2)
+            
+            print(f"✅ Progress saved to: {progress_file}")
+            print(f"📊 Processed {len(self.processed_data)} examples before interruption")
+            
+            # Try to combine with existing data if we have some progress
+            if start_index == 1000 and len(self.processed_data) > 0:
+                try:
+                    first_1000_file = os.path.join(os.path.dirname(__file__), "../training_data_llm_processed_1000.json")
+                    with open(first_1000_file, "r") as f:
+                        first_1000_data = json.load(f)
+                    
+                    # Calculate how many examples we've processed
+                    processed_count = len(self.processed_data)
+                    combined_data = first_1000_data + self.processed_data
+                    
+                    combined_file = f"../training_data_llm_processed_partial_{1000 + processed_count}.json"
+                    with open(combined_file, "w") as f:
+                        json.dump(combined_data, f, indent=2)
+                    
+                    print(f"✅ Combined partial results saved to: {combined_file}")
+                    print(f"📊 Total examples so far: {len(combined_data)} (1000 + {processed_count})")
+                    
+                except FileNotFoundError:
+                    print("⚠️  Could not find first 1000 examples file for combining")
+        else:
+            print("⚠️  No data processed yet, nothing to save")
+        
     def save_final_results(self, output_file: str, start_index: int, end_index: int):
-        """Save final results"""
-        with open(output_file, "w") as f:
-            json.dump(self.processed_data, f, indent=2)
-        print(f"Final results saved to {output_file}")
+        """Save final results and combine with existing data if needed"""
+        # If we're processing the remaining data, combine with the first 1000
+        if start_index == 1000:
+            try:
+                # Load the first 1000 examples
+                first_1000_file = os.path.join(os.path.dirname(__file__), "../training_data_llm_processed_1000.json")
+                with open(first_1000_file, "r") as f:
+                    first_1000_data = json.load(f)
+                
+                # Combine the data
+                combined_data = first_1000_data + self.processed_data
+                
+                # Save combined results
+                combined_file = os.path.join(os.path.dirname(__file__), "../training_data_llm_processed_complete.json")
+                with open(combined_file, "w") as f:
+                    json.dump(combined_data, f, indent=2)
+                
+                print(f"Combined results saved to {combined_file}")
+                print(f"Total examples: {len(combined_data)} (1000 + {len(self.processed_data)})")
+                
+                # Also save just the remaining data
+                with open(output_file, "w") as f:
+                    json.dump(self.processed_data, f, indent=2)
+                print(f"Remaining data saved to {output_file}")
+                
+            except FileNotFoundError:
+                print(f"Warning: Could not find {first_1000_file}, saving only remaining data")
+                with open(output_file, "w") as f:
+                    json.dump(self.processed_data, f, indent=2)
+        else:
+            # Normal save for other cases
+            with open(output_file, "w") as f:
+                json.dump(self.processed_data, f, indent=2)
+        
         print(f"Processed {len(self.processed_data)} examples successfully")
 
 def main():
@@ -190,11 +282,11 @@ def main():
     
     # Process training data
     input_file = os.path.join(os.path.dirname(__file__), "../training_data_fixed.json")
-    output_file = os.path.join(os.path.dirname(__file__), "../training_data_llm_processed_1000.json")
+    output_file = os.path.join(os.path.dirname(__file__), "../training_data_llm_processed_remaining.json")
     
     # You can adjust these parameters
-    start_index = 0  # Start from the beginning
-    end_index = 1000  # Process first 1000 examples
+    start_index = 1000  # Start from where we left off (after first 1000)
+    end_index = 7002  # Process all remaining examples (1000-7001)
     batch_size = 5   # Process 5 examples at a time
     
     print(f"\nProcessing configuration:")
@@ -203,6 +295,8 @@ def main():
     print(f"Start index: {start_index}")
     print(f"End index: {end_index}")
     print(f"Batch size: {batch_size}")
+    print(f"Examples to process: {end_index - start_index}")
+    print(f"\n💡 Tip: Press Ctrl+C at any time to stop processing and save progress")
     
     # Confirm before starting
     response = input("\nDo you want to proceed? (y/n): ")

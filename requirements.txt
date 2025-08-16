@@ -1,4 +1,21 @@
+# Core ML/AI packages
 torch>=2.0.0
 transformers>=4.35.0
 accelerate>=0.20.0
-sentencepiece>=0.1.99 
+sentencepiece>=0.1.99
+
+# LLM processing and API
+openai>=1.0.0
+tqdm>=4.65.0
+
+# Data processing and utilities
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.1.0
+
+# JSON and file handling
+jsonschema>=4.17.0
+
+# Optional: For better progress bars and formatting
+rich>=13.0.0
+colorama>=0.4.6 

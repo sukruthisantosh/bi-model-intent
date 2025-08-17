@@ -31,10 +31,10 @@ For each question or planning step:
 
 ## Output Format
 ```json
-{
+{{
  "intent": "intents_discovery",
  "discovery_results": [
-   {
+   {{
      "step_id": "step_1",
      "sub_question": "...",
      "measures": [],
@@ -45,22 +45,22 @@ For each question or planning step:
      "segments": [],
      "breakdowns": [],
      "unmatched_intents": []
-   }
+   }}
  ]
-}
+}}
 ```
 
 ## Examples
 Example 1: Simple
 Q: "Show me total sales"
 ```json
-{
+{{
 "intent": "intents_discovery",
 "discovery_results": [
-{
+{{
 "step_id": "step_1",
 "sub_question": "Show me total sales",
-"measures": [{"name": "Sales","calculation": "Total","original_phrase": "total sales"}],
+"measures": [{{"name": "Sales","calculation": "Total","original_phrase": "total sales"}}],
 "dimensions": [],
 "timegrain": null,
 "timeframe": null,
@@ -68,114 +68,114 @@ Q: "Show me total sales"
 "segments": [],
 "breakdowns": [],
 "unmatched_intents": []
-}
+}}
 ]
-}
+}}
 ```
 
 Example 2: Complex (Planning + Discovery)
 Q: "First calculate sales by territory, then compare with last year"
 ```json
-{
+{{
 "intent": "intents_discovery",
 "discovery_results": [
-{
+{{
 "step_id": "step_1",
 "sub_question": "Extract current year sales by territory",
-"measures": [{"name": "Sales","calculation": "Total","original_phrase": "sales"}],
-"dimensions": [{"name": "Territory","filter_value": null,"original_phrase": "territory"}],
-"timegrain": {"phrase": "Daily"},
+"measures": [{{"name": "Sales","calculation": "Total","original_phrase": "sales"}}],
+"dimensions": [{{"name": "Territory","filter_value": null,"original_phrase": "territory"}}],
+"timegrain": {{"phrase": "Daily"}},
 "timeframe": null,
 "pattern": null,
 "segments": [],
-"breakdowns": [{"name":"Channel"},{"name":"Customer Type"},{"name":"Product Category"}],
+"breakdowns": [{{"name":"Channel"}},{{"name":"Customer Type"}},{{"name":"Product Category"}}],
 "unmatched_intents": []
-},
-{
+}},
+{{
 "step_id": "step_2",
 "sub_question": "Extract last year sales by territory",
-"measures": [{"name": "Sales","calculation": "Total","original_phrase": "sales"}],
-"dimensions": [{"name": "Territory","filter_value": null,"original_phrase": "territory"}],
+"measures": [{{"name": "Sales","calculation": "Total","original_phrase": "sales"}}],
+"dimensions": [{{"name": "Territory","filter_value": null,"original_phrase": "territory"}}],
 "timegrain": null,
-"timeframe": {"phrase": "last year"},
+"timeframe": {{"phrase": "last year"}},
 "pattern": null,
 "segments": [],
 "breakdowns": [],
 "unmatched_intents": []
-},
-{
+}},
+{{
 "step_id": "step_3",
 "sub_question": "Compare current vs last year performance",
-"measures": [{"name": "Sales","calculation": "Comparison","original_phrase": "performance"}],
-"dimensions": [{"name": "Territory","filter_value": null,"original_phrase": "territory"}],
+"measures": [{{"name": "Sales","calculation": "Comparison","original_phrase": "performance"}}],
+"dimensions": [{{"name": "Territory","filter_value": null,"original_phrase": "territory"}}],
 "timegrain": null,
 "timeframe": null,
-"pattern": {"name":"Year-over-Year Comparison","phrase":"compare current vs last year"},
+"pattern": {{"name":"Year-over-Year Comparison","phrase":"compare current vs last year"}},
 "segments": [],
 "breakdowns": [],
 "unmatched_intents": []
-}
+}}
 ]
-}
+}}
 ```
 
 Example 3: Multiple Filter Values
 Q: "Show me transactions for Desktop and Mobile channels"
 ```json
-{
+{{
 "intent": "intents_discovery",
 "discovery_results": [
-{
+{{
 "step_id": "step_1",
 "sub_question": "Show me transactions for Desktop and Mobile channels",
-"measures": [{"name": "Transactions","calculation": "Total","original_phrase": "transactions"}],
-"dimensions": [{"name": "Channel","filter_value": "Desktop, Mobile","original_phrase": "Desktop and Mobile channels"}],
+"measures": [{{"name": "Transactions","calculation": "Total","original_phrase": "transactions"}}],
+"dimensions": [{{"name": "Channel","filter_value": "Desktop, Mobile","original_phrase": "Desktop and Mobile channels"}}],
 "timegrain": null,
 "timeframe": null,
 "pattern": null,
 "segments": [],
 "breakdowns": [],
 "unmatched_intents": []
-}
+}}
 ]
-}
+}}
 ```
 
 Example 4: Complex Business Phrases
 Q: "What is the daily average number of customers who complete their subscription renewals in Desktop?"
 ```json
-{
+{{
 "intent": "intents_discovery",
 "discovery_results": [
-{
+{{
 "step_id": "step_1",
 "sub_question": "What is the daily average number of customers who complete their subscription renewals in Desktop?",
-"measures": [{"name":"Customers","calculation":"Average","original_phrase":"average number of customers"}],
-"dimensions": [{"name":"Channel","filter_value":"Desktop","original_phrase":"Desktop"}],
-"timegrain": {"phrase":"Daily"},
+"measures": [{{"name":"Customers","calculation":"Average","original_phrase":"average number of customers"}}],
+"dimensions": [{{"name":"Channel","filter_value":"Desktop","original_phrase":"Desktop"}}],
+"timegrain": {{"phrase":"Daily"}},
 "timeframe": null,
 "pattern": null,
 "segments": [],
 "breakdowns": [],
 "unmatched_intents": [
-{"phrase":"customers who complete their subscription renewals","type":"business_entity","reason":"Needs KB mapping to understand customer behavior"},
-{"phrase":"complete","type":"business_action","reason":"Action that needs clarification on criteria"},
-{"phrase":"subscription renewals","type":"business_entity","reason":"Subscription concept that needs KB mapping"}
+{{"phrase":"customers who complete their subscription renewals","type":"business_entity","reason":"Needs KB mapping to understand customer behavior"}},
+{{"phrase":"complete","type":"business_action","reason":"Action that needs clarification on criteria"}},
+{{"phrase":"subscription renewals","type":"business_entity","reason":"Subscription concept that needs KB mapping"}}
 ]
-}
+}}
 ]
-}
+}}
 ```
 
 Example 5: Ambiguity
 Q: "Show me performance for ABC"
 ```json
-{
+{{
 "intent": "request_human_input",
 "reasoning": "The term 'ABC' is ambiguous and could refer to multiple concepts",
 "choices": ["Publisher: ABC Games","Region: ABC Territory","Product: ABC Suite","Don't know"],
 "question": "What does 'ABC' refer to in your question?"
-}
+}}
 ```
 
 ## Question: {question}

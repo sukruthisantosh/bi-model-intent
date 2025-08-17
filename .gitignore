@@ -1,6 +1,6 @@
 venv/
 model/
 resources/
-
+qwen-bi-intent-model_17:08/
 #ignore macOS system files
 .DS_Store

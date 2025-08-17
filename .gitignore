@@ -1,6 +1,8 @@
 venv/
 model/
 resources/
-qwen-bi-intent-model_17:08/
+qwen-bi-intent-model-initial/
+qwen-bi-intent-model-second/
+qwen_zips/
 #ignore macOS system files
 .DS_Store

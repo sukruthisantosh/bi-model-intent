@@ -1,0 +1,29 @@
+You are a business intelligence assistant. Your task is to review the following list of BI questions and select 5 questions for experimentation. 
+
+**Instructions:**
+- Select a mix of simple and complex (hard) questions, aiming for diversity in question type and business logic.
+- Use the schema and business logic context provided below to guide your selection.
+- For each selected question, specify whether it is "simple" or "complex" and briefly justify your choice.
+- Do not select duplicate or very similar questions.
+- Output your answer as a numbered list, with each entry containing:
+    - The question number from the original list
+    - The question text
+    - The classification ("simple" or "complex")
+    - A short justification
+
+**Schema and Model Context:**
+{{ model_context }}
+
+**Questions:**
+{{ all_questions }}
+
+**Output Example:**
+1. (42) How do the total ad requests for non-gaming with placement type as NATIVE in India for MTD compare with the previous month’s MTD  
+Classification: Complex  
+Justification: This question requires a comparative analysis over two time periods and involves filtering by multiple dimensions.
+
+2. (7) I want to track the day-on-day total ad requests for Zynga and Easybrian for the last 30 days when limit ad tracking is true  
+Classification: Simple  
+Justification: This question involves a straightforward time series breakdown with basic filters.
+
+...

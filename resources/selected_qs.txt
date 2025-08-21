@@ -1,0 +1,21 @@
+1. (1) What are the ad impressions rendered and shown for last one month for all publishers for India?  
+Classification: Simple  
+Justification: This is a straightforward aggregation of two metrics (ad impressions rendered and shown) filtered by country and time period.
+
+2. (5) For the perf data, i need the sum of valid ad requests, total ad requests, CAS FORWARDS, CAS fills, CAS wis and total burn for the last QTD for the PMP revenue channel.  
+Classification: Complex  
+Justification: This requires aggregation of multiple metrics with filters on brand/perf, revenue channel, and a specific time period (quarter-to-date).
+
+3. (27) Which are the top 5 publishers in India with the highest number of ad impressions rendered in the last month?  
+Classification: Complex  
+Justification: This involves ranking and filtering by country and time period, requiring sorting and limiting results.
+
+4. (44) What is the percentage contribution of total ad requests for Zynga and Easybrain when limit ad tracking is true over the last 30 days?  
+Classification: Complex  
+Justification: This involves calculating percentage contributions for specific publishers with a filter on limit ad tracking and time period.
+
+5. (82) Provide a day-level trend of total burn and clicks for the bidder "FeeltapmediaRTBD" over the last 15 days.  
+Classification: Simple  
+Justification: This is a time series trend analysis for two metrics filtered by a specific bidder and time period.
+
+These selections provide a mix of simple aggregations, ranking, percentage contribution, and time series trend with different filters and metrics, covering diverse question types and business logic.

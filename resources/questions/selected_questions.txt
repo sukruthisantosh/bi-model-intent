@@ -1,0 +1,5 @@
+1. What are the ad impressions rendered and shown for last one month for all publishers for India?
+2. For the perf data, i need the sum of valid ad requests, total ad requests, CAS FORWARDS, CAS fills, CAS wins and total burn for the last QTD for the PMP revenue channel.
+3 Which are the top 5 publishers in India with the highest number of ad impressions rendered in the last month?
+4. What is the percentage contribution of total ad requests for Zynga and Easybrain when limit ad tracking is true over the last 30 days?
+5. Provide a day-level trend of total burn and clicks for the bidder "FeeltapmediaRTBD" over the last 15 days.

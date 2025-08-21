@@ -1,0 +1,120 @@
+1. What are the ad impressions rendered and shown for last one month for all publishers for India?
+2. Give me the total burn for Zynga when the placement type is banner for last one week.
+3. For the bidder Amazon dsp, I need the month to date data on valid ad requests on day level having the format as video.
+4. Provide me the day level information on total burn for India region for the year-to-date data.
+5. For the perf data, i need the sum of valid ad requests, total ad requests, CAS FORWARDS, CAS fills, CAS wis and total burn for the last QTD for the PMP revenue channel.
+6. For the country India, I want to know the total ad requests for non-gaming with placement type as banner for MTD.
+7. I want to track the day-on-day total ad requests for Zynga and Easybrian for the last 30 days when limit ad tracking is true.
+8. I want the perf data for Japan for past 10 days on total burn, CAS WINS, CAS FORWARDS and VADR.
+9. I want the VADR, total ad requests, eligible FORWARDS, CAS WINS and total burn for Japan for last 5 days when requested ad format is video.
+10. For the country India, I want to track day on day total fills, CAS WINS and CAS fills for past 10 days when placement type is interstitial.
+11. I want to track day on day CAS WINS rate and invalid fills to total fills ratio for Canada when it is an aggregated account.
+12. For the publisher Zynga, on country level, I need total ad requests, served impression, rendered impression and total burn.
+13. Provide me with the total fills data for the publisher Musi Inc for last 20 days on day level.
+14. Provide me with the sum of completed video for my publisher Musi Inc for last one month.
+15. I want last 10 days total burn data for the publisher Zynga for gaming and non-gaming.
+16. I want to track the day-on-day total ad requests for the publisher Easybrian Ltd for the last 30 days when limit ad tracking is true.
+17. I want the VADR, total ad requests, eligible FORWARDS, CAS WINS and total burn for Japan for last 5 days when requested ad format banner.
+18. I want to track the day-on-day total ad requests for the publisher Easybrain Ltd for the last 30 days when limit ad tracking is true.
+19. For the publisher Zynga, on country level, I need total ad requests, served impression, rendered impression and total burn.
+20. Provide me with the total fills data for the publisher Musi Inc for last 20 days on day level.
+21. Provide me with the sum of completed video for my publisher Musi Inc for last one month.
+22. I want last 10 days total burn data for the publisher Zynga for gaming and non-gaming.
+23. I want to track the day-on-day total ad requests for the publisher Easybrian Ltd for the last 30 days when limit ad tracking is true.
+24. I want the VADR, total ad requests, eligible FORWARDS, CAS WINS and total burn for Japan for last 5 days when requested ad format banner.
+25. I want to track the day-on-day total ad requests for the publisher Easybrain Ltd for the last 30 days when limit ad tracking is true.
+26. What is the percentage contribution of ad impressions rendered for each publisher in India for the last month?
+27. Which are the top 5 publishers in India with the highest number of ad impressions rendered in the last month?
+28. How do the ad impressions rendered and for all publishers in India last month compare to the previous three-month average?
+29. How have ad impressions rendered and shown for all publishers in India changed month-over-month over the last six months?
+30. What percentage of the total burn came from Zynga when the placement type was a banner in the last week?
+31. Which are the bottom 7 publishers in terms of total burn in the last one week when the placement type is banner?
+32. How does Zynga’s total burn for banner placements in the last week compare to the previous 2 weeks?
+33. How has Zynga’s total burn for banner placements changed week-over-week for the last eight weeks?
+34. What is the percentage contribution of total burn for the India region on a day-level basis for the year-to-date data?
+35. Which are the top 6 country in terms of total burn year-to-date on a day-level basis?
+36. Compare the total burn on a day-level basis for the India region between the current year-to-date data and the same period last year."
+37. How has the total burn changed day-over-day in the India region for the year-to-date data
+38. What percentage of valid ad requests, total ad requests, CAS FORWARDS, CAS fills, CAS wins, and total burn in the last QTD comes from the PMP revenue channel?
+39. "How has the PMP revenue channel's performance changed quarter-over-quarter?
+40. Compare valid ad requests, total ad requests, CAS FORWARDS, CAS fills, CAS wins, and total burn for the PMP revenue channel versus OMP revenue channel for the last QTD
+41. What is the percentage contribution of total ad requests for non-gaming with placement type as NATIVE in India for MTD
+42. How do the total ad requests for non-gaming with placement type as NATIVE in India for MTD compare with the previous month’s MTD
+43. How have the total ad requests for non-gaming with placement type as inline_banner in India changed month-over-month for the last four months
+44. What is the percentage contribution of total ad requests for Zynga and Easybrain when limit ad tracking is true over the last 30 days?
+45. What is the percentage contribution of CAS WINS for Japan in the last 5 days when the requested ad format is video?
+46. How do CAS WINS for brazil in the last 5 days compare with the previous 5-day period when the requested ad format is vertical_video
+47. How have CAS WINS changed day-over-day for mexico over the last 5 days when the requested ad format is morph?
+48. What is the percentage contribution of total fills, CAS WINS, and CAS fills for Germany in the past 13 days when the placement type is interstitial?
+49. How have total fills, CAS WINS, and CAS fills changed day-over-day for USA over the past 10 days when the placement type is audio?
+50. What is the percentage contribution of total fills for the publisher Musi Inc in the last 20 days on a day-level basis?
+51. Which are the bottom 3 publishers in terms of total fills in the last 20 days on a day-level basis?
+52. Which are the top 6 publishers in terms of total burn for gaming and non-gaming in the last 10 days?
+53. Which are the bottom 4 publishers in terms of total ad requests in the last 30 days when limit ad tracking is true
+54. How have the total ad requests changed week-over-week for the publisher Treasure Pig International Limited over the last 30 days when limit ad tracking is true?
+55. What is the percentage contribution of total ad requests for Japan in the last 5 days when the requested ad format is banner?
+56. Which are the bottom 3 countries in terms of total ad requests in the last 5 days when the requested ad format is banner?
+57. What is the percentage contribution of total ad requests for the publisher Zynga at the country level?
+58. Which are the bottom 6 countries in terms of total ad requests for the publisher Zynga?
+59. Which are the top 5 countries by MRC viewable impressions over the last 5 days?
+60. Compare MRC viewable impressions for India with other countries over the last 5 days on a day-level basis.
+61. What is the total number of ad impressions served and rendered for each country in the last month?
+62. How does the total burn for banner placements compare between Android and iOS OS types for the last quarter?
+63. Provide a daily breakdown of valid ad requests and total fills for the publisher "Saygames LTD" over the past 15 days.
+64. What is the trend of CAS wins and CAS fills for the inventory channel "in_app" in the last 7 days?
+65. Which placement type has the highest total burn for the country "USA" in the current month-to-date?
+66. Compare the total ad requests and clicks for rewarded versus non-rewarded slots for the last two weeks.
+67. What is the average eCPM for the "pmp" revenue channel across all publishers for the last quarter?
+68. How many total fills and CAS fills were recorded for the publisher "STARSPRITE PTE LTD" in the last 30 days?
+69. Which OS version had the highest number of valid wins for the placement type "video" in the last month?
+70. What is the daily total burn and ad impressions rendered for the bidder "Amazon DSP" over the past 10 days?
+71. Provide a comparison of total ad requests between the "desktop_web" and "mobile_web" inventory channels for the last month.
+72. What is the CTR and True CTR for the publisher "Pinsight Media+" in the last 14 days?
+73. Which publishers have the highest number of completed views for the placement type "interstitial" in the last 3 months?
+74. How does the CAS fill rate vary by integration method for the last quarter?
+75. What is the total number of clicks and custom clicks for the country "Canada" in the last 7 days?
+76. Provide a ranking of the top 10 publishers by total burn for the placement type "native" in the last month.
+77. How has the total ad requests changed week-over-week for the inventory channel "connected_tv" over the last 8 weeks?
+78. What is the percentage contribution of total fills by placement type for the publisher "Apps2SD" in the last 30 days?
+79. Compare the total ad impressions shown and rendered for the "Brand" versus "Perf" brand/perf tagging for the last quarter.
+80. What is the average video completion rate (VCR) for the country "Germany" for video ad formats in the last month?
+81. Which OS type has the highest number of ad impressions loaded for the placement type "audio" in the last 2 weeks?
+82. Provide a day-level trend of total burn and clicks for the bidder "FeeltapmediaRTBD" over the last 15 days.
+83. What is the total number of CAS forwards and eligible forwards for the revenue channel "omp" in the last quarter?
+84. How does the load error rate compare between the integration methods "API" and "SDK" for the last month?
+85. What is the total number of media plays and first quartile completions for the publisher "FotMob AS" in the last 30 days?
+86. Which countries have the highest total ad requests for the placement type "inline_banner" in the last month?
+87. Provide a breakdown of total burn by rewarded slot (true/false) for the publisher "Muriel Systems Tecnologia LTDA" in the last 7 days.
+88. How does the CAS win rate vary across different placement types for the last quarter?
+89. What is the total number of companion ad clicks and companions ad rendered for the country "France" in the last month?
+90. Compare the total ad impressions served and valid wins for the bidder "Zucks" over the last 10 days.
+91. What is the trend of total fills and CAS fills for the inventory channel "Blended_in_game" in the last 30 days?
+92. Which publishers have the highest total burn for the placement type "video" in the country "Japan" for the last month?
+93. Provide a comparison of total ad requests and total fills for the "gaming" versus "non gaming" categories in the last quarter.
+94. What is the total burn and ad impressions rendered for the integration direct "c_adlib" in the last 14 days?
+95. How does the total number of clicks and landings compare for the placement type "banner" in the last month?
+96. Which OS version had the highest total burn for the placement type "interstitial" in the last 30 days?
+97. What is the total number of ad impressions loaded and ad load called for the publisher "ZPLAY (HK) TECHNOLOGY CO., LIMITED" in the last 7 days?
+98. Provide a ranking of the top 5 bidders by total burn for the placement type "native" in the last month.
+99. How does the total number of completed views compare between the inventory channels "in_app" and "desktop_web" for the last quarter?
+100. What is the total number of CAS forwards deal and CAS fills for the revenue channel "pmp" in the last month?
+101. Which countries have the highest number of ad impressions rendered for the placement type "audio" in the last 30 days?
+102. Provide a day-level trend of total burn and valid wins for the bidder "Pubmatic US RTB" in the last 15 days.
+103. How does the total number of custom clicks compare between the integration methods "API_VAST" and "SDK" for the last month?
+104. What is the total number of media clicks and companion ad clicks for the publisher "Gameberry Studio Inc" in the last 14 days?
+105. Which placement type has the highest total ad requests for the country "Mexico" in the last quarter?
+106. Provide a comparison of total ad impressions shown and ad impressions loaded for the integration direct "c_admob" in the last month.
+107. What is the total burn and total fills for the publisher "Alpha Apps BV" for the placement type "banner" in the last 30 days?
+108. How does the total number of valid wins and CAS wins compare for the placement type "video" in the last 7 days?
+109. Which OS type has the highest number of ad impressions rendered for the rewarded slot "True" in the last month?
+110. Provide a ranking of the top 10 publishers by total ad requests for the inventory channel "mobile_web" in the last 30 days.
+111. What is the total number of landings and clicks for the country "Brazil" in the last 14 days?
+112. How does the total burn for the bidder "Liftoff RTBD" compare between the placement types "banner" and "interstitial" in the last month?
+113. What is the total number of completed views and media plays for the publisher "EUP TECHNOLOGY.,JSC" in the last 30 days?
+114. Provide a breakdown of total ad requests by integration method for the country "Canada" in the last quarter.
+115. How does the total number of CAS fills and CAS wins vary by placement type for the last 30 days?
+116. What is the total number of ad impressions served and ad impressions rendered for the publisher "Lavka Studios FZC" in the last 7 days?
+117. Which countries have the highest total burn for the placement type "video" in the last month?
+118. Provide a day-level trend of total fills and CAS fills for the publisher "111percent Inc." in the last 15 days.
+119. How does the total number of clicks and custom clicks compare for the inventory channel "connected_tv" in the last 30 days?
+120. What is the total burn and total ad requests for the integration direct "c_dfp" in the last quarter?

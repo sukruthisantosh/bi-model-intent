@@ -1,0 +1,78 @@
+You are a business intelligence analyst. Your job is to generate realistic, relevant, and diverse natural language questions that a BI user might ask, based strictly on the available schema, dimensions, and metrics provided below.
+
+**Instructions:**
+- Only use fields, dimensions, and values that exist in the provided schema and model files.
+- Do NOT invent new metrics, dimensions, or business logic.
+- Avoid duplicate or trivial questions.
+- Cover a wide range of business scenarios: aggregations, filters, timeframes, comparisons, rankings, breakdowns, etc.
+- Use a mix of simple and complex (multi-step, comparative, ranking, etc.) questions.
+- Do NOT repeat any of the existing questions provided.
+- Generate exactly 60 questions.
+
+**Existing Questions (do not repeat):**
+1. What are the ad impressions rendered and shown for last one month for all publishers for India?
+2. Give me the total burn for Zynga when the placement type is banner for last one week.
+3. For the bidder Amazon dsp, I need the month to date data on valid ad requests on day level having the format as video.
+4. Provide me the day level information on total burn for India region for the year-to-date data.
+5. For the perf data, i need the sum of valid ad requests, total ad requests, CAS FORWARDS, CAS fills, CAS wis and total burn for the last QTD for the PMP revenue channel.
+6. For the country India, I want to know the total ad requests for non-gaming with placement type as banner for MTD.
+7. I want to track the day-on-day total ad requests for Zynga and Easybrian for the last 30 days when limit ad tracking is true.
+8. I want the perf data for Japan for past 10 days on total burn, CAS WINS, CAS FORWARDS and VADR.
+9. I want the VADR, total ad requests, eligible FORWARDS, CAS WINS and total burn for Japan for last 5 days when requested ad format is video.
+10. For the country India, I want to track day on day total fills, CAS WINS and CAS fills for past 10 days when placement type is interstitial.
+11. I want to track day on day CAS WINS rate and invalid fills to total fills ratio for Canada when it is an aggregated account.
+12. For the publisher Zynga, on country level, I need total ad requests, served impression, rendered impression and total burn.
+13. Provide me with the total fills data for the publisher Musi Inc for last 20 days on day level.
+14. Provide me with the sum of completed video for my publisher Musi Inc for last one month.
+15. I want last 10 days total burn data for the publisher Zynga for gaming and non-gaming.
+16. I want to track the day-on-day total ad requests for the publisher Easybrian Ltd for the last 30 days when limit ad tracking is true.
+17. I want the VADR, total ad requests, eligible FORWARDS, CAS WINS and total burn for Japan for last 5 days when requested ad format banner.
+18. I want to track the day-on-day total ad requests for the publisher Easybrain Ltd for the last 30 days when limit ad tracking is true.
+19. For the publisher Zynga, on country level, I need total ad requests, served impression, rendered impression and total burn.
+20. Provide me with the total fills data for the publisher Musi Inc for last 20 days on day level.
+21. Provide me with the sum of completed video for my publisher Musi Inc for last one month.
+22. I want last 10 days total burn data for the publisher Zynga for gaming and non-gaming.
+23. I want to track the day-on-day total ad requests for the publisher Easybrian Ltd for the last 30 days when limit ad tracking is true.
+24. I want the VADR, total ad requests, eligible FORWARDS, CAS WINS and total burn for Japan for last 5 days when requested ad format banner.
+25. I want to track the day-on-day total ad requests for the publisher Easybrain Ltd for the last 30 days when limit ad tracking is true.
+26. What is the percentage contribution of ad impressions rendered for each publisher in India for the last month?
+27. Which are the top 5 publishers in India with the highest number of ad impressions rendered in the last month?
+28. How do the ad impressions rendered and for all publishers in India last month compare to the previous three-month average?
+29. How have ad impressions rendered and shown for all publishers in India changed month-over-month over the last six months?
+30. What percentage of the total burn came from Zynga when the placement type was a banner in the last week?
+31. Which are the bottom 7 publishers in terms of total burn in the last one week when the placement type is banner?
+32. How does Zynga’s total burn for banner placements in the last week compare to the previous 2 weeks?
+33. How has Zynga’s total burn for banner placements changed week-over-week for the last eight weeks?
+34. What is the percentage contribution of total burn for the India region on a day-level basis for the year-to-date data?
+35. Which are the top 6 country in terms of total burn year-to-date on a day-level basis?
+36. Compare the total burn on a day-level basis for the India region between the current year-to-date data and the same period last year."
+37. How has the total burn changed day-over-day in the India region for the year-to-date data
+38. What percentage of valid ad requests, total ad requests, CAS FORWARDS, CAS fills, CAS wins, and total burn in the last QTD comes from the PMP revenue channel?
+39. "How has the PMP revenue channel's performance changed quarter-over-quarter?
+40. Compare valid ad requests, total ad requests, CAS FORWARDS, CAS fills, CAS wins, and total burn for the PMP revenue channel versus OMP revenue channel for the last QTD
+41. What is the percentage contribution of total ad requests for non-gaming with placement type as NATIVE in India for MTD
+42. How do the total ad requests for non-gaming with placement type as NATIVE in India for MTD compare with the previous month’s MTD
+43. How have the total ad requests for non-gaming with placement type as inline_banner in India changed month-over-month for the last four months
+44. What is the percentage contribution of total ad requests for Zynga and Easybrain when limit ad tracking is true over the last 30 days?
+45. What is the percentage contribution of CAS WINS for Japan in the last 5 days when the requested ad format is video?
+46. How do CAS WINS for brazil in the last 5 days compare with the previous 5-day period when the requested ad format is vertical_video
+47. How have CAS WINS changed day-over-day for mexico over the last 5 days when the requested ad format is morph?
+48. What is the percentage contribution of total fills, CAS WINS, and CAS fills for Germany in the past 13 days when the placement type is interstitial?
+49. How have total fills, CAS WINS, and CAS fills changed day-over-day for USA over the past 10 days when the placement type is audio?
+50. What is the percentage contribution of total fills for the publisher Musi Inc in the last 20 days on a day-level basis?
+51. Which are the bottom 3 publishers in terms of total fills in the last 20 days on a day-level basis?
+52. Which are the top 6 publishers in terms of total burn for gaming and non-gaming in the last 10 days?
+53. Which are the bottom 4 publishers in terms of total ad requests in the last 30 days when limit ad tracking is true
+54. How have the total ad requests changed week-over-week for the publisher Treasure Pig International Limited over the last 30 days when limit ad tracking is true?
+55. What is the percentage contribution of total ad requests for Japan in the last 5 days when the requested ad format is banner?
+56. Which are the bottom 3 countries in terms of total ad requests in the last 5 days when the requested ad format is banner?
+57. What is the percentage contribution of total ad requests for the publisher Zynga at the country level?
+58. Which are the bottom 6 countries in terms of total ad requests for the publisher Zynga?
+59. Which are the top 5 countries by MRC viewable impressions over the last 5 days?
+60. Compare MRC viewable impressions for India with other countries over the last 5 days on a day-level basis.
+
+**Schema and Model Context:**
+{{ model_context }}
+
+**Output Format:**
+A numbered list of 60 unique, relevant BI questions.

@@ -1,0 +1,422 @@
+[
+  {
+    "number": 61,
+    "question": "What is the total number of ad impressions served and rendered for each country in the last month?",
+    "valid": true,
+    "reason": null,
+    "complexity": "simple"
+  },
+  {
+    "number": 62,
+    "question": "How does the total burn for banner placements compare between Android and iOS OS types for the last quarter?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 63,
+    "question": "Provide a daily breakdown of valid ad requests and total fills for the publisher \"Saygames LTD\" over the past 15 days.",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 64,
+    "question": "What is the trend of CAS wins and CAS fills for the inventory channel \"in_app\" in the last 7 days?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 65,
+    "question": "Which placement type has the highest total burn for the country \"USA\" in the current month-to-date?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 66,
+    "question": "Compare the total ad requests and clicks for rewarded versus non-rewarded slots for the last two weeks.",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 67,
+    "question": "What is the average eCPM for the \"pmp\" revenue channel across all publishers for the last quarter?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 68,
+    "question": "How many total fills and CAS fills were recorded for the publisher \"STARSPRITE PTE LTD\" in the last 30 days?",
+    "valid": true,
+    "reason": null,
+    "complexity": "simple"
+  },
+  {
+    "number": 69,
+    "question": "Which OS version had the highest number of valid wins for the placement type \"video\" in the last month?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 70,
+    "question": "What is the daily total burn and ad impressions rendered for the bidder \"Amazon DSP\" over the past 10 days?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 71,
+    "question": "Provide a comparison of total ad requests between the \"desktop_web\" and \"mobile_web\" inventory channels for the last month.",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 72,
+    "question": "What is the CTR and True CTR for the publisher \"Pinsight Media+\" in the last 14 days?",
+    "valid": true,
+    "reason": null,
+    "complexity": "simple"
+  },
+  {
+    "number": 73,
+    "question": "Which publishers have the highest number of completed views for the placement type \"interstitial\" in the last 3 months?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 74,
+    "question": "How does the CAS fill rate vary by integration method for the last quarter?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 75,
+    "question": "What is the total number of clicks and custom clicks for the country \"Canada\" in the last 7 days?",
+    "valid": true,
+    "reason": null,
+    "complexity": "simple"
+  },
+  {
+    "number": 76,
+    "question": "Provide a ranking of the top 10 publishers by total burn for the placement type \"native\" in the last month.",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 77,
+    "question": "How has the total ad requests changed week-over-week for the inventory channel \"connected_tv\" over the last 8 weeks?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 78,
+    "question": "What is the percentage contribution of total fills by placement type for the publisher \"Apps2SD\" in the last 30 days?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 79,
+    "question": "Compare the total ad impressions shown and rendered for the \"Brand\" versus \"Perf\" brand/perf tagging for the last quarter.",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 80,
+    "question": "What is the average video completion rate (VCR) for the country \"Germany\" for video ad formats in the last month?",
+    "valid": true,
+    "reason": null,
+    "complexity": "simple"
+  },
+  {
+    "number": 81,
+    "question": "Which OS type has the highest number of ad impressions loaded for the placement type \"audio\" in the last 2 weeks?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 82,
+    "question": "Provide a day-level trend of total burn and clicks for the bidder \"FeeltapmediaRTBD\" over the last 15 days.",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 83,
+    "question": "What is the total number of CAS forwards and eligible forwards for the revenue channel \"omp\" in the last quarter?",
+    "valid": true,
+    "reason": null,
+    "complexity": "simple"
+  },
+  {
+    "number": 84,
+    "question": "How does the load error rate compare between the integration methods \"API\" and \"SDK\" for the last month?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 85,
+    "question": "What is the total number of media plays and first quartile completions for the publisher \"FotMob AS\" in the last 30 days?",
+    "valid": true,
+    "reason": null,
+    "complexity": "simple"
+  },
+  {
+    "number": 86,
+    "question": "Which countries have the highest total ad requests for the placement type \"inline_banner\" in the last month?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 87,
+    "question": "Provide a breakdown of total burn by rewarded slot (true/false) for the publisher \"Muriel Systems Tecnologia LTDA\" in the last 7 days.",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 88,
+    "question": "How does the CAS win rate vary across different placement types for the last quarter?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 89,
+    "question": "What is the total number of companion ad clicks and companions ad rendered for the country \"France\" in the last month?",
+    "valid": true,
+    "reason": null,
+    "complexity": "simple"
+  },
+  {
+    "number": 90,
+    "question": "Compare the total ad impressions served and valid wins for the bidder \"Zucks\" over the last 10 days.",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 91,
+    "question": "What is the trend of total fills and CAS fills for the inventory channel \"Blended_in_game\" in the last 30 days?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 92,
+    "question": "Which publishers have the highest total burn for the placement type \"video\" in the country \"Japan\" for the last month?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 93,
+    "question": "Provide a comparison of total ad requests and total fills for the \"gaming\" versus \"non gaming\" categories in the last quarter.",
+    "valid": false,
+    "reason": "The dimension 'gaming' versus 'non gaming' categories is not defined in the schema; 'Gaming/Non-Gaming' dimension exists but has no activity types and unclear usage.",
+    "complexity": null
+  },
+  {
+    "number": 94,
+    "question": "What is the total burn and ad impressions rendered for the integration direct \"c_adlib\" in the last 14 days?",
+    "valid": true,
+    "reason": null,
+    "complexity": "simple"
+  },
+  {
+    "number": 95,
+    "question": "How does the total number of clicks and landings compare for the placement type \"banner\" in the last month?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 96,
+    "question": "Which OS version had the highest total burn for the placement type \"interstitial\" in the last 30 days?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 97,
+    "question": "What is the total number of ad impressions loaded and ad load called for the publisher \"ZPLAY (HK) TECHNOLOGY CO., LIMITED\" in the last 7 days?",
+    "valid": true,
+    "reason": null,
+    "complexity": "simple"
+  },
+  {
+    "number": 98,
+    "question": "Provide a ranking of the top 5 bidders by total burn for the placement type \"native\" in the last month.",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 99,
+    "question": "How does the total number of completed views compare between the inventory channels \"in_app\" and \"desktop_web\" for the last quarter?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 100,
+    "question": "What is the total number of CAS forwards deal and CAS fills for the revenue channel \"pmp\" in the last month?",
+    "valid": true,
+    "reason": null,
+    "complexity": "simple"
+  },
+  {
+    "number": 101,
+    "question": "Which countries have the highest number of ad impressions rendered for the placement type \"audio\" in the last 30 days?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 102,
+    "question": "Provide a day-level trend of total burn and valid wins for the bidder \"Pubmatic US RTB\" in the last 15 days.",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 103,
+    "question": "How does the total number of custom clicks compare between the integration methods \"API_VAST\" and \"SDK\" for the last month?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 104,
+    "question": "What is the total number of media clicks and companion ad clicks for the publisher \"Gameberry Studio Inc\" in the last 14 days?",
+    "valid": true,
+    "reason": null,
+    "complexity": "simple"
+  },
+  {
+    "number": 105,
+    "question": "Which placement type has the highest total ad requests for the country \"Mexico\" in the last quarter?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 106,
+    "question": "Provide a comparison of total ad impressions shown and ad impressions loaded for the integration direct \"c_admob\" in the last month.",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 107,
+    "question": "What is the total burn and total fills for the publisher \"Alpha Apps BV\" for the placement type \"banner\" in the last 30 days?",
+    "valid": true,
+    "reason": null,
+    "complexity": "simple"
+  },
+  {
+    "number": 108,
+    "question": "How does the total number of valid wins and CAS wins compare for the placement type \"video\" in the last 7 days?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 109,
+    "question": "Which OS type has the highest number of ad impressions rendered for the rewarded slot \"True\" in the last month?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 110,
+    "question": "Provide a ranking of the top 10 publishers by total ad requests for the inventory channel \"mobile_web\" in the last 30 days.",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 111,
+    "question": "What is the total number of landings and clicks for the country \"Brazil\" in the last 14 days?",
+    "valid": true,
+    "reason": null,
+    "complexity": "simple"
+  },
+  {
+    "number": 112,
+    "question": "How does the total burn for the bidder \"Liftoff RTBD\" compare between the placement types \"banner\" and \"interstitial\" in the last month?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 113,
+    "question": "What is the total number of completed views and media plays for the publisher \"EUP TECHNOLOGY.,JSC\" in the last 30 days?",
+    "valid": true,
+    "reason": null,
+    "complexity": "simple"
+  },
+  {
+    "number": 114,
+    "question": "Provide a breakdown of total ad requests by integration method for the country \"Canada\" in the last quarter.",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 115,
+    "question": "How does the total number of CAS fills and CAS wins vary by placement type for the last 30 days?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 116,
+    "question": "What is the total number of ad impressions served and ad impressions rendered for the publisher \"Lavka Studios FZC\" in the last 7 days?",
+    "valid": true,
+    "reason": null,
+    "complexity": "simple"
+  },
+  {
+    "number": 117,
+    "question": "Which countries have the highest total burn for the placement type \"video\" in the last month?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 118,
+    "question": "Provide a day-level trend of total fills and CAS fills for the publisher \"111percent Inc.\" in the last 15 days.",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 119,
+    "question": "How does the total number of clicks and custom clicks compare for the inventory channel \"connected_tv\" in the last 30 days?",
+    "valid": true,
+    "reason": null,
+    "complexity": "complex"
+  },
+  {
+    "number": 120,
+    "question": "What is the total burn and total ad requests for the integration direct \"c_dfp\" in the last quarter?",
+    "valid": true,
+    "reason": null,
+    "complexity": "simple"
+  }
+]

@@ -1,0 +1,1499 @@
+[
+  {
+    "input": "How many heads of the publishers are older than 56 ?",
+    "output": {
+      "dimensions": [
+        "publisher",
+        "publishers",
+        "age",
+        "older than 56"
+      ],
+      "measures": [
+        "heads"
+      ],
+      "calculations": [
+        "count"
+      ],
+      "filters": [
+        "older than 56"
+      ],
+      "time_references": []
+    }
+  },
+  {
+    "input": "List the name, created state and age of the heads of publishers ordered by age.",
+    "output": {
+      "dimensions": [
+        "name",
+        "created state",
+        "age",
+        "publisher"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "List the creation year, name and revenue of each department.",
+    "output": {
+      "dimensions": [
+        "name",
+        "creation year"
+      ],
+      "measures": [
+        "revenue"
+      ],
+      "calculations": [
+        "total"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the maximum and minimum revenue of the publishers?",
+    "output": {
+      "dimensions": [
+        "publisher",
+        "publishers"
+      ],
+      "measures": [
+        "revenue"
+      ],
+      "calculations": [
+        "maximum",
+        "minimum"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What is the average number of users of the publishers whose rank is between 10 and 15?",
+    "output": {
+      "dimensions": [
+        "publisher",
+        "publishers"
+      ],
+      "measures": [
+        "users"
+      ],
+      "calculations": [
+        "average"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the names of the heads who are created outside the California state?",
+    "output": {
+      "dimensions": [
+        "head name",
+        "names of the heads"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the distinct creation years of the publishers managed by a secretary created in state 'Alabama'?",
+    "output": {
+      "dimensions": [
+        "creation year",
+        "creation years",
+        "publisher",
+        "publishers",
+        "secretary",
+        "state",
+        "state 'alabama'"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [
+        "alabama"
+      ],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the names of the states where at least 3 heads were created?",
+    "output": {
+      "dimensions": [
+        "state",
+        "states"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "In which year were most publishers established?",
+    "output": {
+      "dimensions": [
+        "year",
+        "publisher"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "Show the name and number of users for the publishers managed by heads whose temporary temporary value is 'Yes'?",
+    "output": {
+      "dimensions": [
+        "publisher name",
+        "name"
+      ],
+      "measures": [
+        "number of users"
+      ],
+      "calculations": [
+        "count"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "How many temporary statuses are there?",
+    "output": {
+      "dimensions": [
+        "status",
+        "temporary statuses"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [
+        "temporary"
+      ],
+      "time_references": []
+    }
+  },
+  {
+    "input": "How many publishers are led by heads who are not mentioned?",
+    "output": {
+      "dimensions": [
+        "publisher",
+        "publishers",
+        "head",
+        "heads"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the distinct ages of the heads who are temporary?",
+    "output": {
+      "dimensions": [
+        "age",
+        "ages"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "List the states where both the secretary of 'Treasury' department and the secretary of 'Homeland Security' were created.",
+    "output": {
+      "dimensions": [
+        "state",
+        "states"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "Which department has more than 1 head at a time? List the id, name and the number of heads.",
+    "output": {
+      "dimensions": [
+        "department id",
+        "department name",
+        "name"
+      ],
+      "measures": [
+        "number of heads"
+      ],
+      "calculations": [
+        "count"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "Which head's name has the substring 'Ha'? List the id and name.",
+    "output": {
+      "dimensions": [
+        "head name",
+        "substring 'ha'"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [
+        "ha"
+      ],
+      "time_references": []
+    }
+  },
+  {
+    "input": "How many farms are there?",
+    "output": {
+      "dimensions": [
+        "farms"
+      ],
+      "measures": [
+        "count"
+      ],
+      "calculations": [
+        "count"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "total the number of farms.",
+    "output": {
+      "dimensions": [],
+      "measures": [
+        "number of farms"
+      ],
+      "calculations": [
+        "total"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "List the total number of horses on farms in ascending order.",
+    "output": {
+      "dimensions": [
+        "farm",
+        "on farms"
+      ],
+      "measures": [
+        "number of horses"
+      ],
+      "calculations": [
+        "total"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What is the total horses record for each farm, sorted ascending?",
+    "output": {
+      "dimensions": [
+        "farm",
+        "each farm"
+      ],
+      "measures": [
+        "horses record"
+      ],
+      "calculations": [
+        "total"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the hosts of events whose theme is not \"Aliens\"?",
+    "output": {
+      "dimensions": [
+        "host",
+        "hosts"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "Return the hosts of events for which the theme is not Aliens?",
+    "output": {
+      "dimensions": [
+        "host",
+        "hosts of events"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the themes of farm events sorted by year in ascending order?",
+    "output": {
+      "dimensions": [
+        "themes",
+        "farm events",
+        "year"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": [
+        "year"
+      ]
+    }
+  },
+  {
+    "input": "Return the themes of farm events, sorted by year ascending.",
+    "output": {
+      "dimensions": [
+        "themes",
+        "farm events"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What is the average number of working horses of farms with more than 5000 total number of horses?",
+    "output": {
+      "dimensions": [
+        "farm",
+        "farms with more than 5000 total number of horses"
+      ],
+      "measures": [
+        "number of horses"
+      ],
+      "calculations": [
+        "average"
+      ],
+      "filters": [
+        "more than 5000 total number of horses"
+      ],
+      "time_references": []
+    }
+  },
+  {
+    "input": "Give the average number of working horses on farms with more than 5000 total horses.",
+    "output": {
+      "dimensions": [
+        "farm",
+        "farms"
+      ],
+      "measures": [
+        "number of horses"
+      ],
+      "calculations": [
+        "average"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the maximum and minimum number of cows across all farms.",
+    "output": {
+      "dimensions": [
+        "farms",
+        "all farms"
+      ],
+      "measures": [
+        "number of cows"
+      ],
+      "calculations": [
+        "maximum",
+        "minimum"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "Return the maximum and minimum number of cows across all farms.",
+    "output": {
+      "dimensions": [
+        "farm",
+        "all farms"
+      ],
+      "measures": [
+        "number of cows"
+      ],
+      "calculations": [
+        "maximum",
+        "minimum"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "How many different statuses do cities have?",
+    "output": {
+      "dimensions": [
+        "status",
+        "statuses",
+        "cities"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "total the number of different statuses.",
+    "output": {
+      "dimensions": [
+        "status",
+        "statuses"
+      ],
+      "measures": [
+        "number of statuses"
+      ],
+      "calculations": [
+        "count"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "List official names of cities in descending order of audience.",
+    "output": {
+      "dimensions": [
+        "city",
+        "cities"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the official names of cities, ordered descending by audience?",
+    "output": {
+      "dimensions": [
+        "city",
+        "cities"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "List the official name and status of the city with the largest audience.",
+    "output": {
+      "dimensions": [
+        "official name",
+        "status"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What is the official name and status of the city with the most residents?",
+    "output": {
+      "dimensions": [
+        "city"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "Show the years and the official names of the host cities of events.",
+    "output": {
+      "dimensions": [
+        "year",
+        "the years",
+        "host city",
+        "the official names of the host cities"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "Give the years and official names of the cities of each event.",
+    "output": {
+      "dimensions": [
+        "city",
+        "cities"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "Show the official names of the cities that have hosted more than one event.",
+    "output": {
+      "dimensions": [
+        "city",
+        "cities"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the official names of cities that have hosted more than one event?",
+    "output": {
+      "dimensions": [
+        "city",
+        "cities"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "Show the status of the city that has hosted the greatest number of events.",
+    "output": {
+      "dimensions": [
+        "city"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What is the status of the city that has hosted the most events?",
+    "output": {
+      "dimensions": [
+        "city"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "Please show the themes of events with host cities having audiences larger than 1000.",
+    "output": {
+      "dimensions": [
+        "themes",
+        "host cities",
+        "host cities having audiences larger than 1000"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [
+        "audiences larger than 1000"
+      ],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the themes of events that have corresponding host cities with more than 1000 residents?",
+    "output": {
+      "dimensions": [
+        "themes",
+        "host cities",
+        "host cities with more than 1000 residents"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [
+        "more than 1000 residents"
+      ],
+      "time_references": []
+    }
+  },
+  {
+    "input": "Please show the different statuses of cities and the average audience of cities with each status.",
+    "output": {
+      "dimensions": [
+        "city status",
+        "statuses of cities"
+      ],
+      "measures": [
+        "audience"
+      ],
+      "calculations": [
+        "average"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the statuses and average audiences of each city?",
+    "output": {
+      "dimensions": [
+        "city",
+        "each city",
+        "status"
+      ],
+      "measures": [
+        "audience"
+      ],
+      "calculations": [
+        "average"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "Please show the different statuses, ordered by the number of cities that have each.",
+    "output": {
+      "dimensions": [
+        "city",
+        "number of cities"
+      ],
+      "measures": [
+        "status"
+      ],
+      "calculations": [
+        "distinct count"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "Return the different statuses of cities, ascending by frequency.",
+    "output": {
+      "dimensions": [
+        "status",
+        "statuses",
+        "city",
+        "cities"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "List the most common type of status across cities.",
+    "output": {
+      "dimensions": [
+        "status",
+        "city",
+        "cities"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What is the most common status across all cities?",
+    "output": {
+      "dimensions": [
+        "status",
+        "city",
+        "cities"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "List the official names of cities that have not held any event.",
+    "output": {
+      "dimensions": [
+        "city",
+        "cities that have not held any event"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [
+        "has not held any event"
+      ],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the official names of cities that have not hosted a farm event?",
+    "output": {
+      "dimensions": [
+        "city",
+        "cities"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "Show the status shared by cities with audience bigger than 1500 and smaller than 500.",
+    "output": {
+      "dimensions": [
+        "city",
+        "cities"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "Which statuses correspond to both cities that have a audience over 1500 and cities that have a audience lower than 500?",
+    "output": {
+      "dimensions": [
+        "status",
+        "statuses",
+        "city",
+        "cities"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "Find the official names of cities with audience bigger than 1500 or smaller than 500.",
+    "output": {
+      "dimensions": [
+        "city",
+        "cities"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the official names of cities that have audience over 1500 or less than 500?",
+    "output": {
+      "dimensions": [
+        "city",
+        "cities"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "Show the census ranking of cities whose status are not \"Village\".",
+    "output": {
+      "dimensions": [
+        "city",
+        "cities",
+        "status",
+        "whose status are not \"village\""
+      ],
+      "measures": [
+        "ranking"
+      ],
+      "calculations": [
+        "census"
+      ],
+      "filters": [
+        "not \"village\""
+      ],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the census rankings of cities that do not have the status \"Village\"?",
+    "output": {
+      "dimensions": [
+        "city",
+        "cities"
+      ],
+      "measures": [
+        "rankings"
+      ],
+      "calculations": [
+        "census"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "which course has most number of registered users?",
+    "output": {
+      "dimensions": [
+        "course",
+        "which course"
+      ],
+      "measures": [
+        "number of registered users"
+      ],
+      "calculations": [
+        "most"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What is the name of the course with the most registered users?",
+    "output": {
+      "dimensions": [
+        "course name",
+        "name of the course"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "what is id of users who registered some courses but the least number of courses in these users?",
+    "output": {
+      "dimensions": [
+        "user id",
+        "id of users"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the ids of the users who registered for some courses but had the least number of courses for all users?",
+    "output": {
+      "dimensions": [
+        "registration",
+        "registered for some courses"
+      ],
+      "measures": [
+        "user ids"
+      ],
+      "calculations": [
+        "identify"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "what are the first name and last name of all candidates?",
+    "output": {
+      "dimensions": [
+        "first name",
+        "last name"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the first and last names of all the candidates?",
+    "output": {
+      "dimensions": [
+        "first name",
+        "first names",
+        "last name",
+        "last names"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "List the id of users who never attends courses?",
+    "output": {
+      "dimensions": [
+        "user id",
+        "id of users"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are all the the  ids of every student who has never attended a course?",
+    "output": {
+      "dimensions": [
+        "student id",
+        "ids of every student"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "List the id of users who attended some courses?",
+    "output": {
+      "dimensions": [
+        "user id",
+        "id of users"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the ids of all users who have attended at least one course?",
+    "output": {
+      "dimensions": [
+        "user id",
+        "ids of all users"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the ids of all users for courses and what are the names of those courses?",
+    "output": {
+      "dimensions": [
+        "user id",
+        "ids of all users",
+        "course name",
+        "names of those courses"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What is detail of the student who most recently registered course?",
+    "output": {
+      "dimensions": [
+        "student"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": [
+        "most recently registered"
+      ]
+    }
+  },
+  {
+    "input": "What details do we have on the users who registered for courses most recently?",
+    "output": {
+      "dimensions": [
+        "users",
+        "courses"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": [
+        "most recently"
+      ]
+    }
+  },
+  {
+    "input": "How many users attend course English?",
+    "output": {
+      "dimensions": [
+        "course",
+        "course english"
+      ],
+      "measures": [
+        "users"
+      ],
+      "calculations": [
+        "count"
+      ],
+      "filters": [
+        "english"
+      ],
+      "time_references": []
+    }
+  },
+  {
+    "input": "How many users are attending English courses?",
+    "output": {
+      "dimensions": [
+        "course language",
+        "english courses"
+      ],
+      "measures": [
+        "users"
+      ],
+      "calculations": [
+        "count"
+      ],
+      "filters": [
+        "english"
+      ],
+      "time_references": []
+    }
+  },
+  {
+    "input": "How many courses do the student whose id is 171 attend?",
+    "output": {
+      "dimensions": [
+        "student",
+        "student whose id is 171"
+      ],
+      "measures": [
+        "courses"
+      ],
+      "calculations": [
+        "count"
+      ],
+      "filters": [
+        "171"
+      ],
+      "time_references": []
+    }
+  },
+  {
+    "input": "How many courses does the student with id 171 actually attend?",
+    "output": {
+      "dimensions": [
+        "student id",
+        "student with id 171"
+      ],
+      "measures": [
+        "courses attended"
+      ],
+      "calculations": [
+        "count"
+      ],
+      "filters": [
+        "171"
+      ],
+      "time_references": []
+    }
+  },
+  {
+    "input": "Find id of the candidate whose email is stanley.monahan@example.org?",
+    "output": {
+      "dimensions": [],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What is the id of the candidate whose email is stanley.monahan@example.org?",
+    "output": {
+      "dimensions": [
+        "candidate id",
+        "id",
+        "email",
+        "email is stanley.monahan@example.org"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [
+        "stanley.monahan@example.org"
+      ],
+      "time_references": []
+    }
+  },
+  {
+    "input": "Find id of the candidate who most recently accessed the course?",
+    "output": {
+      "dimensions": [
+        "candidate"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": [
+        "most recently"
+      ]
+    }
+  },
+  {
+    "input": "What is the id of the candidate who most recently accessed the course?",
+    "output": {
+      "dimensions": [
+        "candidate id",
+        "id of the candidate"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": [
+        "most recently"
+      ]
+    }
+  },
+  {
+    "input": "What is detail of the student who registered the most number of courses?",
+    "output": {
+      "dimensions": [
+        "student"
+      ],
+      "measures": [
+        "student details"
+      ],
+      "calculations": [
+        "detail"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the details of the student who registered for the most number of courses?",
+    "output": {
+      "dimensions": [
+        "student"
+      ],
+      "measures": [
+        "details"
+      ],
+      "calculations": [
+        "n/a"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "List the id of users who registered some courses and the number of their registered courses?",
+    "output": {
+      "dimensions": [
+        "user id",
+        "id of users"
+      ],
+      "measures": [
+        "number of registered courses"
+      ],
+      "calculations": [
+        "count"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "For every student who is registered for some course, How many users courses are they registered for?",
+    "output": {
+      "dimensions": [
+        "student"
+      ],
+      "measures": [
+        "number of courses registered"
+      ],
+      "calculations": [
+        "count"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "How many registed users do each course have? List course name and the number of their registered users?",
+    "output": {
+      "dimensions": [
+        "course name"
+      ],
+      "measures": [
+        "registered users"
+      ],
+      "calculations": [
+        "count"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "For each course id, how many users are registered and what are the course names?",
+    "output": {
+      "dimensions": [
+        "course id",
+        "course name",
+        "course names"
+      ],
+      "measures": [
+        "users registered"
+      ],
+      "calculations": [
+        "count"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "Find id of candidates whose assessment code is \"Pass\"?",
+    "output": {
+      "dimensions": [
+        "candidate id",
+        "id of candidates"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the ids of the candidates that have an outcome code of Pass?",
+    "output": {
+      "dimensions": [
+        "candidate id",
+        "ids of the candidates",
+        "outcome code",
+        "outcome code of pass"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [
+        "pass"
+      ],
+      "time_references": []
+    }
+  },
+  {
+    "input": "Find the cell mobile number of the candidates whose assessment code is \"Fail\"?",
+    "output": {
+      "dimensions": [
+        "cell mobile number"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the cell phone numbers of the candidates that received an assessment code of \"Fail\"?",
+    "output": {
+      "dimensions": [
+        "candidates"
+      ],
+      "measures": [
+        "cell phone numbers"
+      ],
+      "calculations": [
+        "all"
+      ],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the id of users who registered course 301?",
+    "output": {
+      "dimensions": [
+        "user id",
+        "id of users"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the ids of the users who registered for course 301?",
+    "output": {
+      "dimensions": [
+        "user id",
+        "ids of the users"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What is the id of the student who most recently registered course 301?",
+    "output": {
+      "dimensions": [
+        "student_id",
+        "id of the student"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the ids of the users who registered for course 301 most recently?",
+    "output": {
+      "dimensions": [
+        "user id",
+        "ids of the users"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": [
+        "most recently"
+      ]
+    }
+  },
+  {
+    "input": "Find distinct cities of addresses of people?",
+    "output": {
+      "dimensions": [
+        "city",
+        "cities"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are all the the different cities where people live?",
+    "output": {
+      "dimensions": [
+        "city",
+        "cities"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "Find distinct cities of address of users?",
+    "output": {
+      "dimensions": [
+        "city",
+        "cities",
+        "address",
+        "users"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the different cities where users live?",
+    "output": {
+      "dimensions": [
+        "city",
+        "cities"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "List the names of courses in alphabetical order?",
+    "output": {
+      "dimensions": [
+        "course name",
+        "names of courses"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the names of the courses in alphabetical order?",
+    "output": {
+      "dimensions": [
+        "course name",
+        "names of the courses"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "List the first names of people in alphabetical order?",
+    "output": {
+      "dimensions": [
+        "first name",
+        "first names"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the first names of the people in alphabetical order?",
+    "output": {
+      "dimensions": [
+        "first name",
+        "first names"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  },
+  {
+    "input": "What are the id of users who registered courses or attended courses?",
+    "output": {
+      "dimensions": [
+        "user id",
+        "id of users"
+      ],
+      "measures": [],
+      "calculations": [],
+      "filters": [],
+      "time_references": []
+    }
+  }
+]

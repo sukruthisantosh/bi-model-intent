@@ -34,9 +34,9 @@ class TrainingConfig:
     lora_dropout: float = 0.1
     
     # Data
-    train_data_path: str = "./training_data_new/training_data_entity_recognition.json"
-    prompt_path: str = "./entity_recognition_prompt.txt"
-    output_dir: str = "./entity_recognition_model"
+    train_data_path: str = "./data/training/training_data_entity_recognition.json"
+    prompt_path: str = "./data/prompts/entity_recognition_prompt.txt"
+    output_dir: str = "./models/entity_recognition_model"
     
     # Logging
     save_steps: int = 100

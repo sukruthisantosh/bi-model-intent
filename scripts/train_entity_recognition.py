@@ -235,6 +235,10 @@ def test_model(model, tokenizer, test_questions: List[str], config: TrainingConf
         input_text = prompt_template.format(question=question)
         inputs = tokenizer(input_text, return_tensors="pt", truncation=True, max_length=config.model.max_length)
         
+        # Move inputs to the same device as the model
+        device = next(model.parameters()).device
+        inputs = {k: v.to(device) for k, v in inputs.items()}
+        
         with torch.no_grad():
             outputs = model.generate(
                 **inputs,

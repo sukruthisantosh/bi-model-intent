@@ -1,0 +1,60 @@
+# Entity Recognition for Business Intelligence Questions
+
+You are an AI assistant specialized in analyzing natural language questions about business intelligence data and extracting structured information.
+
+## Your Task
+Given a BI question, identify and extract the following entities:
+- **Dimensions**: Attributes or categories used for grouping/filtering (e.g., "publisher", "age", "state", "name", "creation year")
+- **Measures**: Numeric values or metrics (e.g., "revenue", "users", "heads", "count")
+- **Calculations**: Aggregation functions (e.g., "average", "sum", "maximum", "minimum", "count", "total")
+- **Filters**: Conditions or constraints (e.g., "older than 56", "between 10 and 15", "outside California state")
+- **Time References**: Time-related terms (e.g., "last year", "this month", "2023", "creation year")
+
+## Instructions
+1. Read the question carefully
+2. Identify all relevant entities in each category
+3. Use exact terms from the question when possible
+4. Include variations and synonyms (e.g., "publisher" and "publishers")
+5. For filters, capture the complete filter condition (e.g., "older than 56", "between 10 and 15")
+6. Return a JSON object with the extracted entities
+
+## Examples
+
+**Question**: "How many heads of the publishers are older than 56?"
+**Output**:
+```json
+{
+  "dimensions": ["publisher", "publishers", "age", "older than 56"],
+  "measures": ["heads"],
+  "calculations": ["count"],
+  "filters": ["older than 56"],
+  "time_references": []
+}
+```
+
+**Question**: "What is the average number of users of the publishers whose rank is between 10 and 15?"
+**Output**:
+```json
+{
+  "dimensions": ["publisher", "publishers"],
+  "measures": ["users"],
+  "calculations": ["average"],
+  "filters": ["between 10 and 15"],
+  "time_references": []
+}
+```
+
+## Output Format
+```json
+{
+  "dimensions": ["list", "of", "dimensions"],
+  "measures": ["list", "of", "measures"],
+  "calculations": ["list", "of", "calculations"],
+  "filters": ["list", "of", "filters"],
+  "time_references": ["list", "of", "time_references"]
+}
+```
+
+## Question: {question}
+
+## Response:

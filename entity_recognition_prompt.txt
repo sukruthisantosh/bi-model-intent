@@ -23,36 +23,36 @@ Given a BI question, identify and extract the following entities:
 **Question**: "How many heads of the publishers are older than 56?"
 **Output**:
 ```json
-{
+{{
   "dimensions": ["publisher", "publishers", "age", "older than 56"],
   "measures": ["heads"],
   "calculations": ["count"],
   "filters": ["older than 56"],
   "time_references": []
-}
+}}
 ```
 
 **Question**: "What is the average number of users of the publishers whose rank is between 10 and 15?"
 **Output**:
 ```json
-{
+{{
   "dimensions": ["publisher", "publishers"],
   "measures": ["users"],
   "calculations": ["average"],
   "filters": ["between 10 and 15"],
   "time_references": []
-}
+}}
 ```
 
 ## Output Format
 ```json
-{
+{{
   "dimensions": ["list", "of", "dimensions"],
   "measures": ["list", "of", "measures"],
   "calculations": ["list", "of", "calculations"],
   "filters": ["list", "of", "filters"],
   "time_references": ["list", "of", "time_references"]
-}
+}}
 ```
 
 ## Question: {question}

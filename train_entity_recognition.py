@@ -102,14 +102,14 @@ class EntityRecognitionDataset(Dataset):
             full_text,
             truncation=True,
             max_length=self.max_length,
-            padding=False,
-            return_tensors='pt'
+            padding=True,
+            return_tensors=None
         )
         
         return {
-            'input_ids': encoding['input_ids'].squeeze(),
-            'attention_mask': encoding['attention_mask'].squeeze(),
-            'labels': encoding['input_ids'].squeeze().clone()
+            'input_ids': encoding['input_ids'],
+            'attention_mask': encoding['attention_mask'],
+            'labels': encoding['input_ids'].copy()
         }
 
 # ============================================================================
@@ -131,7 +131,6 @@ def load_model_and_tokenizer(config: TrainingConfig):
         torch_dtype=torch.float16,
         device_map="auto",
         trust_remote_code=True,
-        load_in_4bit=True,
         quantization_config={
             "load_in_4bit": True,
             "bnb_4bit_compute_dtype": torch.float16,
@@ -189,7 +188,7 @@ def train_model(model, tokenizer, train_dataset, val_dataset, config: TrainingCo
         logging_steps=config.logging_steps,
         save_steps=config.save_steps,
         eval_steps=config.eval_steps,
-        evaluation_strategy="steps",
+        eval_strategy="steps",
         save_strategy="steps",
         load_best_model_at_end=True,
         metric_for_best_model="eval_loss",
@@ -200,7 +199,10 @@ def train_model(model, tokenizer, train_dataset, val_dataset, config: TrainingCo
         report_to=None,
     )
     
-    data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
+    data_collator = DataCollatorForLanguageModeling(
+        tokenizer=tokenizer, 
+        mlm=False
+    )
     
     trainer = Trainer(
         model=model,

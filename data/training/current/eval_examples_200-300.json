@@ -1,38 +1,61 @@
 [
   {
-    "input": "",
+    "input": "What are the dates that have an average sea level pressure between 30.3 and 31?",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "date",
+        "level"
+      ],
+      "measures": [
+        "average"
+      ],
+      "calculations": [
+        "Average"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Find the day in which the difference between the max temperature and min temperature was the smallest. Also report the difference.",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "day"
+      ],
+      "measures": [
+        "max",
+        "min"
+      ],
+      "calculations": [
+        "Max",
+        "Min"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "What are the days that had the smallest temperature range, and what was that range?",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "day"
+      ],
+      "measures": [
+        "smallest"
+      ],
+      "calculations": [
+        "Min"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "What are the id and name of the stations that have ever had more than 12 bikes available?",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -40,9 +63,11 @@
     }
   },
   {
-    "input": "",
+    "input": "What are the different ids and names of the stations that have had more than 12 bikes available?",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -50,29 +75,51 @@
     }
   },
   {
-    "input": "",
+    "input": "Give me the zip code where the average mean humidity is below 70 and at least 100 trips took place.",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "zip",
+        "id"
+      ],
+      "measures": [
+        "average",
+        "least"
+      ],
+      "calculations": [
+        "Average",
+        "Min"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "What are the zip codes that have an average mean humidity below 70 and had at least 100 trips come through there?",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "zip",
+        "id"
+      ],
+      "measures": [
+        "average",
+        "least"
+      ],
+      "calculations": [
+        "Average",
+        "Min"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "What are the names of stations that are located in Palo Alto city but have never been the ending point of trips more than 100 times?",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "city",
+        "time",
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -80,9 +127,11 @@
     }
   },
   {
-    "input": "",
+    "input": "What are the names of the stations that are located in Palo Alto but have never been the ending point of the trips",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -90,57 +139,81 @@
     }
   },
   {
-    "input": "",
+    "input": "How many trips started from Mountain View city and ended at Palo Alto city?",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "city"
+      ],
+      "measures": [
+        "How many"
+      ],
+      "calculations": [
+        "Count"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "How many trips stated from  a station in Mountain View and ended at one in Palo Alto?",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "state"
+      ],
+      "measures": [
+        "How many"
+      ],
+      "calculations": [
+        "Count"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "What is the average latitude and longitude of the starting points of all trips?",
     "output": {
       "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "measures": [
+        "average"
+      ],
+      "calculations": [
+        "Average"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "What is the average latitude and longitude of all starting stations for the trips?",
     "output": {
       "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "measures": [
+        "average"
+      ],
+      "calculations": [
+        "Average"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "How many ads are there?",
     "output": {
       "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "measures": [
+        "How many"
+      ],
+      "calculations": [
+        "Count"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "List the writers of the ads in ascending alphabetical order.",
     "output": {
       "dimensions": [],
       "measures": [],
@@ -150,7 +223,7 @@
     }
   },
   {
-    "input": "",
+    "input": "List the titles of the ads in ascending order of issues.",
     "output": {
       "dimensions": [],
       "measures": [],
@@ -160,7 +233,7 @@
     }
   },
   {
-    "input": "",
+    "input": "What are the titles of the ads whose writer is not \"Elaine Lee\"?",
     "output": {
       "dimensions": [],
       "measures": [],
@@ -170,7 +243,7 @@
     }
   },
   {
-    "input": "",
+    "input": "What are the title and issues of the ads?",
     "output": {
       "dimensions": [],
       "measures": [],
@@ -180,9 +253,11 @@
     }
   },
   {
-    "input": "",
+    "input": "What are the dates of publications in descending order of price?",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "date"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -190,7 +265,7 @@
     }
   },
   {
-    "input": "",
+    "input": "What are the distinct publishers of publications with price higher than 5000000?",
     "output": {
       "dimensions": [],
       "measures": [],
@@ -200,29 +275,41 @@
     }
   },
   {
-    "input": "",
+    "input": "List the publisher of the publication with the highest price.",
     "output": {
       "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "measures": [
+        "highest"
+      ],
+      "calculations": [
+        "Max"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "List the publication dates of publications with 3 lowest prices.",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "date"
+      ],
+      "measures": [
+        "lowest"
+      ],
+      "calculations": [
+        "Min"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Show the title and publication dates of ads.",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "date"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -230,7 +317,7 @@
     }
   },
   {
-    "input": "",
+    "input": "Show writers who have published a book with price more than 4000000.",
     "output": {
       "dimensions": [],
       "measures": [],
@@ -240,7 +327,7 @@
     }
   },
   {
-    "input": "",
+    "input": "Show the titles of ads in descending order of publication price.",
     "output": {
       "dimensions": [],
       "measures": [],
@@ -250,7 +337,7 @@
     }
   },
   {
-    "input": "",
+    "input": "Show publishers that have more than one publication.",
     "output": {
       "dimensions": [],
       "measures": [],
@@ -260,27 +347,39 @@
     }
   },
   {
-    "input": "",
+    "input": "Show different publishers together with the number of publications they have.",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "number"
+      ],
+      "measures": [
+        "number of"
+      ],
+      "calculations": [
+        "Count"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Please show the most common publication date.",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "date"
+      ],
+      "measures": [
+        "most"
+      ],
+      "calculations": [
+        "Max"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "List all campaigns the writers who have written more than one book.",
     "output": {
       "dimensions": [],
       "measures": [],
@@ -290,7 +389,7 @@
     }
   },
   {
-    "input": "",
+    "input": "List the titles of ads that are not published.",
     "output": {
       "dimensions": [],
       "measures": [],
@@ -300,7 +399,7 @@
     }
   },
   {
-    "input": "",
+    "input": "Show the publishers that have publications with price higher than 10000000 and publications with price lower than 5000000.",
     "output": {
       "dimensions": [],
       "measures": [],
@@ -310,27 +409,40 @@
     }
   },
   {
-    "input": "",
+    "input": "What is the number of distinct publication dates?",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "date",
+        "number"
+      ],
+      "measures": [
+        "number of"
+      ],
+      "calculations": [
+        "Count"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "How many distinct publication dates are there in our record?",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "date"
+      ],
+      "measures": [
+        "How many"
+      ],
+      "calculations": [
+        "Count"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Show the prices of publications whose publisher is either \"Person\" or \"Wiley\"",
     "output": {
       "dimensions": [],
       "measures": [],
@@ -340,29 +452,41 @@
     }
   },
   {
-    "input": "",
+    "input": "How many actors are there?",
     "output": {
       "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "measures": [
+        "How many"
+      ],
+      "calculations": [
+        "Count"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "total the number of actors.",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "number"
+      ],
+      "measures": [
+        "Count"
+      ],
+      "calculations": [
+        "Count"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "List the name of actors in ascending alphabetical order.",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -370,9 +494,11 @@
     }
   },
   {
-    "input": "",
+    "input": "What are the names of actors, ordered alphabetically?",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -380,7 +506,7 @@
     }
   },
   {
-    "input": "",
+    "input": "What are the characters and duration of actors?",
     "output": {
       "dimensions": [],
       "measures": [],
@@ -390,7 +516,7 @@
     }
   },
   {
-    "input": "",
+    "input": "Return the characters and durations for each actor.",
     "output": {
       "dimensions": [],
       "measures": [],
@@ -400,9 +526,11 @@
     }
   },
   {
-    "input": "",
+    "input": "List the name of actors whose age is not 20.",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -410,9 +538,12 @@
     }
   },
   {
-    "input": "",
+    "input": "What are the names of actors who are not 20 years old?",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "year",
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -420,7 +551,7 @@
     }
   },
   {
-    "input": "",
+    "input": "What are the characters of actors in descending order of age?",
     "output": {
       "dimensions": [],
       "measures": [],
@@ -430,7 +561,7 @@
     }
   },
   {
-    "input": "",
+    "input": "Return the characters for actors, ordered by age descending.",
     "output": {
       "dimensions": [],
       "measures": [],
@@ -440,7 +571,7 @@
     }
   },
   {
-    "input": "",
+    "input": "What is the duration of the oldest actor?",
     "output": {
       "dimensions": [],
       "measures": [],
@@ -450,7 +581,7 @@
     }
   },
   {
-    "input": "",
+    "input": "Return the duration of the actor with the greatest age.",
     "output": {
       "dimensions": [],
       "measures": [],
@@ -460,49 +591,71 @@
     }
   },
   {
-    "input": "",
+    "input": "What are the names of musicals with nominee \"Bob Fosse\"?",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "name"
+      ],
+      "measures": [
+        "min"
+      ],
+      "calculations": [
+        "Min"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Return the names of musicals who have the nominee Bob Fosse.",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "name"
+      ],
+      "measures": [
+        "min"
+      ],
+      "calculations": [
+        "Min"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "What are all the the distinct nominees of the musicals with the award that is not \"Tony Award\"?",
     "output": {
       "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "measures": [
+        "min"
+      ],
+      "calculations": [
+        "Min"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Return the different nominees of musicals that have an award that is not the Tony Award.",
     "output": {
       "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "measures": [
+        "min"
+      ],
+      "calculations": [
+        "Min"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Show names of actors and names of musicals they are in.",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -510,9 +663,11 @@
     }
   },
   {
-    "input": "",
+    "input": "What are the names of actors and the musicals that they are in?",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -520,9 +675,11 @@
     }
   },
   {
-    "input": "",
+    "input": "Show names of actors that have appeared in musical with name \"The Phantom of the Opera\".",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -530,9 +687,11 @@
     }
   },
   {
-    "input": "",
+    "input": "What are the names of actors who have been in the musical titled The Phantom of the Opera?",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -540,9 +699,12 @@
     }
   },
   {
-    "input": "",
+    "input": "Show names of actors in descending order of the year their musical is awarded.",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "year",
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -550,9 +712,12 @@
     }
   },
   {
-    "input": "",
+    "input": "What are the names of actors ordered descending by the year in which their musical was awarded?",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "year",
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -560,39 +725,57 @@
     }
   },
   {
-    "input": "",
+    "input": "Show names of musicals and the number of actors who have appeared in the musicals.",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "name"
+      ],
+      "measures": [
+        "number of"
+      ],
+      "calculations": [
+        "Count"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "How many actors have appeared in each musical?",
     "output": {
       "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "measures": [
+        "How many"
+      ],
+      "calculations": [
+        "Count"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Show names of musicals which have at least three actors.",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "name"
+      ],
+      "measures": [
+        "least"
+      ],
+      "calculations": [
+        "Min"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "What are the names of musicals who have at 3 or more actors?",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -600,89 +783,138 @@
     }
   },
   {
-    "input": "",
+    "input": "Show different nominees and the number of musicals they have been nominated.",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "number"
+      ],
+      "measures": [
+        "number of",
+        "min"
+      ],
+      "calculations": [
+        "Count",
+        "Min"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "How many musicals has each nominee been nominated for?",
     "output": {
       "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "measures": [
+        "How many",
+        "min"
+      ],
+      "calculations": [
+        "Count",
+        "Min"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Please show the nominee who has been nominated the greatest number of times.",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "time",
+        "number"
+      ],
+      "measures": [
+        "number of",
+        "min"
+      ],
+      "calculations": [
+        "Count",
+        "Min"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Who is the nominee who has been nominated for the most musicals?",
     "output": {
       "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "measures": [
+        "most",
+        "min"
+      ],
+      "calculations": [
+        "Max",
+        "Min"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "List the most common result of the musicals.",
     "output": {
       "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "measures": [
+        "most"
+      ],
+      "calculations": [
+        "Max"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Return the most frequent result across all musicals.",
     "output": {
       "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "measures": [
+        "most"
+      ],
+      "calculations": [
+        "Max"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "List all campaigns the nominees that have been nominated more than two musicals.",
     "output": {
       "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "measures": [
+        "min"
+      ],
+      "calculations": [
+        "Min"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Who are the nominees who have been nominated more than two times?",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "time"
+      ],
+      "measures": [
+        "min"
+      ],
+      "calculations": [
+        "Min"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "List the name of musicals that do not have actors.",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -690,9 +922,11 @@
     }
   },
   {
-    "input": "",
+    "input": "What are the names of musicals who have no actors?",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -700,49 +934,67 @@
     }
   },
   {
-    "input": "",
+    "input": "Show the nominees that have nominated musicals for both \"Tony Award\" and \"Drama Desk Award\".",
     "output": {
       "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "measures": [
+        "min"
+      ],
+      "calculations": [
+        "Min"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Who are the nominees who have been nominated for both a Tony Award and a Drama Desk Award?",
     "output": {
       "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "measures": [
+        "min"
+      ],
+      "calculations": [
+        "Min"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Show the musical nominee with award \"Bob Fosse\" or \"Cleavant Derricks\".",
     "output": {
       "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "measures": [
+        "min"
+      ],
+      "calculations": [
+        "Min"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Who are the nominees who were nominated for either of the Bob Fosse or Cleavant Derricks awards?",
     "output": {
       "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "measures": [
+        "min"
+      ],
+      "calculations": [
+        "Min"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Find the emails of the user named \"Mary\".",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -750,9 +1002,11 @@
     }
   },
   {
-    "input": "",
+    "input": "What is the partition id of the user named \"Iron Man\".",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -760,59 +1014,87 @@
     }
   },
   {
-    "input": "",
+    "input": "How many users are there?",
     "output": {
       "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "measures": [
+        "How many"
+      ],
+      "calculations": [
+        "Count"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "How many followers does each user have?",
     "output": {
       "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "measures": [
+        "How many"
+      ],
+      "calculations": [
+        "Count"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Find the number of followers for each user.",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "number"
+      ],
+      "measures": [
+        "number of"
+      ],
+      "calculations": [
+        "Count"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Find the number of tweets in record.",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "number"
+      ],
+      "measures": [
+        "number of"
+      ],
+      "calculations": [
+        "Count"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Find the number of users who posted some tweets.",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "number"
+      ],
+      "measures": [
+        "number of"
+      ],
+      "calculations": [
+        "Count"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Find the name and email of the user whose name contains the word ‘Swift’.",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -820,9 +1102,11 @@
     }
   },
   {
-    "input": "",
+    "input": "Find the names of users whose emails contain ‘superstar’ or ‘edu’.",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -830,7 +1114,7 @@
     }
   },
   {
-    "input": "",
+    "input": "Return the text of tweets about the topic 'intern'.",
     "output": {
       "dimensions": [],
       "measures": [],
@@ -840,9 +1124,11 @@
     }
   },
   {
-    "input": "",
+    "input": "Find the name and email of the users who have more than 1000 followers.",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -850,19 +1136,27 @@
     }
   },
   {
-    "input": "",
+    "input": "Find the names of the users whose number of followers is greater than that of the user named \"Tyler Swift\".",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "name"
+      ],
+      "measures": [
+        "number of"
+      ],
+      "calculations": [
+        "Count"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Find the name and email for the users who have more than one follower.",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -870,9 +1164,11 @@
     }
   },
   {
-    "input": "",
+    "input": "Find the names of users who have more than one tweet.",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -880,9 +1176,11 @@
     }
   },
   {
-    "input": "",
+    "input": "Find the id of users who are followed by Mary and Susan.",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "id"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -890,9 +1188,11 @@
     }
   },
   {
-    "input": "",
+    "input": "Find the id of users who are followed by Mary or Susan.",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "id"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -900,49 +1200,81 @@
     }
   },
   {
-    "input": "",
+    "input": "Find the name of the user who has the largest number of followers.",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "name"
+      ],
+      "measures": [
+        "number of",
+        "largest"
+      ],
+      "calculations": [
+        "Count",
+        "Max"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Find the name and email of the user followed by the least number of people.",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "name"
+      ],
+      "measures": [
+        "number of",
+        "least"
+      ],
+      "calculations": [
+        "Count",
+        "Min"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "List the name and number of followers for each user, and sort the results by the number of followers in descending order.",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "name"
+      ],
+      "measures": [
+        "number of"
+      ],
+      "calculations": [
+        "Count"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "List the names of 5 users followed by the largest number of other users.",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "name"
+      ],
+      "measures": [
+        "number of",
+        "largest"
+      ],
+      "calculations": [
+        "Count",
+        "Max"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "List the text of all tweets in the order of date.",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "date"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -950,19 +1282,27 @@
     }
   },
   {
-    "input": "",
+    "input": "Find the name of each user and number of tweets tweeted by each of them.",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "name"
+      ],
+      "measures": [
+        "number of"
+      ],
+      "calculations": [
+        "Count"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Find the name and partition id for users who tweeted less than twice.",
     "output": {
-      "dimensions": [],
+      "dimensions": [
+        "name"
+      ],
       "measures": [],
       "calculations": [],
       "filters": [],
@@ -970,31 +1310,53 @@
     }
   },
   {
-    "input": "",
+    "input": "Find the name of the user who tweeted more than once, and number of tweets tweeted by them.",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "name"
+      ],
+      "measures": [
+        "number of"
+      ],
+      "calculations": [
+        "Count"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Find the average number of followers for the users who do not have any tweet.",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "number"
+      ],
+      "measures": [
+        "number of",
+        "average"
+      ],
+      "calculations": [
+        "Count",
+        "Average"
+      ],
       "filters": [],
       "time_references": []
     }
   },
   {
-    "input": "",
+    "input": "Find the average number of followers for the users who had some tweets.",
     "output": {
-      "dimensions": [],
-      "measures": [],
-      "calculations": [],
+      "dimensions": [
+        "number"
+      ],
+      "measures": [
+        "number of",
+        "average"
+      ],
+      "calculations": [
+        "Count",
+        "Average"
+      ],
       "filters": [],
       "time_references": []
     }

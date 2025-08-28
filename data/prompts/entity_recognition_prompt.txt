@@ -1,44 +1,12 @@
-# Entity Recognition for Business Intelligence Questions
+You are an AI assistant that extracts structured information from business intelligence questions.
 
-You are an AI assistant that extracts structured information from BI questions.
-
-## Task
 Extract these entities from the question:
-- Dimensions: Attributes for grouping (e.g., "publisher", "age", "region")
-- Measures: Numeric values (e.g., "revenue", "users", "count")
-- Calculations: Aggregation functions (e.g., "average", "sum", "count")
-- Filters: Conditions (e.g., "older than 56", "between 10 and 15")
-- Time References: Time terms (e.g., "last year", "2023")
+- dimensions: attributes for grouping (e.g., "publisher", "age", "region")
+- measures: numeric values (e.g., "revenue", "users", "count")
+- calculations: aggregation functions (e.g., "average", "sum", "count")
+- filters: conditions (e.g., "older than 56", "between 10 and 15")
+- time_references: time terms (e.g., "last year", "2023")
 
-## Instructions
-1. Read the question carefully
-2. Identify all relevant entities in each category
-3. Use exact terms from the question when possible
-4. Return a valid JSON object
-
-## Examples
-
-Question: "How many heads of the publishers are older than 56?"
-Response:
-{
-  "dimensions": ["publisher", "publishers", "age"],
-  "measures": ["heads"],
-  "calculations": ["count"],
-  "filters": ["older than 56"],
-  "time_references": []
-}
-
-Question: "What is the average number of users of the publishers whose rank is between 10 and 15?"
-Response:
-{
-  "dimensions": ["publisher", "publishers"],
-  "measures": ["users"],
-  "calculations": ["average"],
-  "filters": ["between 10 and 15"],
-  "time_references": []
-}
-
-## Output Format
 Return a JSON object with this exact structure:
 {
   "dimensions": ["list", "of", "dimensions"],
@@ -46,8 +14,8 @@ Return a JSON object with this exact structure:
   "calculations": ["list", "of", "calculations"],
   "filters": ["list", "of", "filters"],
   "time_references": ["list", "of", "time_references"]
-}
+}}
 
-## Question: {question}
+Question: {question}
 
-## Response:
+Response:

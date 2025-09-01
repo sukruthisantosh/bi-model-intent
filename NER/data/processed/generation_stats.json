@@ -1,0 +1,56 @@
+{
+  "total_questions": 9327,
+  "domains": {
+    "ecommerce": 3476,
+    "retail": 701,
+    "ads": 1376,
+    "finance": 466,
+    "saas": 1519,
+    "logistics": 519,
+    "manufacturing": 278,
+    "supply_chain": 195,
+    "real_estate": 324,
+    "telecommunications": 472,
+    "sales": 1
+  },
+  "complexity": {
+    "simple": 6098,
+    "complex": 3198,
+    "ambiguous": 31
+  },
+  "calculations": {
+    "sum": 3016,
+    "count": 3120,
+    "avg": 1916,
+    "percent_change": 219,
+    "percent_of_total": 112,
+    "comparison": 514,
+    "count, sum": 1,
+    "moving_average": 155,
+    "distinct_count": 93,
+    "cagr": 3,
+    "ratio": 63,
+    "difference": 51,
+    "rate": 12,
+    "max": 24,
+    "count, avg": 2,
+    "median": 4,
+    "min": 1,
+    "none": 19,
+    "custom_formula": 1,
+    "correlation": 1
+  },
+  "timegrains": {
+    "month": 2788,
+    "quarter": 1878,
+    "day": 142,
+    "none": 2890,
+    "week": 284,
+    "year": 1337,
+    "unknown": 3,
+    "hour": 3,
+    "year ||": 1,
+    "quarter ||": 1
+  },
+  "generation_timestamp": "2025-09-01T13:23:54.582296"
+}

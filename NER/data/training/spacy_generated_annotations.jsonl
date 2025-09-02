@@ -1,0 +1,10 @@
+{"text": "What is the total discount amount offered during the clearance sale last quarter?", "entities": [[18, 26, "MEASURE"], [53, 67, "FILTER"], [68, 80, "TIMEFRAME"]]}
+{"text": "Show the average customer acquisition cost by channel in Q1 2024", "entities": [[17, 42, "MEASURE"], [46, 53, "DIMENSION"], [57, 64, "TIMEFRAME"]]}
+{"text": "What is the total revenue from our top 5 products last quarter?", "entities": [[18, 25, "MEASURE"], [50, 62, "TIMEFRAME"]]}
+{"text": "What was the average number of items per order last month?", "entities": [[47, 57, "TIMEFRAME"]]}
+{"text": "Show me the total returns by month for the past year.", "entities": [[18, 25, "MEASURE"], [29, 34, "DIMENSION"], [43, 52, "TIMEFRAME"]]}
+{"text": "List the sales growth percentage for the top 5 products year over year.", "entities": [[9, 21, "MEASURE"]]}
+{"text": "What is the average discount rate offered during sales events?", "entities": [[12, 33, "MEASURE"]]}
+{"text": "What is the average customer acquisition cost for the last year?", "entities": [[29, 45, "MEASURE"]]}
+{"text": "What is the total revenue from our top 10 products last year?", "entities": [[18, 25, "MEASURE"], [51, 60, "TIMEFRAME"]]}
+{"text": "How many customers interacted with the loyalty program in the last month?", "entities": [[39, 54, "FILTER"], [62, 72, "TIMEFRAME"]]}

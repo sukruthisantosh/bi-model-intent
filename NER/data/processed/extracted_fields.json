@@ -21,7 +21,7 @@
     "question": "\"What is the total revenue from our top 5 products last quarter?\""
   },
   {
-    "MEASURES": "Average Items per Order",
+    "MEASURES": "Items per Order",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
@@ -36,22 +36,22 @@
   },
   {
     "MEASURES": "Sales Growth",
-    "DIMENSIONS": "Product",
-    "TIMEFRAME": "YTD",
+    "DIMENSIONS": "Products",
+    "TIMEFRAME": "Year over year",
     "FILTERS": "none",
     "question": "\"List the sales growth percentage for the top 5 products year over year.\""
   },
   {
     "MEASURES": "Average Discount Rate",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "last year",
-    "FILTERS": "none",
+    "TIMEFRAME": "none",
+    "FILTERS": "sales events",
     "question": "\"What is the average discount rate offered during sales events?\""
   },
   {
-    "MEASURES": "Acquisition Cost",
+    "MEASURES": "customerAcquisition Cost",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "2023-01-01 to 2023-12-31",
+    "TIMEFRAME": "last year",
     "FILTERS": "none",
     "question": "\"What is the average customer acquisition cost for the last year?\""
   },
@@ -751,7 +751,7 @@
   {
     "MEASURES": "Leads",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "Q2 2024 compared toQ1 2024",
+    "TIMEFRAME": "Q2 2024 compared to Q1 2024",
     "FILTERS": "none",
     "question": "\"How many leads were generated in Q2 2024 compared to Q1 2024?\""
   },

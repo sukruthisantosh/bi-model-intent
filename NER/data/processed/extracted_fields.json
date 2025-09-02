@@ -1764,14 +1764,14 @@
     "question": "\"How many shipments were delayed last quarter?\""
   },
   {
-    "MEASURES": "On-Time Deliveries, Total Deliveries",
+    "MEASURES": "Orders",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
-    "FILTERS": "none",
+    "FILTERS": "delivered on time",
     "question": "\"What percentage of orders were delivered on time last month?\""
   },
   {
-    "MEASURES": "Average Cost per Shipment",
+    "MEASURES": "Cost per Shipment",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last quarter",
     "FILTERS": "none",
@@ -1780,50 +1780,50 @@
   {
     "MEASURES": "Shipping Costs",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "last month to previous month",
+    "TIMEFRAME": "last month against the previous month",
     "FILTERS": "none",
     "question": "\"Compare the shipping costs for the last month against the previous month.\""
   },
   {
-    "MEASURES": "Canceled Orders",
+    "MEASURES": "freight Orders",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last year",
-    "FILTERS": "none",
-    "question": "\"How many freight orders were canceled in the last year?\""
+    "FILTERS": "cancelled",
+    "question": "\"How many freight orders were cancelled in the last year?\""
   },
   {
-    "MEASURES": "Express Shipments",
+    "MEASURES": "packages",
     "DIMENSIONS": "none",
     "TIMEFRAME": "Q2 2023",
-    "FILTERS": "none",
+    "FILTERS": "shipped using express service",
     "question": "\"How many packages were shipped using express service in Q2 2023?\""
   },
   {
-    "MEASURES": "Shipments",
-    "DIMENSIONS": "Delivery Route",
-    "TIMEFRAME": "2023-01-01 to 2023-12-31",
+    "MEASURES": "delivery routes",
+    "DIMENSIONS": "shipments",
+    "TIMEFRAME": "2023",
     "FILTERS": "none",
     "question": "\"List the top 5 delivery routes by number of shipments for 2023.\""
   },
   {
-    "MEASURES": "Returned Items",
+    "MEASURES": "Items",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last quarter",
-    "FILTERS": "none",
+    "FILTERS": "returned",
     "question": "\"How many items were returned last quarter?\""
   },
   {
     "MEASURES": "Delivery Cost",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
-    "FILTERS": "none",
+    "FILTERS": "products",
     "question": "\"What is the average delivery cost for our products last month?\""
   },
   {
-    "MEASURES": "Shipping Costs",
+    "MEASURES": "shipping costs",
     "DIMENSIONS": "Region",
     "TIMEFRAME": "last quarter",
-    "FILTERS": "none",
+    "FILTERS": "region",
     "question": "\"Show total shipping costs for the last quarter by region\""
   },
   {
@@ -1851,7 +1851,7 @@
     "MEASURES": "Costs",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last quarter to this quarter",
-    "FILTERS": "none",
+    "FILTERS": "logistics costs",
     "question": "\"How did logistics costs compare to last quarter?\""
   },
   {
@@ -1863,9 +1863,9 @@
   },
   {
     "MEASURES": "Shipments",
-    "DIMENSIONS": "Shipping Method",
+    "DIMENSIONS": "none",
     "TIMEFRAME": "last quarter",
-    "FILTERS": "none",
+    "FILTERS": "air compared to sea",
     "question": "\"How many shipments were sent via air compared to sea last quarter?\""
   },
   {
@@ -1876,14 +1876,14 @@
     "question": "\"How many shipments were received from international suppliers last quarter?\""
   },
   {
-    "MEASURES": "Average Delivery Time",
+    "MEASURES": "Time",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
-    "FILTERS": "none",
+    "FILTERS": "delivery",
     "question": "\"What is the average time taken to deliver products last month?\""
   },
   {
-    "MEASURES": "Average Delivery Time",
+    "MEASURES": "Delivery Time",
     "DIMENSIONS": "Courier",
     "TIMEFRAME": "last 6 months",
     "FILTERS": "none",
@@ -1911,15 +1911,15 @@
     "question": "\"How many shipments were processed this week?\""
   },
   {
-    "MEASURES": "On-time Shipments",
+    "MEASURES": "Shipments",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
-    "FILTERS": "none",
+    "FILTERS": "on time",
     "question": "\"How many shipments were made on time last month?\""
   },
   {
-    "MEASURES": "Average Response Time",
-    "DIMENSIONS": "none",
+    "MEASURES": "Response Time",
+    "DIMENSIONS": "customer support",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
     "question": "\"What is the average response time for customer support last month?\""
@@ -1939,42 +1939,42 @@
     "question": "\"What is the total number of returns for the last month?\""
   },
   {
-    "MEASURES": "Delayed Shipments",
+    "MEASURES": "Shipments",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "none",
-    "FILTERS": "none",
+    "TIMEFRAME": "currently",
+    "FILTERS": "delayed",
     "question": "\"How many shipments are currently delayed?\""
   },
   {
-    "MEASURES": "Delivery Time",
-    "DIMENSIONS": "none",
-    "TIMEFRAME": "2022-01-01 to 2022-12-31",
+    "MEASURES": "time to deliver orders",
+    "DIMENSIONS": "time",
+    "TIMEFRAME": "last year",
     "FILTERS": "none",
     "question": "\"What is the average time to deliver orders last year?\""
   },
   {
-    "MEASURES": "New Contracts",
+    "MEASURES": "New delivery Contracts",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "2024-01-01 to 2024-01-31",
+    "TIMEFRAME": "january",
     "FILTERS": "none",
     "question": "\"How many new delivery contracts were signed in January?\""
   },
   {
-    "MEASURES": "Fulfillment Time",
+    "MEASURES": "order Fulfillment Time",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last year",
     "FILTERS": "none",
     "question": "\"What is the average order fulfillment time for last year?\""
   },
   {
-    "MEASURES": "Volume Transported",
+    "MEASURES": "Volume of goods Transported",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
     "question": "\"What was the total volume of goods transported last month?\""
   },
   {
-    "MEASURES": "Completed Projects",
+    "MEASURES": "Projects completed",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
@@ -1988,38 +1988,38 @@
     "question": "\"How many last-mile deliveries were completed last quarter?\""
   },
   {
-    "MEASURES": "Canceled Orders",
+    "MEASURES": "orders were cancelled",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
-    "FILTERS": "none",
-    "question": "\"How many orders were canceled due to logistics issues last month?\""
+    "FILTERS": "logistics issues",
+    "question": "\"How many orders were cancelled due to logistics issues last month?\""
   },
   {
     "MEASURES": "Logistics Costs",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "this quarter, last quarter",
+    "TIMEFRAME": "this quarter to the last quarter",
     "FILTERS": "none",
     "question": "\"Compare logistics costs this quarter to the previous quarter.\""
   },
   {
     "MEASURES": "Revenue",
-    "DIMENSIONS": "Service Type",
+    "DIMENSIONS": "none",
     "TIMEFRAME": "last year",
-    "FILTERS": "Service Type = Freight",
+    "FILTERS": "freight",
     "question": "\"What was the total revenue generated from freight last year?\""
   },
   {
     "MEASURES": "Deliveries",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "last year vs this year",
+    "TIMEFRAME": "last year to this this year",
     "FILTERS": "none",
     "question": "\"What was the percentage increase in deliveries from last year to this year?\""
   },
   {
-    "MEASURES": "Average Processing Time",
+    "MEASURES": "time taken",
     "DIMENSIONS": "none",
     "TIMEFRAME": "past year",
-    "FILTERS": "none",
+    "FILTERS": "order processing",
     "question": "\"What is the average time taken for order processing in the past year?\""
   },
   {
@@ -2037,24 +2037,24 @@
     "question": "\"What is the total number of successful shipments in Q2 2024?\""
   },
   {
-    "MEASURES": "Average Fulfillment Time",
+    "MEASURES": "order Fulfillment Time",
     "DIMENSIONS": "none",
     "TIMEFRAME": "Q2 2023",
     "FILTERS": "none",
     "question": "\"What is the average order fulfillment time for Q2 2023?\""
   },
   {
-    "MEASURES": "Average Cost per Shipment",
+    "MEASURES": "Cost per Shipment",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last year",
     "FILTERS": "none",
     "question": "\"What was the average cost per shipment for the last year?\""
   },
   {
-    "MEASURES": "Express Shipments",
+    "MEASURES": "orders shipped",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
-    "FILTERS": "none",
+    "FILTERS": "express delivery",
     "question": "\"How many orders were shipped via express delivery last month?\""
   },
   {
@@ -2065,10 +2065,10 @@
     "question": "\"What is the total number of shipments made in the last quarter?\""
   },
   {
-    "MEASURES": "Delayed Shipments",
+    "MEASURES": "Shipments",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
-    "FILTERS": "none",
+    "FILTERS": "delayed",
     "question": "\"How many shipments were delayed in the last month?\""
   },
   {
@@ -2093,10 +2093,10 @@
     "question": "\"What is the total shipment cost for the past month?\""
   },
   {
-    "MEASURES": "Average Fuel Cost",
+    "MEASURES": "Fuel Cost",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last quarter",
-    "FILTERS": "none",
+    "FILTERS": "per delivery",
     "question": "\"What was the average fuel cost per delivery last quarter?\""
   },
   {
@@ -2114,10 +2114,10 @@
     "question": "\"What was the total production output for the last year?\""
   },
   {
-    "MEASURES": "Employees on Production Floor",
+    "MEASURES": "Employees",
     "DIMENSIONS": "none",
     "TIMEFRAME": "none",
-    "FILTERS": "none",
+    "FILTERS": "production floor",
     "question": "\"What is the total number of employees currently on the production floor?\""
   },
   {
@@ -2193,15 +2193,15 @@
   {
     "MEASURES": "Total Cost",
     "DIMENSIONS": "Supplier",
-    "TIMEFRAME": "2023-01-01 to 2023-12-31",
+    "TIMEFRAME": "2023",
     "FILTERS": "none",
     "question": "\"List the top 5 suppliers by total cost for 2023.\""
   },
   {
-    "MEASURES": "Average Assembly Time",
+    "MEASURES": "Time",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last quarter",
-    "FILTERS": "none",
+    "FILTERS": "product assembly",
     "question": "\"What was the average time taken for product assembly last quarter?\""
   },
   {
@@ -2212,17 +2212,17 @@
     "question": "\"What is the average profit margin per product category for the last year?\""
   },
   {
-    "MEASURES": "Units Produced",
+    "MEASURES": "production output",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last 3 months",
     "FILTERS": "none",
     "question": "\"Compare production output for the last 3 months.\""
   },
   {
-    "MEASURES": "Passed Inspections",
+    "MEASURES": "quality Inspections",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
-    "FILTERS": "none",
+    "FILTERS": "passed",
     "question": "\"How many quality inspections were passed last month?\""
   },
   {
@@ -2263,13 +2263,13 @@
   {
     "MEASURES": "New Machines",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "2024-01-01 to 2024-01-31",
+    "TIMEFRAME": "january",
     "FILTERS": "none",
     "question": "\"How many new machines were acquired in January?\""
   },
   {
     "MEASURES": "Total Output",
-    "DIMENSIONS": "Unit",
+    "DIMENSIONS": "manufacturing unit",
     "TIMEFRAME": "current year",
     "FILTERS": "none",
     "question": "\"What is the total output for the manufacturing unit this year?\""
@@ -2282,7 +2282,7 @@
     "question": "\"How many safety incidents occurred in the past 30 days?\""
   },
   {
-    "MEASURES": "Units Produced",
+    "MEASURES": "Units were Produced",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
@@ -2298,9 +2298,9 @@
   {
     "MEASURES": "Production Efficiency",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "Q2 2024 vs Q2 2023",
+    "TIMEFRAME": "Q2",
     "FILTERS": "none",
-    "question": "\"What was the year-over-year change in production efficiency for Q2?\""
+    "question": "\"What was the change in production efficiency for Q2?\""
   },
   {
     "MEASURES": "Production Cost",
@@ -2312,13 +2312,13 @@
   {
     "MEASURES": "Active Projects",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "current quarter",
+    "TIMEFRAME": "this quarter",
     "FILTERS": "none",
     "question": "\"What is the total number of active projects this quarter?\""
   },
   {
-    "MEASURES": "Downtime",
-    "DIMENSIONS": "none",
+    "MEASURES": "production Downtime",
+    "DIMENSIONS": "factories",
     "TIMEFRAME": "2024",
     "FILTERS": "none",
     "question": "\"What was the average production downtime for our factories in 2024?\""
@@ -2332,14 +2332,14 @@
   },
   {
     "MEASURES": "Production Efficiency",
-    "DIMENSIONS": "Month",
+    "DIMENSIONS": "none",
     "TIMEFRAME": "past year",
     "FILTERS": "none",
     "question": "\"What is the trend in production efficiency over the past year?\""
   },
   {
     "MEASURES": "Profit",
-    "DIMENSIONS": "Product",
+    "DIMENSIONS": "Products",
     "TIMEFRAME": "last 6 months",
     "FILTERS": "none",
     "question": "\"List the top 5 products by profit for the last 6 months.\""
@@ -2347,12 +2347,12 @@
   {
     "MEASURES": "Inventory Value",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "2024-03-20",
+    "TIMEFRAME": "yesterday",
     "FILTERS": "none",
     "question": "\"What was the total inventory value as of yesterday?\""
   },
   {
-    "MEASURES": "Average Production Time",
+    "MEASURES": "Production Time",
     "DIMENSIONS": "Product",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
@@ -2360,13 +2360,13 @@
   },
   {
     "MEASURES": "Efficiency",
-    "DIMENSIONS": "Machine",
+    "DIMENSIONS": "Machines",
     "TIMEFRAME": "past quarter",
     "FILTERS": "none",
     "question": "\"List the top 10 machines by efficiency for the past quarter\""
   },
   {
-    "MEASURES": "Items Manufactured",
+    "MEASURES": "Items were Manufactured",
     "DIMENSIONS": "Department",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
@@ -2389,7 +2389,7 @@
   {
     "MEASURES": "Profit Margin",
     "DIMENSIONS": "Product",
-    "TIMEFRAME": "Q2 2024",
+    "TIMEFRAME": "Q2",
     "FILTERS": "none",
     "question": "\"What is the total profit margin for each product in Q2?\""
   },
@@ -2401,16 +2401,16 @@
     "question": "\"What is the average profit margin by product category for last year?\""
   },
   {
-    "MEASURES": "Inventory Quantity",
+    "MEASURES": "Quantity of inventory",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "none",
+    "TIMEFRAME": "currently",
     "FILTERS": "none",
     "question": "\"What is the total quantity of inventory held currently?\""
   },
   {
     "MEASURES": "Defects",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "last month",
+    "TIMEFRAME": "past month",
     "FILTERS": "none",
     "question": "\"What is the total number of defects reported in the past month?\""
   },
@@ -2438,7 +2438,7 @@
   {
     "MEASURES": "New Products",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "2023",
+    "TIMEFRAME": "this year",
     "FILTERS": "none",
     "question": "\"How many new products were launched this year?\""
   },
@@ -2450,21 +2450,21 @@
     "question": "\"What was the total number of properties sold last year?\""
   },
   {
-    "MEASURES": "Returned Items",
+    "MEASURES": "Items ",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last quarter",
-    "FILTERS": "none",
+    "FILTERS": "returned",
     "question": "\"How many items were returned last quarter?\""
   },
   {
-    "MEASURES": "Delivery Time",
-    "DIMENSIONS": "Supplier",
+    "MEASURES": "Suppliers",
+    "DIMENSIONS": "delivery time",
     "TIMEFRAME": "last year",
     "FILTERS": "none",
     "question": "\"Identify the top 5 suppliers by delivery time last year.\""
   },
   {
-    "MEASURES": "Units Shipped",
+    "MEASURES": "units were shipped",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
@@ -2480,19 +2480,19 @@
   {
     "MEASURES": "Supplier Costs",
     "DIMENSIONS": "Region",
-    "TIMEFRAME": "2023",
+    "TIMEFRAME": "this year",
     "FILTERS": "none",
     "question": "\"What are the supplier costs for each region this year?\""
   },
   {
-    "MEASURES": "Count",
-    "DIMENSIONS": "Delay Reason",
+    "MEASURES": "reasons",
+    "DIMENSIONS": "supplier deliveries",
     "TIMEFRAME": "last quarter",
-    "FILTERS": "none",
+    "FILTERS": "delays",
     "question": "\"What are the most common reasons for delays in supplier deliveries last quarter?\""
   },
   {
-    "MEASURES": "Average Lead Time",
+    "MEASURES": "Lead Time",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last 6 months",
     "FILTERS": "none",
@@ -2513,10 +2513,10 @@
     "question": "\"What are the top 10 suppliers by delivery performance last quarter?\""
   },
   {
-    "MEASURES": "Average Resolution Time",
+    "MEASURES": "Time",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
-    "FILTERS": "none",
+    "FILTERS": "supply chain issues",
     "question": "\"What was the average time to resolve supply chain issues last month?\""
   },
   {
@@ -2527,21 +2527,21 @@
     "question": "\"How many suppliers did we have last month?\""
   },
   {
-    "MEASURES": "Passed Inspections",
+    "MEASURES": "quality Inspections",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last quarter",
-    "FILTERS": "none",
+    "FILTERS": "passed",
     "question": "\"How many quality inspections were passed last quarter?\""
   },
   {
-    "MEASURES": "Suppliers Used",
+    "MEASURES": "Suppliers",
     "DIMENSIONS": "Region",
     "TIMEFRAME": "past 12 months",
     "FILTERS": "none",
     "question": "\"Show the number of suppliers used in the past 12 months by region\""
   },
   {
-    "MEASURES": "Revenue",
+    "MEASURES": "Revenue growth rate",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last year",
     "FILTERS": "none",
@@ -2555,35 +2555,35 @@
     "question": "\"What is the trend of supply costs over the past 12 months?\""
   },
   {
-    "MEASURES": "Inventory Value",
+    "MEASURES": "Inventory",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "none",
+    "TIMEFRAME": "today",
     "FILTERS": "none",
     "question": "\"What is the total value of inventory on hand as of today?\""
   },
   {
-    "MEASURES": "Average Lead Time",
+    "MEASURES": "Lead Time",
     "DIMENSIONS": "none",
     "TIMEFRAME": "current quarter",
-    "FILTERS": "none",
+    "FILTERS": "suppliers",
     "question": "\"Show the average lead time for suppliers this quarter.\""
   },
   {
-    "MEASURES": "Items Sourced",
+    "MEASURES": "Items were Sourced",
     "DIMENSIONS": "Supplier",
     "TIMEFRAME": "Q1 2024",
     "FILTERS": "none",
     "question": "\"How many items were sourced in Q1 2024 by supplier?\""
   },
   {
-    "MEASURES": "Average Lead Time",
-    "DIMENSIONS": "none",
+    "MEASURES": "Lead Time",
+    "DIMENSIONS": "orders",
     "TIMEFRAME": "last 6 months",
     "FILTERS": "none",
     "question": "\"What was the average lead time for orders in the last 6 months?\""
   },
   {
-    "MEASURES": "Quantity Received",
+    "MEASURES": "Quantity of material recieved",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
@@ -2598,7 +2598,7 @@
   },
   {
     "MEASURES": "Average Lead Time",
-    "DIMENSIONS": "none",
+    "DIMENSIONS": "suppliers",
     "TIMEFRAME": "this quarter",
     "FILTERS": "none",
     "question": "\"What was the average lead time for suppliers this quarter?\""
@@ -2611,29 +2611,29 @@
     "question": "\"List the top 5 suppliers by reliability score for 2023.\""
   },
   {
-    "MEASURES": "Materials Cost",
+    "MEASURES": "Cost of materials",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
     "question": "\"What is the total cost of materials purchased in the last month?\""
   },
   {
-    "MEASURES": "Average Lead Time",
+    "MEASURES": "Lead Time",
     "DIMENSIONS": "none",
     "TIMEFRAME": "Q1 2024",
     "FILTERS": "none",
     "question": "\"What is the average lead time for suppliers in Q1?\""
   },
   {
-    "MEASURES": "Delayed Orders",
+    "MEASURES": "orders",
     "DIMENSIONS": "none",
     "TIMEFRAME": "Q1 2024",
-    "FILTERS": "none",
+    "FILTERS": "delayed due to supply issues",
     "question": "\"How many orders were delayed due to supply issues in Q1 2024?\""
   },
   {
-    "MEASURES": "Average Lead Time",
-    "DIMENSIONS": "none",
+    "MEASURES": "Lead Time",
+    "DIMENSIONS": "suppliers",
     "TIMEFRAME": "Q2 2024",
     "FILTERS": "none",
     "question": "\"What was the average lead time for suppliers in Q2 2024?\""
@@ -2641,8 +2641,8 @@
   {
     "MEASURES": "Inventory Turnover",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "Q2 2024 vs Q2 2023",
-    "FILTERS": "none",
+    "TIMEFRAME": "Q2",
+    "FILTERS": "year-over-year",
     "question": "\"What was the year-over-year change in inventory turnover for Q2?\""
   },
   {
@@ -2660,10 +2660,10 @@
     "question": "\"List the top 10 suppliers by shipping costs for last year.\""
   },
   {
-    "MEASURES": "Active Suppliers",
+    "MEASURES": "Suppliers",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "none",
-    "FILTERS": "none",
+    "TIMEFRAME": "currently",
+    "FILTERS": "active",
     "question": "\"How many suppliers are currently active?\""
   },
   {
@@ -2676,13 +2676,13 @@
   {
     "MEASURES": "Total Items Supplied",
     "DIMENSIONS": "Supplier",
-    "TIMEFRAME": "YTD",
+    "TIMEFRAME": "this year",
     "FILTERS": "none",
     "question": "\"What are the top 5 suppliers by total items supplied this year?\""
   },
   {
     "MEASURES": "New Contracts",
-    "DIMENSIONS": "none",
+    "DIMENSIONS": "suppliers",
     "TIMEFRAME": "this year",
     "FILTERS": "none",
     "question": "\"How many new contracts were signed with suppliers this year?\""
@@ -2711,13 +2711,13 @@
   {
     "MEASURES": "Inventory Turnover",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "this year, last year",
+    "TIMEFRAME": "last year",
     "FILTERS": "none",
     "question": "\"How does our inventory turnover compare to last year?\""
   },
   {
-    "MEASURES": "Average Lead Time",
-    "DIMENSIONS": "none",
+    "MEASURES": "Lead Time",
+    "DIMENSIONS": "shipments",
     "TIMEFRAME": "past 6 months",
     "FILTERS": "none",
     "question": "\"What was the average lead time for shipments in the past 6 months?\""
@@ -2737,7 +2737,7 @@
     "question": "\"Show the total stock by product category for the past 30 days.\""
   },
   {
-    "MEASURES": "Shipments Received",
+    "MEASURES": "Shipments were Received",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last 30 days",
     "FILTERS": "none",
@@ -2745,27 +2745,27 @@
   },
   {
     "MEASURES": "Total Spend",
-    "DIMENSIONS": "Supplier",
+    "DIMENSIONS": "Suppliers",
     "TIMEFRAME": "past year",
     "FILTERS": "none",
     "question": "\"List the top 5 suppliers by total spend in the past year.\""
   },
   {
     "MEASURES": "Total Revenue",
-    "DIMENSIONS": "Supplier",
+    "DIMENSIONS": "Suppliers",
     "TIMEFRAME": "last year",
     "FILTERS": "none",
     "question": "\"Identify the top 5 suppliers by total revenue last year.\""
   },
   {
     "MEASURES": "Reliability",
-    "DIMENSIONS": "Supplier",
+    "DIMENSIONS": "Suppliers",
     "TIMEFRAME": "last year",
     "FILTERS": "none",
     "question": "\"List the top 10 suppliers by reliability last year.\""
   },
   {
-    "MEASURES": "Fulfillment Rate",
+    "MEASURES": "order fulfillment rate",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last year",
     "FILTERS": "none",
@@ -2779,30 +2779,30 @@
     "question": "\"List the top 5 suppliers by total order value for the past year.\""
   },
   {
-    "MEASURES": "Shipments Received",
-    "DIMENSIONS": "none",
+    "MEASURES": "Shipments were Received",
+    "DIMENSIONS": "suppliers",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
     "question": "\"How many shipments were received from suppliers last month?\""
   },
   {
-    "MEASURES": "Suppliers on Probation",
+    "MEASURES": "Suppliers",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "current date",
-    "FILTERS": "none",
+    "TIMEFRAME": "currently",
+    "FILTERS": "probation",
     "question": "\"How many suppliers are on probation currently?\""
   },
   {
     "MEASURES": "Cost of Goods Purchased",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "2023-01-01 to 2023-12-31",
+    "TIMEFRAME": "2023",
     "FILTERS": "none",
     "question": "\"Show me the total cost of goods purchased in 2023.\""
   },
   {
     "MEASURES": "Rental Income",
-    "DIMENSIONS": "City",
-    "TIMEFRAME": "2023-01-01 to 2023-12-31",
+    "DIMENSIONS": "cities",
+    "TIMEFRAME": "2023",
     "FILTERS": "none",
     "question": "\"What are the top 5 cities by rental income in 2023?\""
   },

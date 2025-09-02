@@ -395,7 +395,7 @@
     "MEASURES": "Sales Price",
     "DIMENSIONS": "Products",
     "TIMEFRAME": "last quarter",
-    "FILTERS": "top 10 selling products",
+    "FILTERS": "none",
     "question": "\"What is the average sales price for the top 10 selling products?\""
   },
   {
@@ -465,7 +465,7 @@
     "MEASURES": "Return Rate",
     "DIMENSIONS": "Product",
     "TIMEFRAME": "last year",
-    "FILTERS": "top 5 products",
+    "FILTERS": "none",
     "question": "\"Show me the top 5 products by return rate last year.\""
   },
   {
@@ -507,7 +507,7 @@
     "MEASURES": "Gross Profit Margin",
     "DIMENSIONS": "Product",
     "TIMEFRAME": "last year",
-    "FILTERS": "top 10",
+    "FILTERS": "none",
     "question": "\"What are the top 10 products by gross profit margin last year?\""
   },
   {
@@ -563,7 +563,7 @@
     "MEASURES": "Profit Margin",
     "DIMENSIONS": "Product",
     "TIMEFRAME": "this year",
-    "FILTERS": "top 10 products",
+    "FILTERS": "none",
     "question": "\"List the top 10 products by growth in profit margin this year.\""
   },
   {
@@ -598,7 +598,7 @@
     "MEASURES": "Satisfaction Rating",
     "DIMENSIONS": "Product",
     "TIMEFRAME": "2023",
-    "FILTERS": "top 3 products",
+    "FILTERS": "none",
     "question": "\"List the top 3 products by customer satisfaction ratings in 2023.\""
   },
   {
@@ -640,7 +640,7 @@
     "MEASURES": "Revenue",
     "DIMENSIONS": "Products",
     "TIMEFRAME": "past year",
-    "FILTERS": "top 10",
+    "FILTERS": "none",
     "question": "\"List the top 10 best-selling products by revenue for the past year.\""
   },
   {
@@ -717,7 +717,7 @@
     "MEASURES": "Impressions",
     "DIMENSIONS": "Campaign",
     "TIMEFRAME": "last month",
-    "FILTERS": "top 5 campaigns",
+    "FILTERS": "none",
     "question": "\"What were the total impressions for our top 5 campaigns last month?\""
   },
   {
@@ -822,7 +822,7 @@
     "MEASURES": "ROI",
     "DIMENSIONS": "Campaign",
     "TIMEFRAME": "last year",
-    "FILTERS": "top 10",
+    "FILTERS": "none",
     "question": "\"What are the top 10 ad campaigns by ROI in the last year?\""
   },
   {
@@ -841,7 +841,7 @@
   },
   {
     "MEASURES": "Revenue",
-    "DIMENSIONS": "none",
+    "DIMENSIONS": "ads",
     "TIMEFRAME": "last year",
     "FILTERS": "Mobile Ads",
     "question": "\"What was the total revenue from our mobile ads last year?\""
@@ -849,7 +849,7 @@
   {
     "MEASURES": "Leads",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "Q2 2024, Q1 2024",
+    "TIMEFRAME": "this quarter compared to last quarter",
     "FILTERS": "none",
     "question": "\"How many leads were generated this quarter compared to last quarter?\""
   },
@@ -862,8 +862,8 @@
   },
   {
     "MEASURES": "Ad Spend",
-    "DIMENSIONS": "Month",
-    "TIMEFRAME": "past 12 months",
+    "DIMENSIONS": "none",
+    "TIMEFRAME": "last year",
     "FILTERS": "none",
     "question": "\"What is the trend of ad spend over the last year?\""
   },
@@ -883,28 +883,28 @@
   },
   {
     "MEASURES": "Leads",
-    "DIMENSIONS": "none",
+    "DIMENSIONS": "ads",
     "TIMEFRAME": "last quarter",
-    "FILTERS": "Ad Type = Social Media",
+    "FILTERS": "social media ads",
     "question": "\"How many leads did our social media ads generate last quarter?\""
   },
   {
-    "MEASURES": "Unique Clicks",
-    "DIMENSIONS": "none",
+    "MEASURES": "Unique users clicked",
+    "DIMENSIONS": "ads",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
     "question": "\"How many unique users clicked on ads last month?\""
   },
   {
     "MEASURES": "New Leads",
-    "DIMENSIONS": "none",
+    "DIMENSIONS": "ads",
     "TIMEFRAME": "last month",
     "FILTERS": "Influencer Ads",
     "question": "\"How many new leads were generated from our influencer ads last month?\""
   },
   {
     "MEASURES": "Impressions",
-    "DIMENSIONS": "none",
+    "DIMENSIONS": "ads",
     "TIMEFRAME": "past week",
     "FILTERS": "none",
     "question": "\"How many impressions did our ads receive in the past week?\""
@@ -918,27 +918,27 @@
   },
   {
     "MEASURES": "Impressions",
-    "DIMENSIONS": "none",
+    "DIMENSIONS": "ads",
     "TIMEFRAME": "last month",
-    "FILTERS": "Ad Type = Influencer",
+    "FILTERS": "influencer ads",
     "question": "\"How many impressions did our influencer ads receive last month?\""
   },
   {
     "MEASURES": "Engagement",
-    "DIMENSIONS": "none",
-    "TIMEFRAME": "2023",
-    "FILTERS": "Ad Type = Brand Awareness",
+    "DIMENSIONS": "ads",
+    "TIMEFRAME": "last year",
+    "FILTERS": "brand awareness ads",
     "question": "\"What was the total engagement for brand awareness ads last year?\""
   },
   {
-    "MEASURES": "Total Clicks",
+    "MEASURES": "clicks",
     "DIMENSIONS": "Ad",
     "TIMEFRAME": "last 30 days",
     "FILTERS": "none",
     "question": "\"Show total number of clicks by ad for the last 30 days.\""
   },
   {
-    "MEASURES": "Advertising ROI",
+    "MEASURES": "Advertising return on investment",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last quarter",
     "FILTERS": "none",
@@ -947,13 +947,13 @@
   {
     "MEASURES": "Click-Through Rate",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "this month, previous month",
+    "TIMEFRAME": "previous month",
     "FILTERS": "none",
     "question": "\"How does the click-through rate compare to the previous month?\""
   },
   {
     "MEASURES": "Cost per Engagement",
-    "DIMENSIONS": "none",
+    "DIMENSIONS": "ads",
     "TIMEFRAME": "Q2 2024",
     "FILTERS": "none",
     "question": "\"What is the average cost per engagement for our ads in Q2 2024?\""
@@ -967,9 +967,9 @@
   },
   {
     "MEASURES": "Leads",
-    "DIMENSIONS": "none",
-    "TIMEFRAME": "Q3 2023",
-    "FILTERS": "Campaign Type = email",
+    "DIMENSIONS": "campaigns",
+    "TIMEFRAME": "last quarter",
+    "FILTERS": "email campaigns",
     "question": "\"What is the total number of leads generated from email campaigns last quarter?\""
   },
   {
@@ -990,40 +990,40 @@
     "MEASURES": "Leads",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
-    "FILTERS": "Channel = referrals",
+    "FILTERS": "referrals",
     "question": "\"How many leads came from referrals last month?\""
   },
   {
     "MEASURES": "Leads",
-    "DIMENSIONS": "none",
+    "DIMENSIONS": "campaigns",
     "TIMEFRAME": "last month",
-    "FILTERS": "Ad Type = Search",
+    "FILTERS": "search campaigns",
     "question": "\"How many leads did our search campaigns generate last month?\""
   },
   {
-    "MEASURES": "Ad Spend",
+    "MEASURES": "Advertising Spend",
     "DIMENSIONS": "Campaign Type",
     "TIMEFRAME": "last year",
     "FILTERS": "none",
     "question": "\"How does our advertising spend vary by campaign type last year?\""
   },
   {
-    "MEASURES": "Ad Impressions",
-    "DIMENSIONS": "none",
+    "MEASURES": "mpressions",
+    "DIMENSIONS": "ads",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
     "question": "\"What are the total impressions for our ads last month?\""
   },
   {
     "MEASURES": "Leads",
-    "DIMENSIONS": "none",
-    "TIMEFRAME": "2023-01-01 to 2023-12-31",
+    "DIMENSIONS": "ads",
+    "TIMEFRAME": "this year",
     "FILTERS": "none",
     "question": "\"How many leads were generated from ads this year?\""
   },
   {
     "MEASURES": "Impressions",
-    "DIMENSIONS": "none",
+    "DIMENSIONS": "ads",
     "TIMEFRAME": "last week",
     "FILTERS": "none",
     "question": "\"How many impressions did our ads receive last week?\""
@@ -1037,7 +1037,7 @@
   },
   {
     "MEASURES": "New Subscribers",
-    "DIMENSIONS": "none",
+    "DIMENSIONS": "ads",
     "TIMEFRAME": "last quarter",
     "FILTERS": "none",
     "question": "\"How many new subscribers were acquired from ads last quarter?\""
@@ -1046,12 +1046,12 @@
     "MEASURES": "Conversions",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last week",
-    "FILTERS": "Exclude = mobile traffic",
+    "FILTERS": "Excluding mobile traffic",
     "question": "\"Show total conversions for the last week, excluding mobile traffic.\""
   },
   {
     "MEASURES": "Revenue",
-    "DIMENSIONS": "Month",
+    "DIMENSIONS": "Monthly",
     "TIMEFRAME": "last 12 months",
     "FILTERS": "none",
     "question": "\"What is the average monthly revenue for the last 12 months?\""
@@ -1059,7 +1059,7 @@
   {
     "MEASURES": "Cash Flow",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "this quarter, previous quarter",
+    "TIMEFRAME": "previous quarter",
     "FILTERS": "none",
     "question": "\"How does our cash flow compare to the previous quarter?\""
   },
@@ -1087,7 +1087,7 @@
   {
     "MEASURES": "Revenue",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "2022, 2023",
+    "TIMEFRAME": "last year to this year",
     "FILTERS": "none",
     "question": "\"What was the percentage change in total revenue from last year to this year?\""
   },
@@ -1100,7 +1100,7 @@
   },
   {
     "MEASURES": "Revenue",
-    "DIMENSIONS": "Client",
+    "DIMENSIONS": "Clients",
     "TIMEFRAME": "last quarter",
     "FILTERS": "none",
     "question": "\"List the top 5 clients by revenue for the last quarter\""
@@ -1115,7 +1115,7 @@
   {
     "MEASURES": "Revenue",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "Q1 2023, Q1 2024",
+    "TIMEFRAME": "Q1 2023 to Q1 2024",
     "FILTERS": "none",
     "question": "\"Compare revenue from Q1 2023 to Q1 2024.\""
   },
@@ -1128,13 +1128,13 @@
   },
   {
     "MEASURES": "Revenue",
-    "DIMENSIONS": "none",
-    "TIMEFRAME": "fiscal year 2024",
+    "DIMENSIONS": "sales",
+    "TIMEFRAME": "this fiscal year",
     "FILTERS": "none",
     "question": "\"What is the total revenue from sales for this fiscal year?\""
   },
   {
-    "MEASURES": "Lifetime Value",
+    "MEASURES": "customer Lifetime Value",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last year",
     "FILTERS": "none",
@@ -1143,7 +1143,7 @@
   {
     "MEASURES": "Customer Lifetime Value",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "2022-01-01 to 2022-12-31",
+    "TIMEFRAME": "last year",
     "FILTERS": "none",
     "question": "\"What was the average customer lifetime value for the last year?\""
   },
@@ -1157,7 +1157,7 @@
   {
     "MEASURES": "Marketing Cost",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "2023",
+    "TIMEFRAME": "this year",
     "FILTERS": "none",
     "question": "\"What is the total marketing cost for this year?\""
   },
@@ -1171,7 +1171,7 @@
   {
     "MEASURES": "Revenue Per Employee",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "2023",
+    "TIMEFRAME": "this year",
     "FILTERS": "none",
     "question": "\"What is the average revenue per employee for this year?\""
   },
@@ -1183,15 +1183,15 @@
     "question": "\"What are the total expenses for the last quarter by department?\""
   },
   {
-    "MEASURES": "Orders Per Customer",
+    "MEASURES": "number of Orders Per Customer",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "2023",
+    "TIMEFRAME": "this year",
     "FILTERS": "none",
     "question": "\"What is the average number of orders per customer for this year?\""
   },
   {
     "MEASURES": "Return Rate",
-    "DIMENSIONS": "none",
+    "DIMENSIONS": "customers",
     "TIMEFRAME": "last quarter",
     "FILTERS": "none",
     "question": "\"What is the average return rate for customers last quarter?\""
@@ -1213,48 +1213,48 @@
   {
     "MEASURES": "Sales Revenue",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "YTD, last year",
+    "TIMEFRAME": "year-to-date",
     "FILTERS": "none",
     "question": "\"What was the year-to-date sales revenue compared to last year?\""
   },
   {
     "MEASURES": "Total Costs",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "2024-01-01 to 2024-01-31",
+    "TIMEFRAME": "january",
     "FILTERS": "none",
     "question": "\"What were the total costs incurred in January?\""
   },
   {
-    "MEASURES": "Average Cost of Sales",
+    "MEASURES": "Cost of Sales",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "2023",
+    "TIMEFRAME": "last year",
     "FILTERS": "none",
     "question": "\"What is the average cost of sales for the last year?\""
   },
   {
     "MEASURES": "Revenue",
-    "DIMENSIONS": "Fee Type",
+    "DIMENSIONS": "fees",
     "TIMEFRAME": "last year",
     "FILTERS": "none",
     "question": "\"What was the total revenue from fees last year?\""
   },
   {
-    "MEASURES": "Partnership Revenue",
+    "MEASURES": "revenue from partnerships",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last year",
     "FILTERS": "none",
     "question": "\"What is the total revenue generated from partnerships last year?\""
   },
   {
-    "MEASURES": "Service Fees Revenue",
+    "MEASURES": "revenue from service fees",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "2023",
+    "TIMEFRAME": "this year",
     "FILTERS": "none",
     "question": "\"What is the total revenue from service fees this year?\""
   },
   {
     "MEASURES": "Average Interest Rate",
-    "DIMENSIONS": "none",
+    "DIMENSIONS": "loans",
     "TIMEFRAME": "last quarter",
     "FILTERS": "none",
     "question": "\"What was the average interest rate for loans issued last quarter?\""
@@ -1262,7 +1262,7 @@
   {
     "MEASURES": "Revenue",
     "DIMENSIONS": "Year",
-    "TIMEFRAME": "last year, this year",
+    "TIMEFRAME": "year-over-year",
     "FILTERS": "none",
     "question": "\"What is the year-over-year growth rate for revenue?\""
   },
@@ -1281,9 +1281,9 @@
     "question": "\"Show me the total expenses for the past month by department.\""
   },
   {
-    "MEASURES": "Average Sales",
-    "DIMENSIONS": "Country",
-    "TIMEFRAME": "2023-01-01 to 2023-12-31",
+    "MEASURES": "Sales",
+    "DIMENSIONS": "Countries",
+    "TIMEFRAME": "2023",
     "FILTERS": "none",
     "question": "\"List the top 10 countries by average sales in 2023.\""
   },
@@ -1296,7 +1296,7 @@
   },
   {
     "MEASURES": "Revenue",
-    "DIMENSIONS": "Month",
+    "DIMENSIONS": "Monthly",
     "TIMEFRAME": "last quarter",
     "FILTERS": "none",
     "question": "\"What was the average monthly revenue for the last quarter?\""
@@ -1339,7 +1339,7 @@
   {
     "MEASURES": "Revenue",
     "DIMENSIONS": "Quarter",
-    "TIMEFRAME": "Q2 2023, Q2 2022",
+    "TIMEFRAME": "Q2 2023 with Q2 2022",
     "FILTERS": "none",
     "question": "\"Compare the revenue of Q2 2023 with Q2 2022.\""
   },
@@ -1359,15 +1359,15 @@
   },
   {
     "MEASURES": "Leads",
-    "DIMENSIONS": "none",
+    "DIMENSIONS": "campaigns",
     "TIMEFRAME": "last year",
-    "FILTERS": "none",
+    "FILTERS": "email campaigns",
     "question": "\"What is the total number of leads generated from email campaigns last year?\""
   },
   {
     "MEASURES": "Outstanding Loans",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "none",
+    "TIMEFRAME": "today",
     "FILTERS": "none",
     "question": "\"What is the total amount of outstanding loans as of today?\""
   },
@@ -1375,7 +1375,7 @@
     "MEASURES": "Costs",
     "DIMENSIONS": "Project",
     "TIMEFRAME": "last month",
-    "FILTERS": "Cost > 100000",
+    "FILTERS": "exceeding $100,000",
     "question": "\"Calculate the total costs for projects exceeding $100,000 last month.\""
   },
   {
@@ -1388,15 +1388,15 @@
   {
     "MEASURES": "Customer Acquisition Cost",
     "DIMENSIONS": "Quarter",
-    "TIMEFRAME": "Q1 2023, Q1 2022",
+    "TIMEFRAME": "Q1 2023 to Q1 2022",
     "FILTERS": "none",
     "question": "\"Compare the customer acquisition cost from Q1 2023 to Q1 2022.\""
   },
   {
     "MEASURES": "Cost of Goods Sold",
-    "DIMENSIONS": "Grocery Category",
+    "DIMENSIONS": "Category",
     "TIMEFRAME": "last month",
-    "FILTERS": "none",
+    "FILTERS": "grocery category",
     "question": "\"What is the total cost of goods sold for the grocery category last month?\""
   },
   {
@@ -1421,7 +1421,7 @@
     "question": "\"What is the total number of new registrations last quarter?\""
   },
   {
-    "MEASURES": "Annual Subscription Revenue",
+    "MEASURES": "revenue from Annual Subscription",
     "DIMENSIONS": "none",
     "TIMEFRAME": "Q1 2024",
     "FILTERS": "none",
@@ -1430,7 +1430,7 @@
   {
     "MEASURES": "Active Subscribers",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "none",
+    "TIMEFRAME": "now",
     "FILTERS": "none",
     "question": "\"What is the total number of active subscribers right now?\""
   },
@@ -1442,15 +1442,15 @@
     "question": "\"What is the churn rate for the last month by customer segment?\""
   },
   {
-    "MEASURES": "Resolved Tickets",
+    "MEASURES": "customer support tickets",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last quarter",
-    "FILTERS": "none",
+    "FILTERS": "resolved",
     "question": "\"How many customer support tickets were resolved last quarter?\""
   },
   {
-    "MEASURES": "Mobile Users",
-    "DIMENSIONS": "none",
+    "MEASURES": "Mobile",
+    "DIMENSIONS": "users",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
     "question": "\"How many users accessed the platform via mobile last month?\""
@@ -1463,51 +1463,51 @@
     "question": "\"What was the total number of customer accounts created last quarter?\""
   },
   {
-    "MEASURES": "Upsell Revenue",
+    "MEASURES": "Revenue",
     "DIMENSIONS": "none",
     "TIMEFRAME": "Q2 2023",
-    "FILTERS": "none",
+    "FILTERS": "upselling",
     "question": "\"What is the total revenue from upselling in Q2?\""
   },
   {
-    "MEASURES": "Satisfaction Rate",
+    "MEASURES": "users",
     "DIMENSIONS": "none",
     "TIMEFRAME": "this month",
-    "FILTERS": "none",
+    "FILTERS": "satisfied",
     "question": "\"What percentage of users are satisfied with our service this month?\""
   },
   {
-    "MEASURES": "Webinar Attendees",
+    "MEASURES": "users",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
-    "FILTERS": "none",
+    "FILTERS": "attended the webinar",
     "question": "\"How many users attended the webinar last month?\""
   },
   {
-    "MEASURES": "Issues Reported",
+    "MEASURES": "users",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last week",
-    "FILTERS": "none",
+    "FILTERS": "reported issues",
     "question": "\"How many users reported issues last week?\""
   },
   {
     "MEASURES": "Active Users",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "none",
+    "TIMEFRAME": "now",
     "FILTERS": "none",
     "question": "\"How many active users do we have right now?\""
   },
   {
-    "MEASURES": "Resolved Tickets",
+    "MEASURES": "support tickets",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
-    "FILTERS": "none",
+    "FILTERS": "resolved",
     "question": "\"What are the total support tickets resolved last month?\""
   },
   {
-    "MEASURES": "Active Users",
+    "MEASURES": "Active User base",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "this month, last month",
+    "TIMEFRAME": "this month compare to last month",
     "FILTERS": "none",
     "question": "\"How does our active user base this month compare to last month?\""
   },
@@ -1519,14 +1519,14 @@
     "question": "\"Show me the engagement levels for users by subscription tier this month.\""
   },
   {
-    "MEASURES": "Average Time Spent",
+    "MEASURES": " Time",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last quarter",
     "FILTERS": "none",
     "question": "\"What is the average time users spend on our platform last quarter?\""
   },
   {
-    "MEASURES": "Feature Requests",
+    "MEASURES": "Features requested",
     "DIMENSIONS": "Feature",
     "TIMEFRAME": "past month",
     "FILTERS": "none",
@@ -1536,25 +1536,25 @@
     "MEASURES": "New Leads",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
-    "FILTERS": "none",
+    "FILTERS": "markerting efforts",
     "question": "\"How many new leads were generated from our marketing efforts last month?\""
   },
   {
     "MEASURES": "New Users",
-    "DIMENSIONS": "Marketing Channel",
+    "DIMENSIONS": " Channel",
     "TIMEFRAME": "last month",
-    "FILTERS": "none",
+    "FILTERS": "marketing channel",
     "question": "\"How many new users did we acquire last month by marketing channel?\""
   },
   {
-    "MEASURES": "Average Revenue Per User",
+    "MEASURES": " Revenue Per User",
     "DIMENSIONS": "none",
     "TIMEFRAME": "Q1 2024",
     "FILTERS": "none",
     "question": "\"What is the average revenue per user for Q1 2024?\""
   },
   {
-    "MEASURES": "Engaged Users",
+    "MEASURES": "users Engaged",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month, this month",
     "FILTERS": "none",
@@ -1568,14 +1568,14 @@
     "question": "\"What was the total number of active users in the last week?\""
   },
   {
-    "MEASURES": "Renewals",
+    "MEASURES": "customers renewed",
     "DIMENSIONS": "none",
     "TIMEFRAME": "Q2 2024",
     "FILTERS": "none",
     "question": "\"How many customers renewed their subscriptions in Q2 2024?\""
   },
   {
-    "MEASURES": "Retention Rate",
+    "MEASURES": "customer Retention Rate",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last year",
     "FILTERS": "none",
@@ -1583,42 +1583,42 @@
   },
   {
     "MEASURES": "Support Tickets",
-    "DIMENSIONS": "none",
+    "DIMENSIONS": "user",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
     "question": "\"What was the average number of support tickets raised per user last month?\""
   },
   {
-    "MEASURES": "Workshop Revenue",
+    "MEASURES": "revenue",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last year",
-    "FILTERS": "none",
+    "FILTERS": "workshops",
     "question": "\"What is the total revenue from our workshops last year?\""
   },
   {
-    "MEASURES": "Focus Group Participants",
+    "MEASURES": "users",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last quarter",
-    "FILTERS": "none",
+    "FILTERS": "focus group",
     "question": "\"How many users participated in our focus group last quarter?\""
   },
   {
-    "MEASURES": "Resolved Complaints",
+    "MEASURES": "Complaints",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
-    "FILTERS": "none",
+    "FILTERS": "resolved",
     "question": "\"How many customer complaints were resolved last month?\""
   },
   {
-    "MEASURES": "Community Interaction",
+    "MEASURES": "users",
     "DIMENSIONS": "none",
     "TIMEFRAME": "this year",
-    "FILTERS": "none",
+    "FILTERS": "community",
     "question": "\"What percentage of users have interacted with our community this year?\""
   },
   {
-    "MEASURES": "Complaints, Users",
-    "DIMENSIONS": "none",
+    "MEASURES": "Complaints",
+    "DIMENSIONS": "user",
     "TIMEFRAME": "last year",
     "FILTERS": "none",
     "question": "\"What is the average number of complaints received per user last year?\""
@@ -1631,31 +1631,31 @@
     "question": "\"What was the monthly revenue trend for the past 6 months?\""
   },
   {
-    "MEASURES": "Support Requests",
+    "MEASURES": " customers",
     "DIMENSIONS": "none",
     "TIMEFRAME": "Q1 2024",
-    "FILTERS": "none",
+    "FILTERS": "requested support",
     "question": "\"How many customers requested support in Q1 2024?\""
   },
   {
-    "MEASURES": "Average Satisfaction Score",
+    "MEASURES": " Satisfaction Score",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
     "question": "\"What was the average user satisfaction score last month?\""
   },
   {
-    "MEASURES": "Completed Certification",
+    "MEASURES": "users",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last quarter",
-    "FILTERS": "none",
+    "FILTERS": "completed the certification program",
     "question": "\"How many users completed the certification program last quarter?\""
   },
   {
-    "MEASURES": "Signups",
+    "MEASURES": "users",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
-    "FILTERS": "none",
+    "FILTERS": "signed up",
     "question": "\"How many users signed up for our service in the last month?\""
   },
   {
@@ -1666,7 +1666,7 @@
     "question": "\"Show me the total churn rate for the past year.\""
   },
   {
-    "MEASURES": "Average Call Length",
+    "MEASURES": "length of support calls",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
@@ -1680,24 +1680,24 @@
     "question": "\"What is the average daily usage of our app over the past month?\""
   },
   {
-    "MEASURES": "Average Response Time",
+    "MEASURES": "Response Time",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
-    "FILTERS": "none",
+    "FILTERS": "customer queries",
     "question": "\"What was the average response time to customer queries last month?\""
   },
   {
-    "MEASURES": "Open Tickets",
+    "MEASURES": "customer support Tickets",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "Q2 2023",
+    "TIMEFRAME": "Q2",
     "FILTERS": "none",
     "question": "\"How many customer support tickets were opened in Q2?\""
   },
   {
-    "MEASURES": "Subscription Revenue",
+    "MEASURES": " Revenue",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last year",
-    "FILTERS": "none",
+    "FILTERS": "subscription services",
     "question": "\"What was the total revenue from our subscription services in the last year?\""
   },
   {
@@ -1710,22 +1710,22 @@
   {
     "MEASURES": "Churn Rate",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "YTD",
+    "TIMEFRAME": "year-to-date",
     "FILTERS": "none",
     "question": "\"What is the year-to-date churn rate for this year?\""
   },
   {
-    "MEASURES": "Subscription Revenue",
+    "MEASURES": " Revenue",
     "DIMENSIONS": "none",
     "TIMEFRAME": "this quarter",
-    "FILTERS": "none",
+    "FILTERS": "subscription services",
     "question": "\"What is the total revenue from our subscription services this quarter?\""
   },
   {
-    "MEASURES": "Daily Logins",
+    "MEASURES": "users",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last quarter",
-    "FILTERS": "none",
+    "FILTERS": "logged in daily",
     "question": "\"How many users logged in daily last quarter?\""
   },
   {
@@ -1739,14 +1739,14 @@
     "MEASURES": "Revenue",
     "DIMENSIONS": "Plan",
     "TIMEFRAME": "last year",
-    "FILTERS": "Top 10",
+    "FILTERS": "none",
     "question": "\"What was the average revenue from our top 10 plans last year?\""
   },
   {
-    "MEASURES": "Training Revenue",
+    "MEASURES": " Revenue",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last year",
-    "FILTERS": "none",
+    "FILTERS": "training programs",
     "question": "\"What was the total revenue from our training programs last year?\""
   },
   {
@@ -1757,10 +1757,10 @@
     "question": "\"What is the average delivery time by region for the last year?\""
   },
   {
-    "MEASURES": "Delayed Shipments",
+    "MEASURES": "shipments",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last quarter",
-    "FILTERS": "none",
+    "FILTERS": "delayed",
     "question": "\"How many shipments were delayed last quarter?\""
   },
   {

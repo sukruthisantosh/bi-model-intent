@@ -2807,21 +2807,21 @@
     "question": "\"What are the top 5 cities by rental income in 2023?\""
   },
   {
-    "MEASURES": "Contracts Signed",
+    "MEASURES": "Contracts were Signed",
     "DIMENSIONS": "none",
     "TIMEFRAME": "Q4 2023",
     "FILTERS": "none",
     "question": "\"How many contracts were signed in Q4 2023?\""
   },
   {
-    "MEASURES": "Sales Volume",
-    "DIMENSIONS": "Region",
+    "MEASURES": "property Sales Volume",
+    "DIMENSIONS": "Regions",
     "TIMEFRAME": "last year",
     "FILTERS": "none",
     "question": "\"Compare the property sales volume across different regions last year.\""
   },
   {
-    "MEASURES": "Listed Properties",
+    "MEASURES": "Properties",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
@@ -2830,22 +2830,22 @@
   {
     "MEASURES": "Days on Market",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "this year, last year",
+    "TIMEFRAME": "last year",
     "FILTERS": "none",
     "question": "\"How does the average days on market compare to last year?\""
   },
   {
-    "MEASURES": "Price Reductions",
+    "MEASURES": "Properties",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
-    "FILTERS": "none",
+    "FILTERS": "price reductions",
     "question": "\"How many properties had price reductions last month?\""
   },
   {
-    "MEASURES": "Sales Volume",
-    "DIMENSIONS": "Agent",
+    "MEASURES": "agents",
+    "DIMENSIONS": "none",
     "TIMEFRAME": "Q1 2024",
-    "FILTERS": "none",
+    "FILTERS": "sales volume",
     "question": "\"List the top 10 agents by sales volume for Q1 2024.\""
   },
   {
@@ -2856,10 +2856,10 @@
     "question": "\"What is the total number of listings in the last quarter?\""
   },
   {
-    "MEASURES": "Expired Listings",
+    "MEASURES": "Listings",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
-    "FILTERS": "none",
+    "FILTERS": "expired",
     "question": "\"What is the total number of listings that expired last month?\""
   },
   {
@@ -2872,12 +2872,12 @@
   {
     "MEASURES": "Properties Sold",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "2022-01-01 to 2022-12-31",
+    "TIMEFRAME": "last year",
     "FILTERS": "none",
     "question": "\"How many properties were sold last year?\""
   },
   {
-    "MEASURES": "Sold Properties",
+    "MEASURES": "Properties were sold",
     "DIMENSIONS": "Agent",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
@@ -2891,7 +2891,7 @@
     "question": "\"What are the top 10 cities by average rent price in 2023?\""
   },
   {
-    "MEASURES": "Properties Sold",
+    "MEASURES": "Properties were Sold",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
@@ -2899,7 +2899,7 @@
   },
   {
     "MEASURES": "Revenue",
-    "DIMENSIONS": "none",
+    "DIMENSIONS": "rentals",
     "TIMEFRAME": "last 30 days",
     "FILTERS": "none",
     "question": "\"What was the total revenue from rentals in the last 30 days?\""
@@ -2913,15 +2913,15 @@
   },
   {
     "MEASURES": "Sales Figures",
-    "DIMENSIONS": "none",
+    "DIMENSIONS": "real estate",
     "TIMEFRAME": "last year",
     "FILTERS": "none",
     "question": "\"What are the total sales figures for real estate in the last year?\""
   },
   {
-    "MEASURES": "Average Rental Price",
+    "MEASURES": "Rental Prices",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "2023-12-01 to 2023-12-31",
+    "TIMEFRAME": "december 2023",
     "FILTERS": "none",
     "question": "\"What was the average rental price in December 2023?\""
   },
@@ -2929,7 +2929,7 @@
     "MEASURES": "Customer Complaints",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
-    "FILTERS": "Exclude = product issues",
+    "FILTERS": "Excluding product issues",
     "question": "\"How many customer complaints were logged last month, excluding product issues?\""
   },
   {
@@ -2943,18 +2943,18 @@
     "MEASURES": "Revenue",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
-    "FILTERS": "Service Type = management",
+    "FILTERS": "property management",
     "question": "\"What is the total revenue from property management services in the last month?\""
   },
   {
-    "MEASURES": "Average Commission Percentage",
-    "DIMENSIONS": "none",
+    "MEASURES": "Commission Percentage",
+    "DIMENSIONS": "agents",
     "TIMEFRAME": "last quarter",
     "FILTERS": "none",
     "question": "\"What is the average commission percentage for agents last quarter?\""
   },
   {
-    "MEASURES": "Properties Sold",
+    "MEASURES": "Properties were Sold",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
@@ -2968,21 +2968,21 @@
     "question": "\"Show the number of new listings by neighborhood for the past 12 months\""
   },
   {
-    "MEASURES": "Registered Complaints",
+    "MEASURES": "Complaints were Registered",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
-    "FILTERS": "Exclude = service failures",
+    "FILTERS": "Excluding service failures",
     "question": "\"How many complaints were registered last month, excluding service failures?\""
   },
   {
     "MEASURES": "Homes Sold",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last 6 months",
-    "FILTERS": "Feature = pool",
+    "FILTERS": "pool",
     "question": "\"How many homes sold in the last 6 months had a pool?\""
   },
   {
-    "MEASURES": "Renovation Costs",
+    "MEASURES": "spend on renovations",
     "DIMENSIONS": "none",
     "TIMEFRAME": "Q2 2024",
     "FILTERS": "none",
@@ -2997,34 +2997,34 @@
   },
   {
     "MEASURES": "Commissions",
-    "DIMENSIONS": "none",
+    "DIMENSIONS": "agents",
     "TIMEFRAME": "last year",
     "FILTERS": "none",
     "question": "\"Show the total commissions earned by agents for the last year.\""
   },
   {
-    "MEASURES": "Average Sale Price",
-    "DIMENSIONS": "none",
+    "MEASURES": "Sale Price",
+    "DIMENSIONS": "homes",
     "TIMEFRAME": "last 6 months",
     "FILTERS": "none",
     "question": "\"What is the average sale price of homes in the last 6 months?\""
   },
   {
-    "MEASURES": "Commercial Properties Sold",
-    "DIMENSIONS": "none",
+    "MEASURES": "Properties Sold",
+    "DIMENSIONS": "commercial",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
     "question": "\"How many commercial properties were sold last month?\""
   },
   {
     "MEASURES": "Sales Volume",
-    "DIMENSIONS": "Quarter",
+    "DIMENSIONS": "quarter",
     "TIMEFRAME": "past year",
     "FILTERS": "none",
     "question": "\"Show me the total sales volume by quarter for the past year.\""
   },
   {
-    "MEASURES": "Properties Sold",
+    "MEASURES": "Properties were Sold",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
@@ -3032,7 +3032,7 @@
   },
   {
     "MEASURES": "Days on Market",
-    "DIMENSIONS": "none",
+    "DIMENSIONS": "homes sold",
     "TIMEFRAME": "last 12 months",
     "FILTERS": "none",
     "question": "\"What is the average days on market for homes sold in the last 12 months?\""
@@ -3041,14 +3041,14 @@
     "MEASURES": "Square Footage",
     "DIMENSIONS": "City",
     "TIMEFRAME": "last year",
-    "FILTERS": "none",
+    "FILTERS": "properties sold",
     "question": "\"What is the total square footage of properties sold in the last year by city?\""
   },
   {
     "MEASURES": "Revenue",
     "DIMENSIONS": "none",
     "TIMEFRAME": "Q1 2024",
-    "FILTERS": "none",
+    "FILTERS": "rentals",
     "question": "\"What was the total revenue from rentals in Q1 2024?\""
   },
   {
@@ -3059,14 +3059,14 @@
     "question": "\"List the top 5 neighborhoods by sales volume for Q1 2023.\""
   },
   {
-    "MEASURES": "Properties Sold",
+    "MEASURES": "Properties were Sold",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last quarter",
-    "FILTERS": "Segment = luxury",
+    "FILTERS": "luxury segment",
     "question": "\"How many properties were sold in the luxury segment last quarter?\""
   },
   {
-    "MEASURES": "New Listings",
+    "MEASURES": "New Properties were Listed",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
@@ -3076,7 +3076,7 @@
     "MEASURES": "Sales Revenue",
     "DIMENSIONS": "none",
     "TIMEFRAME": "2024",
-    "FILTERS": "none",
+    "FILTERS": "real estate properties",
     "question": "\"What is the total sales revenue for the real estate properties sold this year?\""
   },
   {
@@ -3090,7 +3090,7 @@
     "MEASURES": "Sales Volume",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last year",
-    "FILTERS": "none",
+    "FILTERS": "properties sold",
     "question": "\"What is the total sales volume of properties sold in the last year?\""
   },
   {
@@ -3101,10 +3101,10 @@
     "question": "\"What is the total number of new listings in the last week?\""
   },
   {
-    "MEASURES": "Market Value",
+    "MEASURES": "property Market Value",
     "DIMENSIONS": "none",
     "TIMEFRAME": "none",
-    "FILTERS": "City = New York",
+    "FILTERS": "New York",
     "question": "\"What is the current property market value in New York?\""
   },
   {
@@ -3115,57 +3115,57 @@
     "question": "\"What is the total number of buyer inquiries in the last month?\""
   },
   {
-    "MEASURES": "Properties Sold",
+    "MEASURES": "Properties were Sold",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "last month",
+    "TIMEFRAME": "last two months",
     "FILTERS": "none",
-    "question": "\"How many properties were sold in the last month?\""
+    "question": "\"How many properties were sold in the last two month?s\""
   },
   {
-    "MEASURES": "Average Sale Price",
+    "MEASURES": "Sale Price",
     "DIMENSIONS": "none",
     "TIMEFRAME": "Q2 2024",
-    "FILTERS": "none",
+    "FILTERS": "homes",
     "question": "\"What was the average sale price of homes in Q2 2024?\""
   },
   {
     "MEASURES": "Open Houses",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "last month",
+    "TIMEFRAME": "last two month",
     "FILTERS": "none",
-    "question": "\"How many open houses were held last month?\""
+    "question": "\"How many open houses were held in the last two months?\""
   },
   {
-    "MEASURES": "Average Days on Market",
+    "MEASURES": "Days on Market",
     "DIMENSIONS": "none",
     "TIMEFRAME": "Q2 2023",
-    "FILTERS": "none",
+    "FILTERS": "properties",
     "question": "\"What are the average days on market for properties in Q2 2023?\""
   },
   {
     "MEASURES": "Sales",
     "DIMENSIONS": "Property Type",
-    "TIMEFRAME": "last year",
+    "TIMEFRAME": "past year",
     "FILTERS": "none",
     "question": "\"Show total sales by property type for the past year.\""
   },
   {
     "MEASURES": "Service Tickets",
-    "DIMENSIONS": "Ticket Type",
+    "DIMENSIONS": "ticket Type",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
-    "question": "\"Count the number of service tickets opened last month by type\""
+    "question": "\"Count the number of service tickets opened last month by ticket type\""
   },
   {
-    "MEASURES": "Accounts Created",
+    "MEASURES": "user accounts",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
     "question": "\"How many user accounts were created last month?\""
   },
   {
-    "MEASURES": "Average Monthly Revenue",
-    "DIMENSIONS": "none",
+    "MEASURES": "Monthly Revenue",
+    "DIMENSIONS": "subscriptions",
     "TIMEFRAME": "Q3 2023",
     "FILTERS": "none",
     "question": "\"What is the average monthly revenue from subscriptions for Q3 2023?\""
@@ -3199,44 +3199,44 @@
     "question": "\"How many customer complaints were received last year?\""
   },
   {
-    "MEASURES": "Complaints Logged",
+    "MEASURES": "customer Complaints",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last quarter",
     "FILTERS": "none",
     "question": "\"How many customer complaints were logged last quarter?\""
   },
   {
-    "MEASURES": "Service Disruption Costs",
+    "MEASURES": "costs",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last year",
-    "FILTERS": "none",
+    "FILTERS": "service disruptions",
     "question": "\"What are the total costs incurred from service disruptions last year?\""
   },
   {
-    "MEASURES": "Usage",
-    "DIMENSIONS": "Service",
-    "TIMEFRAME": "2023-01-01 to 2023-12-31",
+    "MEASURES": "services",
+    "DIMENSIONS": "usage",
+    "TIMEFRAME": "this year",
     "FILTERS": "none",
     "question": "\"What are the top 5 services by usage this year?\""
   },
   {
-    "MEASURES": "Average Resolution Time",
+    "MEASURES": " Time",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
-    "FILTERS": "none",
+    "FILTERS": "service tickets",
     "question": "\"What is the average time to resolve service tickets last month?\""
   },
   {
-    "MEASURES": "Billing Amount",
-    "DIMENSIONS": "Customer",
+    "MEASURES": "customers",
+    "DIMENSIONS": "billing amount",
     "TIMEFRAME": "this year",
     "FILTERS": "none",
     "question": "\"What are the top 10 customers by billing amount for this year?\""
   },
   {
-    "MEASURES": "Call Drop Rate",
+    "MEASURES": "Call Drop Rates",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "last 5 years",
+    "TIMEFRAME": "past 5 years",
     "FILTERS": "none",
     "question": "\"Show the trend of call drop rates over the past 5 years\""
   },
@@ -3244,12 +3244,12 @@
     "MEASURES": "Profit",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last year",
-    "FILTERS": "none",
+    "FILTERS": "services",
     "question": "\"What is the total profit generated from our services last year?\""
   },
   {
-    "MEASURES": "Subscriber Count",
-    "DIMENSIONS": "Plan",
+    "MEASURES": "plans",
+    "DIMENSIONS": "subscriber count",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
     "question": "\"List the top 5 plans by subscriber count last month.\""
@@ -3258,22 +3258,22 @@
     "MEASURES": "Response Time",
     "DIMENSIONS": "none",
     "TIMEFRAME": "this year",
-    "FILTERS": "none",
+    "FILTERS": "support tickets",
     "question": "\"What is the average response time for support tickets this year?\""
   },
   {
-    "MEASURES": "Maintenance Costs",
+    "MEASURES": "Costs",
     "DIMENSIONS": "none",
     "TIMEFRAME": "Q2 2024",
-    "FILTERS": "none",
+    "FILTERS": "network maintenance",
     "question": "\"What are the total costs associated with network maintenance for Q2 2024?\""
   },
   {
     "MEASURES": "Time to Resolution",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "last month",
-    "FILTERS": "none",
-    "question": "\"What is the average time to resolution for support requests last month?\""
+    "TIMEFRAME": "last week",
+    "FILTERS": "support requests",
+    "question": "\"What is the average time to resolution for support requests last week?\""
   },
   {
     "MEASURES": "Customer Interactions",
@@ -3290,36 +3290,36 @@
     "question": "\"What is the average response time for support tickets last quarter?\""
   },
   {
-    "MEASURES": "Calls Received",
+    "MEASURES": "Calls were Received",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
     "question": "\"How many calls were received last month?\""
   },
   {
-    "MEASURES": "Customer Satisfaction",
-    "DIMENSIONS": "Service",
-    "TIMEFRAME": "2023-01-01 to 2023-12-31",
+    "MEASURES": "services",
+    "DIMENSIONS": "customer satisfaction",
+    "TIMEFRAME": "this year",
     "FILTERS": "none",
     "question": "\"What are the top 10 services by customer satisfaction this year?\""
   },
   {
-    "MEASURES": "Calls Received",
+    "MEASURES": "Calls were Received",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "last month",
+    "TIMEFRAME": "last week",
     "FILTERS": "none",
-    "question": "\"How many calls were received last month?\""
+    "question": "\"How many calls were received last week?\""
   },
   {
     "MEASURES": "Service Disruptions",
     "DIMENSIONS": "Disruption Type",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
-    "question": "\"How many service disruptions occurred last month by type?\""
+    "question": "\"How many service disruptions occurred last month by disruption type?\""
   },
   {
-    "MEASURES": "Revenue, Users",
-    "DIMENSIONS": "none",
+    "MEASURES": "Revenue",
+    "DIMENSIONS": "user",
     "TIMEFRAME": "last year",
     "FILTERS": "none",
     "question": "\"What was the average revenue per user last year?\""
@@ -3327,29 +3327,29 @@
   {
     "MEASURES": "Subscribers",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "last month vs. same month last year",
+    "TIMEFRAME": "last month to the same month last year",
     "FILTERS": "none",
     "question": "\"Compare the total number of subscribers last month to the same month last year.\""
   },
   {
-    "MEASURES": "Revenue from International Calls",
+    "MEASURES": "earn",
     "DIMENSIONS": "none",
     "TIMEFRAME": "Q2 2024",
-    "FILTERS": "none",
+    "FILTERS": "international calls",
     "question": "\"How much did we earn from international calls in Q2 2024?\""
   },
   {
     "MEASURES": "Call Volume",
     "DIMENSIONS": "none",
     "TIMEFRAME": "past month",
-    "FILTERS": "none",
+    "FILTERS": "per day",
     "question": "\"What is the average call volume per day for the past month?\""
   },
   {
     "MEASURES": "Profit",
     "DIMENSIONS": "none",
     "TIMEFRAME": "this quarter",
-    "FILTERS": "none",
+    "FILTERS": "services",
     "question": "\"What is the total profit generated from our services this quarter?\""
   },
   {
@@ -3360,32 +3360,32 @@
     "question": "\"What is the average customer lifetime value in 2023?\""
   },
   {
-    "MEASURES": "Cancellations",
+    "MEASURES": "service Cancellations",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
     "question": "\"How many service cancellations occurred last month?\""
   },
   {
-    "MEASURES": "Support Calls",
+    "MEASURES": "Calls",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
-    "FILTERS": "none",
+    "FILTERS": "support team",
     "question": "\"How many calls were made by our support team last month?\""
   },
   {
     "MEASURES": "Time to Resolution",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last quarter",
-    "FILTERS": "none",
+    "FILTERS": "support tickets",
     "question": "\"What was the average time to resolution for support tickets last quarter?\""
   },
   {
     "MEASURES": "Service Calls",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "last month",
+    "TIMEFRAME": "last week",
     "FILTERS": "none",
-    "question": "\"How many customer service calls were made last month?\""
+    "question": "\"How many customer service calls were made last week?\""
   },
   {
     "MEASURES": "Service Requests",
@@ -3396,37 +3396,37 @@
   },
   {
     "MEASURES": "Average Monthly Bill",
-    "DIMENSIONS": "none",
+    "DIMENSIONS": "tellecomunicationservices",
     "TIMEFRAME": "Q1 2024",
     "FILTERS": "none",
     "question": "\"What is the average monthly bill for telecommunications services in Q1 2024?\""
   },
   {
-    "MEASURES": "Installations",
+    "MEASURES": "network Installations",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
     "question": "\"How many network installations were completed last month?\""
   },
   {
-    "MEASURES": "Customer Satisfaction",
-    "DIMENSIONS": "Service Plan",
+    "MEASURES": "service plans",
+    "DIMENSIONS": "customer satisfaction",
     "TIMEFRAME": "last 30 days",
     "FILTERS": "none",
     "question": "\"List the top 10 service plans by customer satisfaction for the last 30 days\""
   },
   {
-    "MEASURES": "Resolved Requests",
+    "MEASURES": "customer service Requests",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
     "question": "\"How many customer service requests were resolved last month?\""
   },
   {
-    "MEASURES": "Cancellations",
+    "MEASURES": "customers",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
-    "FILTERS": "none",
+    "FILTERS": "canceled their service",
     "question": "\"How many customers canceled their service in the last month?\""
   },
   {
@@ -3447,7 +3447,7 @@
     "MEASURES": "Calls Made",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last quarter",
-    "FILTERS": "none",
+    "FILTERS": "customer service",
     "question": "\"How many calls were made to customer service last quarter?\""
   },
   {
@@ -3459,7 +3459,7 @@
   },
   {
     "MEASURES": "Response Time",
-    "DIMENSIONS": "none",
+    "DIMENSIONS": "customer inquiries",
     "TIMEFRAME": "last month",
     "FILTERS": "none",
     "question": "\"What was the average response time for customer inquiries last month?\""
@@ -3473,8 +3473,8 @@
   },
   {
     "MEASURES": "Revenue",
-    "DIMENSIONS": "none",
-    "TIMEFRAME": "2023",
+    "DIMENSIONS": "broadband services",
+    "TIMEFRAME": "this year",
     "FILTERS": "none",
     "question": "\"What is the total revenue from broadband services this year?\""
   },
@@ -3488,7 +3488,7 @@
   {
     "MEASURES": "Service Interruptions",
     "DIMENSIONS": "none",
-    "TIMEFRAME": "2023-01-01 to 2023-12-31",
+    "TIMEFRAME": "past year",
     "FILTERS": "none",
     "question": "\"What was the total number of service interruptions in the past year?\""
   },
@@ -3500,7 +3500,7 @@
     "question": "\"How many customer interactions were logged last month?\""
   },
   {
-    "MEASURES": "Closed Deals",
+    "MEASURES": "new Deals were closed",
     "DIMENSIONS": "none",
     "TIMEFRAME": "last month",
     "FILTERS": "none",

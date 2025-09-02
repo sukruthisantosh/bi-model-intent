@@ -86,11 +86,99 @@ def display_question_with_entities(question_data: Dict[str, Any], question_num: 
     
     print(''.join(label_line))
 
+def compare_entity_counts(spacy_file: str, extracted_fields_file: str):
+    """Compare entity counts between SpaCy-generated and manually corrected annotations"""
+    try:
+        # Load SpaCy-generated annotations
+        spacy_annotations = load_annotations(spacy_file)
+        print(f"Loaded {len(spacy_annotations)} SpaCy-generated annotations")
+        
+        # Load manually corrected extracted fields (JSON array format)
+        with open(extracted_fields_file, 'r', encoding='utf-8') as f:
+            extracted_fields = json.load(f)
+        print(f"Loaded {len(extracted_fields)} manually corrected extracted fields")
+        
+        # Create a mapping of question text to entity count for SpaCy annotations
+        spacy_counts = {}
+        for ann in spacy_annotations:
+            spacy_counts[ann['text']] = len(ann['entities'])
+        
+        # Compare and find mismatches
+        mismatches = []
+        for i, fields in enumerate(extracted_fields):
+            question_text = fields['question'].strip().strip('"').strip("'")
+            
+            # Count entities in extracted fields (excluding "none" values)
+            extracted_count = 0
+            for field_name in ['MEASURES', 'DIMENSIONS', 'TIMEFRAME', 'FILTERS']:
+                if field_name in fields and fields[field_name] and fields[field_name].lower() != "none":
+                    extracted_count += 1
+            
+            if question_text in spacy_counts:
+                spacy_count = spacy_counts[question_text]
+                if spacy_count != extracted_count:
+                    mismatches.append({
+                        'index': i + 1,
+                        'question': question_text[:80] + "..." if len(question_text) > 80 else question_text,
+                        'spacy_count': spacy_count,
+                        'extracted_count': extracted_count,
+                        'difference': extracted_count - spacy_count
+                    })
+            else:
+                mismatches.append({
+                    'index': i + 1,
+                    'question': question_text[:80] + "..." if len(question_text) > 80 else question_text,
+                    'spacy_count': 'NOT_FOUND',
+                    'extracted_count': extracted_count,
+                    'difference': 'N/A'
+                })
+        
+        # Display results
+        print(f"\n{'='*80}")
+        print("ENTITY COUNT COMPARISON RESULTS")
+        print(f"{'='*80}")
+        
+        if mismatches:
+            print(f"Found {len(mismatches)} mismatches:")
+            print()
+            for mismatch in mismatches:
+                print(f"Question {mismatch['index']}: {mismatch['question']}")
+                print(f"  SpaCy entities: {mismatch['spacy_count']}")
+                print(f"  Extracted entities: {mismatch['extracted_count']}")
+                if isinstance(mismatch['difference'], int):
+                    print(f"  Difference: {mismatch['difference']:+d}")
+                print()
+        else:
+            print("✅ All entity counts match perfectly!")
+        
+        # Summary statistics
+        total_spacy = sum(len(ann['entities']) for ann in spacy_annotations)
+        total_extracted = sum(1 for fields in extracted_fields 
+                            for field_name in ['MEASURES', 'DIMENSIONS', 'TIMEFRAME', 'FILTERS']
+                            if fields.get(field_name) and fields[field_name].lower() != "none")
+        print(f"Total entities - SpaCy: {total_spacy}, Extracted: {total_extracted}")
+        print(f"Overall difference: {total_extracted - total_spacy:+d}")
+        
+    except FileNotFoundError as e:
+        print(f"Error: File not found - {e}")
+        return
+    except Exception as e:
+        print(f"Error: {e}")
+        return
+
 def main():
-    if len(sys.argv) != 2:
-        print("Usage: python3 validate_ner_annotations.py <annotations_file>")
+    if len(sys.argv) < 2:
+        print("Usage: python3 validate_ner_annotations.py <annotations_file> [--compare]")
         print("Example: python3 validate_ner_annotations.py data/processed/ner_annotated_questions_corrected.jsonl")
+        print("Example: python3 validate_ner_annotations.py --compare")
         sys.exit(1)
+    
+    if sys.argv[1] == "--compare":
+        # Compare entity counts between SpaCy and corrected annotations
+        spacy_file = "NER/data/training/spacy_generated_annotations.jsonl"
+        extracted_fields_file = "NER/data/processed/extracted_fields.json"
+        compare_entity_counts(spacy_file, extracted_fields_file)
+        return
     
     annotations_file = sys.argv[1]
     

@@ -138,7 +138,7 @@ def main():
     # Configuration
     input_file = "NER/data/processed/extracted_fields.json"
     output_file = "NER/data/training/spacy_generated_annotations.jsonl"
-    limit = 10  # Start with first 10 examples
+    limit = None  # Process all examples
     
     print("SpaCy Index Generator for Extracted Fields")
     print("=" * 50)

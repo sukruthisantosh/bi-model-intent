@@ -1,0 +1,724 @@
+[
+  {
+    "question": "What is the total discount amount offered during the clearance sale last quarter?",
+    "entities": [
+      {
+        "start": 68,
+        "end": 80,
+        "text": "last quarter",
+        "label": "TIMEFRAME",
+        "score": 0.47919487953186035
+      }
+    ],
+    "inference_time": 0.4731006622314453
+  },
+  {
+    "question": "Show the average customer acquisition cost by channel in Q1 2024",
+    "entities": [
+      {
+        "start": 9,
+        "end": 42,
+        "text": "average customer acquisition cost",
+        "label": "MEASURE",
+        "score": 0.6764933466911316
+      },
+      {
+        "start": 57,
+        "end": 64,
+        "text": "Q1 2024",
+        "label": "TIMEFRAME",
+        "score": 0.852168619632721
+      }
+    ],
+    "inference_time": 0.4635775089263916
+  },
+  {
+    "question": "What is the total revenue from our top 5 products last quarter?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 25,
+        "text": "total revenue",
+        "label": "MEASURE",
+        "score": 0.4258938431739807
+      },
+      {
+        "start": 50,
+        "end": 62,
+        "text": "last quarter",
+        "label": "TIMEFRAME",
+        "score": 0.5922584533691406
+      }
+    ],
+    "inference_time": 0.47084641456604004
+  },
+  {
+    "question": "What was the average number of items per order last month?",
+    "entities": [
+      {
+        "start": 47,
+        "end": 57,
+        "text": "last month",
+        "label": "TIMEFRAME",
+        "score": 0.6774505376815796
+      }
+    ],
+    "inference_time": 0.46167516708374023
+  },
+  {
+    "question": "Show me the total returns by month for the past year.",
+    "entities": [
+      {
+        "start": 43,
+        "end": 52,
+        "text": "past year",
+        "label": "TIMEFRAME",
+        "score": 0.6202231645584106
+      }
+    ],
+    "inference_time": 0.4895048141479492
+  },
+  {
+    "question": "List the sales growth percentage for the top 5 products year over year.",
+    "entities": [
+      {
+        "start": 9,
+        "end": 32,
+        "text": "sales growth percentage",
+        "label": "MEASURE",
+        "score": 0.6879072785377502
+      },
+      {
+        "start": 56,
+        "end": 70,
+        "text": "year over year",
+        "label": "TIMEFRAME",
+        "score": 0.6966341733932495
+      }
+    ],
+    "inference_time": 0.4878964424133301
+  },
+  {
+    "question": "What is the average discount rate offered during sales events?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 33,
+        "text": "average discount rate",
+        "label": "MEASURE",
+        "score": 0.48164522647857666
+      },
+      {
+        "start": 49,
+        "end": 61,
+        "text": "sales events",
+        "label": "TIMEFRAME",
+        "score": 0.49570783972740173
+      }
+    ],
+    "inference_time": 0.4839167594909668
+  },
+  {
+    "question": "What is the average customer acquisition cost for the last year?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 45,
+        "text": "average customer acquisition cost",
+        "label": "MEASURE",
+        "score": 0.7222114205360413
+      },
+      {
+        "start": 54,
+        "end": 63,
+        "text": "last year",
+        "label": "TIMEFRAME",
+        "score": 0.8145942687988281
+      }
+    ],
+    "inference_time": 0.4731466770172119
+  },
+  {
+    "question": "What is the total revenue from our top 10 products last year?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 25,
+        "text": "total revenue",
+        "label": "MEASURE",
+        "score": 0.41960814595222473
+      },
+      {
+        "start": 51,
+        "end": 60,
+        "text": "last year",
+        "label": "TIMEFRAME",
+        "score": 0.5027489066123962
+      }
+    ],
+    "inference_time": 0.4938056468963623
+  },
+  {
+    "question": "How many customers interacted with the loyalty program in the last month?",
+    "entities": [
+      {
+        "start": 62,
+        "end": 72,
+        "text": "last month",
+        "label": "TIMEFRAME",
+        "score": 0.7813236713409424
+      }
+    ],
+    "inference_time": 0.46549248695373535
+  },
+  {
+    "question": "How many items were sold on Valentine's Day?",
+    "entities": [],
+    "inference_time": 0.4824090003967285
+  },
+  {
+    "question": "What was the total amount spent on customer rewards last year?",
+    "entities": [
+      {
+        "start": 52,
+        "end": 61,
+        "text": "last year",
+        "label": "TIMEFRAME",
+        "score": 0.5393417477607727
+      }
+    ],
+    "inference_time": 0.758751630783081
+  },
+  {
+    "question": "How many customers purchased through mobile in the last quarter?",
+    "entities": [
+      {
+        "start": 51,
+        "end": 63,
+        "text": "last quarter",
+        "label": "TIMEFRAME",
+        "score": 0.8018777370452881
+      }
+    ],
+    "inference_time": 0.7782936096191406
+  },
+  {
+    "question": "What is the average customer satisfaction score for last year?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 47,
+        "text": "average customer satisfaction score",
+        "label": "MEASURE",
+        "score": 0.8075809478759766
+      },
+      {
+        "start": 52,
+        "end": 61,
+        "text": "last year",
+        "label": "TIMEFRAME",
+        "score": 0.8315033316612244
+      }
+    ],
+    "inference_time": 0.7605617046356201
+  },
+  {
+    "question": "What percentage of total sales came from mobile users last month?",
+    "entities": [
+      {
+        "start": 54,
+        "end": 64,
+        "text": "last month",
+        "label": "TIMEFRAME",
+        "score": 0.7422662377357483
+      }
+    ],
+    "inference_time": 0.7275400161743164
+  },
+  {
+    "question": "How many active users visited the site yesterday?",
+    "entities": [],
+    "inference_time": 0.47983336448669434
+  },
+  {
+    "question": "Show the total number of customer complaints categorized by issue type last year",
+    "entities": [
+      {
+        "start": 71,
+        "end": 80,
+        "text": "last year",
+        "label": "TIMEFRAME",
+        "score": 0.7456623911857605
+      }
+    ],
+    "inference_time": 0.4690210819244385
+  },
+  {
+    "question": "Show the revenue split by category for the last 6 months.",
+    "entities": [
+      {
+        "start": 43,
+        "end": 56,
+        "text": "last 6 months",
+        "label": "TIMEFRAME",
+        "score": 0.7094666957855225
+      }
+    ],
+    "inference_time": 0.4809575080871582
+  },
+  {
+    "question": "How did our return policy affect customer satisfaction last year?",
+    "entities": [],
+    "inference_time": 0.4944114685058594
+  },
+  {
+    "question": "Identify the top 5 customer retention strategies based on effectiveness last year.",
+    "entities": [
+      {
+        "start": 58,
+        "end": 71,
+        "text": "effectiveness",
+        "label": "MEASURE",
+        "score": 0.5116448402404785
+      },
+      {
+        "start": 72,
+        "end": 81,
+        "text": "last year",
+        "label": "TIMEFRAME",
+        "score": 0.6679954528808594
+      }
+    ],
+    "inference_time": 0.5671329498291016
+  },
+  {
+    "question": "What was the total number of users who signed up for our loyalty program last year?",
+    "entities": [
+      {
+        "start": 73,
+        "end": 82,
+        "text": "last year",
+        "label": "TIMEFRAME",
+        "score": 0.5999552607536316
+      }
+    ],
+    "inference_time": 0.5681533813476562
+  },
+  {
+    "question": "How much revenue was generated by new customers in the last month?",
+    "entities": [
+      {
+        "start": 55,
+        "end": 65,
+        "text": "last month",
+        "label": "TIMEFRAME",
+        "score": 0.7670177221298218
+      }
+    ],
+    "inference_time": 0.5090172290802002
+  },
+  {
+    "question": "Show the total sales volume for each product category in Q1 2024",
+    "entities": [
+      {
+        "start": 9,
+        "end": 27,
+        "text": "total sales volume",
+        "label": "MEASURE",
+        "score": 0.5463650226593018
+      },
+      {
+        "start": 57,
+        "end": 64,
+        "text": "Q1 2024",
+        "label": "TIMEFRAME",
+        "score": 0.8583250641822815
+      }
+    ],
+    "inference_time": 0.48258399963378906
+  },
+  {
+    "question": "What is the average refund processing time last quarter?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 42,
+        "text": "average refund processing time",
+        "label": "MEASURE",
+        "score": 0.5548120141029358
+      },
+      {
+        "start": 43,
+        "end": 55,
+        "text": "last quarter",
+        "label": "TIMEFRAME",
+        "score": 0.6240737438201904
+      }
+    ],
+    "inference_time": 0.5120458602905273
+  },
+  {
+    "question": "What is the total revenue from email marketing campaigns in 2023?",
+    "entities": [
+      {
+        "start": 60,
+        "end": 64,
+        "text": "2023",
+        "label": "TIMEFRAME",
+        "score": 0.935961902141571
+      }
+    ],
+    "inference_time": 0.4765009880065918
+  },
+  {
+    "question": "What is the total revenue from our online store in Q3?",
+    "entities": [
+      {
+        "start": 51,
+        "end": 53,
+        "text": "Q3",
+        "label": "TIMEFRAME",
+        "score": 0.8648689389228821
+      }
+    ],
+    "inference_time": 0.5499434471130371
+  },
+  {
+    "question": "How much revenue did we earn from clearance sales last month?",
+    "entities": [
+      {
+        "start": 50,
+        "end": 60,
+        "text": "last month",
+        "label": "TIMEFRAME",
+        "score": 0.44330283999443054
+      }
+    ],
+    "inference_time": 0.5395169258117676
+  },
+  {
+    "question": "How does our revenue this month compare to the same month last year?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "text": "month",
+        "label": "TIMEFRAME",
+        "score": 0.42011117935180664
+      }
+    ],
+    "inference_time": 0.5906391143798828
+  },
+  {
+    "question": "What is the average revenue from repeat customers in Q2 2024?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 27,
+        "text": "average revenue",
+        "label": "MEASURE",
+        "score": 0.4798261821269989
+      },
+      {
+        "start": 53,
+        "end": 60,
+        "text": "Q2 2024",
+        "label": "TIMEFRAME",
+        "score": 0.8885402679443359
+      }
+    ],
+    "inference_time": 0.5423643589019775
+  },
+  {
+    "question": "List all products sold in the last week excluding those on promotion.",
+    "entities": [
+      {
+        "start": 30,
+        "end": 39,
+        "text": "last week",
+        "label": "TIMEFRAME",
+        "score": 0.602523684501648
+      }
+    ],
+    "inference_time": 0.531470537185669
+  },
+  {
+    "question": "How many products were sold to corporate clients last month?",
+    "entities": [
+      {
+        "start": 49,
+        "end": 59,
+        "text": "last month",
+        "label": "TIMEFRAME",
+        "score": 0.7175620794296265
+      }
+    ],
+    "inference_time": 0.49702954292297363
+  },
+  {
+    "question": "What is the average conversion rate from visitors to buyers this month?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 35,
+        "text": "average conversion rate",
+        "label": "MEASURE",
+        "score": 0.7355506420135498
+      },
+      {
+        "start": 60,
+        "end": 70,
+        "text": "this month",
+        "label": "TIMEFRAME",
+        "score": 0.7571762204170227
+      }
+    ],
+    "inference_time": 0.526587724685669
+  },
+  {
+    "question": "How many products did we sell online last month?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 47,
+        "text": "last month",
+        "label": "TIMEFRAME",
+        "score": 0.65748131275177
+      }
+    ],
+    "inference_time": 0.4910545349121094
+  },
+  {
+    "question": "How did sales perform during the last holiday season compared to the previous year?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 52,
+        "text": "last holiday season",
+        "label": "TIMEFRAME",
+        "score": 0.500747561454773
+      }
+    ],
+    "inference_time": 0.567194938659668
+  },
+  {
+    "question": "Show total revenue for each region in 2023.",
+    "entities": [
+      {
+        "start": 38,
+        "end": 42,
+        "text": "2023",
+        "label": "TIMEFRAME",
+        "score": 0.9380568265914917
+      }
+    ],
+    "inference_time": 0.7306134700775146
+  },
+  {
+    "question": "Show me the breakdown of sales by payment method in Q1 2023.",
+    "entities": [
+      {
+        "start": 52,
+        "end": 59,
+        "text": "Q1 2023",
+        "label": "TIMEFRAME",
+        "score": 0.8752893805503845
+      }
+    ],
+    "inference_time": 0.7966408729553223
+  },
+  {
+    "question": "What are the trends in customer feedback ratings over the past year?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 48,
+        "text": "customer feedback ratings",
+        "label": "MEASURE",
+        "score": 0.5834882259368896
+      },
+      {
+        "start": 58,
+        "end": 67,
+        "text": "past year",
+        "label": "TIMEFRAME",
+        "score": 0.5942580699920654
+      }
+    ],
+    "inference_time": 0.7799534797668457
+  },
+  {
+    "question": "How much revenue did we earn from international sales in the last quarter?",
+    "entities": [
+      {
+        "start": 61,
+        "end": 73,
+        "text": "last quarter",
+        "label": "TIMEFRAME",
+        "score": 0.7616065740585327
+      }
+    ],
+    "inference_time": 0.7828116416931152
+  },
+  {
+    "question": "Show the number of returns by product category in Q2 2024",
+    "entities": [
+      {
+        "start": 50,
+        "end": 57,
+        "text": "Q2 2024",
+        "label": "TIMEFRAME",
+        "score": 0.8637365698814392
+      }
+    ],
+    "inference_time": 0.5168886184692383
+  },
+  {
+    "question": "What was the average time taken to process returns last month?",
+    "entities": [],
+    "inference_time": 0.5082976818084717
+  },
+  {
+    "question": "How does our customer feedback rating compare to last year's results?",
+    "entities": [
+      {
+        "start": 49,
+        "end": 58,
+        "text": "last year",
+        "label": "TIMEFRAME",
+        "score": 0.8077635169029236
+      }
+    ],
+    "inference_time": 0.511345386505127
+  },
+  {
+    "question": "What was the total revenue from online sales in Q1 2024?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 26,
+        "text": "total revenue",
+        "label": "MEASURE",
+        "score": 0.43246257305145264
+      },
+      {
+        "start": 48,
+        "end": 55,
+        "text": "Q1 2024",
+        "label": "TIMEFRAME",
+        "score": 0.8356556296348572
+      }
+    ],
+    "inference_time": 0.5133562088012695
+  },
+  {
+    "question": "How many products were sold through seasonal promotions last quarter?",
+    "entities": [
+      {
+        "start": 56,
+        "end": 68,
+        "text": "last quarter",
+        "label": "TIMEFRAME",
+        "score": 0.7058022022247314
+      }
+    ],
+    "inference_time": 0.5038509368896484
+  },
+  {
+    "question": "How many customers engaged with our content last month?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 54,
+        "text": "last month",
+        "label": "TIMEFRAME",
+        "score": 0.6964483857154846
+      }
+    ],
+    "inference_time": 0.5278944969177246
+  },
+  {
+    "question": "How did our marketing reach change last year?",
+    "entities": [],
+    "inference_time": 0.4810330867767334
+  },
+  {
+    "question": "What is the average customer lifetime value for last quarter?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 43,
+        "text": "average customer lifetime value",
+        "label": "MEASURE",
+        "score": 0.5104472041130066
+      },
+      {
+        "start": 48,
+        "end": 60,
+        "text": "last quarter",
+        "label": "TIMEFRAME",
+        "score": 0.8666107058525085
+      }
+    ],
+    "inference_time": 0.5261285305023193
+  },
+  {
+    "question": "What is the total revenue for the Black Friday sales this year?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 25,
+        "text": "total revenue",
+        "label": "MEASURE",
+        "score": 0.44226422905921936
+      }
+    ],
+    "inference_time": 0.5028002262115479
+  },
+  {
+    "question": "What is the average discount applied to orders in the last 30 days?",
+    "entities": [
+      {
+        "start": 54,
+        "end": 66,
+        "text": "last 30 days",
+        "label": "TIMEFRAME",
+        "score": 0.8304766416549683
+      }
+    ],
+    "inference_time": 0.48142004013061523
+  },
+  {
+    "question": "What is the average basket size for last quarter?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 31,
+        "text": "average basket size",
+        "label": "MEASURE",
+        "score": 0.5127608180046082
+      },
+      {
+        "start": 36,
+        "end": 48,
+        "text": "last quarter",
+        "label": "TIMEFRAME",
+        "score": 0.8545444011688232
+      }
+    ],
+    "inference_time": 0.4658176898956299
+  },
+  {
+    "question": "How many customers participated in the rewards program last quarter?",
+    "entities": [
+      {
+        "start": 55,
+        "end": 67,
+        "text": "last quarter",
+        "label": "TIMEFRAME",
+        "score": 0.7642291784286499
+      }
+    ],
+    "inference_time": 0.46120381355285645
+  }
+]

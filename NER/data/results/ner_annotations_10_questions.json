@@ -1,0 +1,219 @@
+[
+  {
+    "original_question": "What is the total discount amount offered during the clearance sale last quarter?",
+    "extracted_measures": [
+      "Discount",
+      "Amount",
+      "Total"
+    ],
+    "extracted_dimensions": [
+      "Quarter"
+    ],
+    "extracted_timeframe": "Last Quarter",
+    "extracted_filters": [
+      "Discount",
+      "Clearance",
+      "Sale"
+    ],
+    "ground_truth": {
+      "MEASURES": "discount",
+      "DIMENSIONS": "none",
+      "TIMEFRAME": "last quarter",
+      "FILTERS": "clearance sale"
+    }
+  },
+  {
+    "original_question": "Show the average customer acquisition cost by channel in Q1 2024",
+    "extracted_measures": [
+      "Acquisition",
+      "Customer",
+      "Average",
+      "Cost"
+    ],
+    "extracted_dimensions": [
+      "Customer",
+      "Channel"
+    ],
+    "extracted_timeframe": "2024",
+    "extracted_filters": [
+      "none"
+    ],
+    "ground_truth": {
+      "MEASURES": "Customer Acquisition Cost",
+      "DIMENSIONS": "Channel",
+      "TIMEFRAME": "Q1 2024",
+      "FILTERS": "none"
+    }
+  },
+  {
+    "original_question": "What is the total revenue from our top 5 products last quarter?",
+    "extracted_measures": [
+      "Revenue",
+      "Total",
+      "Products"
+    ],
+    "extracted_dimensions": [
+      "Quarter"
+    ],
+    "extracted_timeframe": "Last Quarter",
+    "extracted_filters": [
+      "Top"
+    ],
+    "ground_truth": {
+      "MEASURES": "Revenue",
+      "DIMENSIONS": "Products",
+      "TIMEFRAME": "last quarter",
+      "FILTERS": "none"
+    }
+  },
+  {
+    "original_question": "What was the average number of items per order last month?",
+    "extracted_measures": [
+      "Order",
+      "Number",
+      "Items",
+      "Average"
+    ],
+    "extracted_dimensions": [
+      "Month"
+    ],
+    "extracted_timeframe": "Last Month",
+    "extracted_filters": [
+      "none"
+    ],
+    "ground_truth": {
+      "MEASURES": "Items per Order",
+      "DIMENSIONS": "none",
+      "TIMEFRAME": "last month",
+      "FILTERS": "none"
+    }
+  },
+  {
+    "original_question": "Show me the total returns by month for the past year.",
+    "extracted_measures": [
+      "Returns",
+      "Total"
+    ],
+    "extracted_dimensions": [
+      "Month",
+      "Year"
+    ],
+    "extracted_timeframe": "Past Year",
+    "extracted_filters": [
+      "none"
+    ],
+    "ground_truth": {
+      "MEASURES": "Returns",
+      "DIMENSIONS": "Month",
+      "TIMEFRAME": "past year",
+      "FILTERS": "none"
+    }
+  },
+  {
+    "original_question": "List the sales growth percentage for the top 5 products year over year.",
+    "extracted_measures": [
+      "Sales",
+      "Percentage",
+      "Growth",
+      "Products"
+    ],
+    "extracted_dimensions": [
+      "Year"
+    ],
+    "extracted_timeframe": "none",
+    "extracted_filters": [
+      "Top"
+    ],
+    "ground_truth": {
+      "MEASURES": "Sales Growth",
+      "DIMENSIONS": "Products",
+      "TIMEFRAME": "Year over year",
+      "FILTERS": "none"
+    }
+  },
+  {
+    "original_question": "What is the average discount rate offered during sales events?",
+    "extracted_measures": [
+      "Discount",
+      "Average",
+      "Sales",
+      "Rate"
+    ],
+    "extracted_dimensions": [
+      "none"
+    ],
+    "extracted_timeframe": "none",
+    "extracted_filters": [
+      "Discount"
+    ],
+    "ground_truth": {
+      "MEASURES": "Average Discount Rate",
+      "DIMENSIONS": "none",
+      "TIMEFRAME": "none",
+      "FILTERS": "sales events"
+    }
+  },
+  {
+    "original_question": "What is the average customer acquisition cost for the last year?",
+    "extracted_measures": [
+      "Acquisition",
+      "Customer",
+      "Average",
+      "Cost"
+    ],
+    "extracted_dimensions": [
+      "Customer",
+      "Year"
+    ],
+    "extracted_timeframe": "Last Year",
+    "extracted_filters": [
+      "none"
+    ],
+    "ground_truth": {
+      "MEASURES": "customer Acquisition Cost",
+      "DIMENSIONS": "none",
+      "TIMEFRAME": "last year",
+      "FILTERS": "none"
+    }
+  },
+  {
+    "original_question": "What is the total revenue from our top 10 products last year?",
+    "extracted_measures": [
+      "Revenue",
+      "Total",
+      "Products"
+    ],
+    "extracted_dimensions": [
+      "Year"
+    ],
+    "extracted_timeframe": "Last Year",
+    "extracted_filters": [
+      "Top"
+    ],
+    "ground_truth": {
+      "MEASURES": "Revenue",
+      "DIMENSIONS": "Products",
+      "TIMEFRAME": "last year",
+      "FILTERS": "none"
+    }
+  },
+  {
+    "original_question": "How many customers interacted with the loyalty program in the last month?",
+    "extracted_measures": [
+      "Customers"
+    ],
+    "extracted_dimensions": [
+      "Month"
+    ],
+    "extracted_timeframe": "Last Month",
+    "extracted_filters": [
+      "none"
+    ],
+    "ground_truth": {
+      "MEASURES": "customers",
+      "DIMENSIONS": "none",
+      "TIMEFRAME": "last month",
+      "FILTERS": "Loyalty Program"
+    }
+  }
+]
